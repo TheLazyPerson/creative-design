@@ -1,0 +1,237 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+/*header css*/
+	/*top bar css*/
+.header{
+	background: #fff;
+}
+#top-line{
+	background-color:#0BBAE8;
+	padding-bottom:7px;
+}
+.topLineText{
+	    color: #ffffff;
+    border-radius: 2px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+
+.topNameplateText{
+	margin-left:20px;
+	background:white;
+	color: #0BBAE8;
+	padding: 3px 5px 3px 5px;
+  
+}
+
+
+ 	/*top cart nav*/
+.topCartNav{
+ 	margin: 0px;
+ 	padding:0px;
+ }
+.topCartNav li{
+	float:left;
+	list-style:none;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.hrLine{
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	margin-right: 5px;
+    padding-right: 15px;
+
+}
+.cartContents{
+	font-weight: bold;
+	color: black
+}
+
+.form-control {
+	padding: 0px 0px 0px 0px;
+	width: 65%;
+	height: 2.2em;
+	border-radius: 2px;
+}
+
+	/*navbar css property*/
+.navbar-default{
+	background: white;
+	border: none;
+	box-shadow: none;
+} 
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar .nav > .active > a {
+    background:#0BBAE8;
+    border-radius: 4px;
+    color: white
+}
+.navbar .nav > .active > a:hover {
+    background:#0BBAE8;
+    border-radius: 4px;
+    color: white
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    
+background:#0BBAE8;
+    border-radius: 4px;
+    color: white
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+.navbar-default .navbar-nav > li{
+    padding-left: 4px;
+}
+.wrapper {
+	min-height: 80vh;
+}
+/*navheader css  ends here*/ 
+
+/*homeContant start here*/	
+	
+	/*heading css*/
+
+.headingContent{
+	background:#0BBAE8;color:white
+}
+.aboveMargin{
+	margin-top: 80px;
+}
+
+
+/*footer css*/
+
+	/*testonomial css*/
+	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+.footerTextColor h3{
+	color: #0DCBFF;
+	padding-left: 20px;
+}
+.carouselElement h5{
+	color: white
+}
+.footerTextColor ul li:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+    color: #0DCBFF;
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+.footerTextColor ul li {
+   list-style: none;
+
+}
+.carouselElement span{
+	font-size: 12px;
+	color: white;
+	float: right;
+	padding-bottom: 0px;
+}
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+.FootSiteMap ul li a{
+	color: white;
+}
+.contactText{
+	color: white;
+}
+
+
+.iconSize{
+	font-size:25px;
+	color:#0DCBFF;
+	float:left
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+
+}
+.fa {
+    color: #0bbae8;
+}
+.fa-stack-1x {
+    color: #ffffff!important;
+}
+.Circle{
+	color:#0DCBFF !important;
+}
+.Icon{
+	color: #ffffff!important;	
+}
+.featureText h5 ,h3{
+	color: #373536;
+}
+.featureText h5{
+	padding-bottom: 20px;
+}
+.featureText{
+	padding-bottom: 20px;
+}
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
+    background-color: #0BBAE8 !important;
+}
+.btn-info{
+	    background-image:none;
+	    padding: 10px;
+}
+ /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        .smCenter{
+    		text-align: center;
+    	}
+    	
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
