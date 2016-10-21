@@ -10,7 +10,7 @@
         </div>
       </div><!-- Heading Content ends here-->
     </section>
-<div class="clearfix"></div>
+
 	
 	<!--  about us content-->
 	<div class="container">	

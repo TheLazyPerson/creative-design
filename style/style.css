@@ -1,11 +1,12 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    font-weight: 300;
+    background: #fff;
 }
 
 /*header css*/
@@ -19,13 +20,17 @@ body{
 	padding-bottom:7px;
 }
 .topLineText i{
-  color: white
+  color: white;
+
 }
 .topLineText{
 	    color: #ffffff;
     border-radius: 2px;
-    font-weight: normal;
     padding-top: 5px;
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 26.4px;
 }
 
 
@@ -34,7 +39,8 @@ body{
 	background:white;
 	color: #0BBAE8;
 	padding: 3px 5px 3px 5px;
-  
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 13px;
 }
 
 
@@ -68,6 +74,15 @@ body{
 	border-radius: 2px;
 }
 
+/*logo*/
+.logo{
+  font-size:2.5em;
+  font-weight:1.2em;
+  font-family: inherit;
+  font-family: "Futura-Light", sans-serif;
+
+}
+
 	/*navbar css property*/
 .navbar-default{
 	background: white;
@@ -80,7 +95,9 @@ body{
 .navbar .nav > .active > a {
     background:#0BBAE8;
     border-radius: 4px;
-    color: white
+    color: white;
+   font-family: "Futura-Light", sans-serif;
+
 }
 .navbar .nav > .active > a:hover {
     background:#0BBAE8;
@@ -105,7 +122,27 @@ background:#0BBAE8;
 }
 /*navheader css  ends here*/ 
 
-/*homeContant start here*/	
+/*homeContant start here*/  
+
+/* homepage product carosual*/
+
+* {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+
+
 	
 	/*heading css*/
 
@@ -113,6 +150,13 @@ background:#0BBAE8;
 	background:#0BBAE8;
   color:white;
   border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  
+}
+.headingContent h1{
+  font-family: "Futura-Regular", sans-serif;
+  font-size: 30px;
+
 }
 .aboveMargin{
 	margin-top: 80px;
@@ -140,6 +184,16 @@ background:#0BBAE8;
  margin-bottom: 50px
 }
 
+/*Product showcase*/
+
+.showcaseBorder{
+  border:1px solid #0bbae8;
+ padding-left:20px;
+}
+.colDist1{
+  padding-right: 20px;
+
+}
 
 
 /*footer css*/
@@ -149,9 +203,15 @@ background:#0BBAE8;
 .footerTextColor h3{
 	color: #0DCBFF;
 	padding-left: 20px;
+  font-family: "Futura-Regular", sans-serif;
+  
+
 }
 .carouselElement h5{
-	color: white
+	color: white;
+  font-family: "Futura-Light", sans-serif;
+ font-weight: normal;
+
 }
 .footerTextColor ul li:before {
     content: "\f0da";
@@ -170,6 +230,8 @@ background:#0BBAE8;
 	color: white;
 	float: right;
 	padding-bottom: 0px;
+  font-family: "Futura", sans-serif;
+    font-weight: normal;
 }
 .carousel-control {
   width: 30px;
@@ -192,6 +254,8 @@ background:#0BBAE8;
 }
 .FootSiteMap ul li a{
 	color: white;
+   font-family: "Futura-Regular", sans-serif;
+  font-weight: normal;
 }
 .contactText{
 	color: white;
@@ -249,9 +313,11 @@ background:#0BBAE8;
   background:#0BBAE8;
   color: white;
   padding: 10px;
+
 }
 .BlogContent h3{
   color: white;
+   font-family: "Futura-Regular", sans-serif;
 }
 .blogImg img{
   padding-top: 20px;
@@ -264,26 +330,119 @@ background:#0BBAE8;
   margin-top:20px;
   min-height:222px;
 }
-
+.recentBlogPadding{
+  padding: 30px 30px 30px 30px;
+}
 /*recent product grid*/
 #recentproductMargin{
  
   padding-top: 40px;
 }
- 
+.full-width-row {
+  overflow-x: hidden;
+}
 
+.full-width-row > div {
+  margin-left: -15px;
+  margin-right: 0px;
+}
 /*about Us css*/   
 .card{
    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+   border-radius: 5px;
+   background: white;
+}
+.card1{
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+   border-radius: 5px;
+   background: white;
+   
+}
+
+.slick-slide
+{
+  width: 230px;
 }
 .aboutContent p{
   font-size: 18px;
     line-height: 1.42857143;
+     font-family: "Futura-Regular", sans-serif;
     
 }
 
+/*product css*/
 
+/*left na*/
+.navLinks ul{
+  list-style: none;
+  padding: 0px;
+  padding-top: 10px;
+  line-height: 1.42857143;    font-family: "Futura", sans-serif;
+    font-weight: 300;
 
+}
+.navLinks ul li a{
+  color: #3B3B3B;
+  text-decoration: none;
+  text-align: left;
+  line-height: 1.42857143;
+  font-family: "Futura", sans-serif;
+  font-weight: 300;
+
+   
+}
+.navLinks li{
+  padding-top: 5px;    
+  font-family: "Futura", sans-serif;
+  font-weight: 300;
+}
+
+.colleftstyelnone{
+  padding-left: 0px;
+}
+
+.productImg{
+  min-height:180px;
+  padding: 15px 3px 15px 3px; 
+}
+.productContent{
+
+}
+.pdoductbutton{
+  list-style: none;
+  padding-bottom: 25px;
+ 
+}
+.pdoductbutton span{
+  float: left;
+  margin-right: 6px;
+   
+
+}
+.pdoductbutton i{
+  color: white;
+ background:#0BBAE8;
+ padding:2px;
+ border-radius: 3px;
+
+}
+
+.pdoductbutton span{
+  color: white;
+ background:#0BBAE8;
+ padding: 3px;
+ border-radius: 3px;
+  font-family: "Futura-Regular", sans-serif;
+}
+.pdoductbutton i , span{
+  font-size: 0.84em;
+
+}
+
+.wishlist i{
+  
+  padding-top: 4px;
+}
 /*padding classes*/
   
     /*padding classes*/
@@ -440,6 +599,9 @@ background:#0BBAE8;
 .margintop50{
   margin-top: 50px;
 }
+.margintop65{
+  margin-top: -75px;
+}
 
    /*padding bottom class*/
 .marginbottom10{
@@ -456,23 +618,27 @@ background:#0BBAE8;
 }
 .marginbottom50{
   margin-bottom: 50px;
+
 }
 
-
+.col-xs-6{
+      margin-bottom: 30px;
+    }
 
 /*==========  Mobile First Method  ==========*/
 
     /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 480px) {
-  
+    .row .smMargin {
+     margin-right: 0px; 
+    /* margin-left: -15px; 
+}
+
     }
 
     /* Small Devices, Tablets */
      @media (min-width: 768px){
-    .fivecolumns .col-md-2, .fivecolumns .col-sm-2, .fivecolumns .col-lg-2  {
-        width: 20%;
-        *width: 20%;
-    }
+      
     .smCenter{
         text-align: center;
       }
@@ -480,14 +646,8 @@ background:#0BBAE8;
       
 }
 @media (min-width: 1200px) {
-    .fivecolumns .col-md-2, .fivecolumns .col-sm-2, .fivecolumns .col-lg-2 {
-        width: 20%;
-        *width: 20%;
-    }
+    
 }
 @media (min-width: 768px) and (max-width: 979px) {
-    .fivecolumns .col-md-2, .fivecolumns .col-sm-2, .fivecolumns .col-lg-2 {
-        width: 20%;
-        *width: 20%;
-    }
+    
 }

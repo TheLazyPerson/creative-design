@@ -15,8 +15,11 @@
   
   <script src="js/jquery.min.js"></script>
   <link rel="stylesheet" href="js/vegas.min.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
   <!--font Awosom-->
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="style/custmoziedIconCss.css.css"> -->
   <link rel="stylesheet" href="style/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,7 +58,7 @@
       <div id="navHeader">
         <div class="container"><!--container start here-->
           <div class="row smCenter"><!--nav header starts here-->
-              <div  class="col-sm-4" style="padding-top:40px; font-size:2.5em;font-weight:1.2em">KalaKruti
+              <div  class="col-sm-4 paddingtop40 logo">KalaKruti
               </div><!--logo ends here here-->
               <div class="col-sm-8">
                 <div class="row smCenter">
@@ -92,14 +95,14 @@
                   <!-- Collection of nav links and other content for toggling -->
                   <div id="navbarCollapse" class="collapse navbar-collapse" style="padding-bottom:10px;">
                       <ul class="nav navbar-nav navbar-right">
-                          <li class="active"><a href="index.php">Home</a></li>
-                          <li><a href="">Products</a></li>
-                          <li><a href="about.php">About Us</a></li>
-                          <li><a href="franchise.php">Franchise</a></li>
-                          <li><a href="stores.php">Stores</a></li>
-                          <li><a href="#">Contact Us</a></li>
-                          <li><a href="blog.php">Blogs</a></li>
-                          <li><a href="#">Site map</a></li>
+                          <li class="active"><a href="index.php">HOME</a></li>
+                          <li><a href="product.php">PRODUCTS</a></li>
+                          <li><a href="about.php">ABOUT US</a></li>
+                          <li><a href="franchise.php">FRANCHISE</a></li>
+                          <li><a href="stores.php">STORES</a></li>
+                          <li><a href="#">CONTACT US</a></li>
+                          <li><a href="blog.php">BLOGS</a></li>
+                          <li><a href="#">SITE MAP</a></li>
                       </ul>
                   </div>
                 </nav>

@@ -30,11 +30,11 @@
               </div><!-- End Carousel Inner -->
               <!-- Controls -->
               <a class="left carousel-control" href="#menCollection" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="fa fa-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
               <a class="right carousel-control" href="#menCollection" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="fa fa-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div><!-- /.carousel -->
@@ -94,12 +94,13 @@
           <!-- Address start  here-->
           <div class="col-sm-3 footerTextColor">
              <h3>Contact Us</h3>
-                <p><i class="fa fa-home iconSize"></i><p> 
-                <div class="contactText" style="padding-bottom:5px;">  &nbsp Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</div>
-                <i class="fa fa-phone  iconSize" style=""></i> 
-                <div class="contactText "> &nbsp +91 - 80876 76981</div><br/>
-                <i class="fa fa-envelope iconSize" style=""></i> 
-                <div class="contactText ">&nbsp design@gharkonacha.com</div>
+                <p><i class="fa fa-home iconSize paddingbottom20 paddingright10"></i><p> 
+                <div class="contactText" style="padding-bottom:5px;"> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</div>
+              
+                <i class="fa fa-phone  contactText iconSize paddingright10"></i> 
+                  <div>+91 - 80876 76981</div><br>
+                  <i class="fa fa-envelope contactText iconSize paddingright10"></i> 
+                  <div>design@gharkonacha.com</div>
           </div><!-- Address ends  here-->
 
           
