@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="js/vegas.min.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  
   <!--font Awosom-->
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <!-- <link rel="stylesheet" href="style/custmoziedIconCss.css.css"> -->
@@ -27,6 +28,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
   <body>
 
@@ -44,21 +46,92 @@
                   <i class="fa fa-whatsapp"></i> +91 8087676981 (10.00am to 7.00pm Mon-Sat)
                 </div>
                 <div class="col-sm-6">
-                    <i class="fa fa-comments"></i> Testimonials &nbsp
+                    <a class="whiteColor" href="testimonial.php"><i class="fa fa-comments"></i> Testimonials &nbsp</a>
                     <i class="fa fa-map-marker"></i> Locate Us &nbsp
-                    <i class="fa fa-key"></i> Login/Register &nbsp
+                    <!-- Button trigger modal -->
+                    <a class="whiteColor" data-toggle="modal" data-target="#myModal"><i class="fa fa-key"></i> Login/Register &nbsp</a>
                 </div>
               </div>      
           </div>
         </div><!-- container end here-->  
       </div><!--id for top line end here-->
 
+      <!--login model start --> 
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Login</h4>
+          </div>
+          <div class="modal-body">
+           <h4>Your Email*</h4>
+                  <input type="text" class="form-control padding20" id="exampleInputEmail1">
+                <h4>Your Password*</h4>
+                  <input type="text" class="form-control padding20" id="exampleInputEmail1">
+          </div>
+          <div class="modal-footer">
+            <div class="col-sm-12">
+              <a  data-toggle="modal" data-dismiss="modal" data-target="#myModal1"><p><h4 class="black">Register Here</h4></p></a>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--login model end --> 
+
+    <!--register model start --> 
+      <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="flase">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Login</h4>
+          </div>
+          <div class="modal-body">
+                <div class="col-sm-6 noPadding">
+                    <h4>First Name</h4>
+                    <input type="text" class="form-control padding20" id="exampleInputEmail1">
+                  </div>
+                  <div class="col-sm-6 noPadding">
+                    <h4>Last Name</h4>
+                    <input type="text" class="form-control padding20" id="exampleInputEmail1">
+                  </div>
+                  <div class="col-sm-6 noPadding">
+                    <h4>Email Address</h4>
+                    <input type="text" class="form-control padding20" id="exampleInputEmail1">
+                  </div>
+                  <div class="col-sm-6 noPadding">
+                    <h4>Phone</h4>
+                    <input type="text" class="form-control padding20" id="exampleInputEmail1">
+                  </div>
+
+                  <div class="col-sm-12 noPadding">
+                    <h4>Town/City</h4>
+                    <input type="text" class="form-control padding20" id="exampleInputEmail1">
+                  </div>
+          </div>
+          <div class="modal-footer">
+              
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--register model end --> 
 
       <!--it contains logo,navbar,add-to-cart-->
       <div id="navHeader">
         <div class="container"><!--container start here-->
           <div class="row smCenter"><!--nav header starts here-->
-              <div  class="col-sm-4 paddingtop40 logo">KalaKruti
+              <div  class="col-sm-4 paddingtop40 logo"><h1>Creative Design</h1>
               </div><!--logo ends here here-->
               <div class="col-sm-8">
                 <div class="row smCenter">
@@ -68,12 +141,12 @@
                         <a href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
                       </li>
                       <li>
-                        <a href="#" class="cartContents"> ₹ &nbsp 350.00 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <a href="cart.php" class="cartContents"> ₹ &nbsp 350.00 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
                         <div class="form-group">
-                          <input type="text" class="form-control input-xs" placeholder=" Search">
+                          <input type="text" class="form-control input-xs" style="width:100px;" placeholder=" Search">
                         </div>
                       </li>  
                     </ul>   
@@ -100,7 +173,7 @@
                           <li><a href="about.php">ABOUT US</a></li>
                           <li><a href="franchise.php">FRANCHISE</a></li>
                           <li><a href="stores.php">STORES</a></li>
-                          <li><a href="#">CONTACT US</a></li>
+                          <li><a href="contactUs.php">CONTACT US</a></li>
                           <li><a href="blog.php">BLOGS</a></li>
                           <li><a href="#">SITE MAP</a></li>
                       </ul>
@@ -111,5 +184,9 @@
           </div><!--nav header ends here-->
         </div><!--container ends here--> 
       </div>
+
+
+
     </div><!--header ends here-->
     <!-- top line ends here -->
+

@@ -17,54 +17,100 @@
 			<div class="row  margintop30 marginbottom50 aboutContent" >
 				<div class="col-sm-4" >
 	             <h3>Corporate Office</h3>
-	                <p><i class="fa fa-home iconSize paddingbottom20 paddingright10"></i><p> 
-	                <div  style="padding-bottom:5px;text-align:left"> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.
-	                </div>
-	                <i class="fa fa-phone  iconSize paddingright10"></i> 
-	                <div>+91 - 80876 76981</div><br>
-	                <i class="fa fa-envelope iconSize paddingright10"></i> 
-	                <div>design@gharkonacha.com</div>
-	          	</div><!-- Address ends  here-->
-			</div>
+	             	
+	             	<div class="address"> 
+	               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
 
-			<div class="row margintop30 marginbottom50 aboutContent">
-				<div class="col-sm-4">
-	             <h3>Corporate Office</h3>
-	                <p><i class="fa fa-home iconSize paddingbottom20 paddingright10"></i><p> 
-	                <div  style="padding-bottom:5px;text-align:left"> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.
-	                </div>
-	                <i class="fa fa-phone  iconSize paddingright10"></i> 
-	                <div>+91 - 80876 76981</div><br>
-	                <i class="fa fa-envelope iconSize paddingright10"></i> 
-	                <div>design@gharkonacha.com</div>
-	          	</div><!-- Address ends  here-->
-			</div>
+	          		<div class="address "> 
+	               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
 
-			<div class="row margintop30 marginbottom50 aboutContent">
-				<div class="col-sm-4">
-	             <h3>Corporate Office</h3>
-	                <p><i class="fa fa-home iconSize paddingbottom20 paddingright10"></i><p> 
-	                <div  style="padding-bottom:5px;text-align:left"> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.
-	                </div>
-	                <i class="fa fa-phone  iconSize paddingright10"></i> 
-	                <div>+91 - 80876 76981</div><br>
-	                <i class="fa fa-envelope iconSize paddingright10"></i> 
-	                <div>design@gharkonacha.com</div>
-	          	</div><!-- Address ends  here-->
-	          
+	          		<div class="address"> 
+	               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
+	          </div>
 			</div>
+			<hr/>
 
-			<div class="row margintop30 marginbottom50 aboutContent">
-				<div class="col-sm-4">
+			<div class="row  margintop30 marginbottom50 aboutContent" >
+				<div class="col-sm-4" >
 	             <h3>Corporate Office</h3>
-	                <p><i class="fa fa-home iconSize paddingbottom20 paddingright10"></i><p> 
-	                <div  style="padding-bottom:5px;text-align:left"> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.
-	                </div>
-	                <i class="fa fa-phone  iconSize paddingright10"></i> 
-	                <div>+91 - 80876 76981</div><br>
-	                <i class="fa fa-envelope iconSize paddingright10"></i> 
-	                <div>design@gharkonacha.com</div>
-	          	</div><!-- Address ends  here-->
+	             	
+	             	<div class="address"> 
+	               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
+
+	          		<div class="address "> 
+	               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
+
+	          		<div class="address"> 
+	               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
+	          </div>
+			</div>
+			<hr/>
+
+			<div class="row  margintop30 marginbottom50 aboutContent" >
+				<div class="col-sm-4" >
+	             <h3>Corporate Office</h3>
+	             	
+	             	<div class="address"> 
+	               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
+
+	          		<div class="address "> 
+	               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
+
+	          		<div class="address"> 
+	               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
+	          </div>
+			</div>
+			<hr/>
+			
+			<div class="row  margintop30 marginbottom50 aboutContent" >
+				<div class="col-sm-4" >
+	             <h3>Corporate Office</h3>
+	             	
+	             	<div class="address"> 
+	               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
+
+	          		<div class="address "> 
+	               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
+
+	          		<div class="address"> 
+	               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
+	                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
+	                		</div>
+	          		</div><!-- Address ends  here-->
+	          </div>
 			</div>
 		</div>
 

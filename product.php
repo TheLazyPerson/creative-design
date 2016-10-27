@@ -34,7 +34,7 @@
             		</div>
 				</div>
 
-				<div class="card padding20 margintop50" >
+				<div class="card padding20 margintop50 marginbottom40" >
 					<div class="row headingContent">
           				<div class="col-sm-12">
             				<h4>Prize Range</h4>
@@ -74,10 +74,11 @@
 			</div><!--end of heading -->
 			<div class="col-sm-9"><!--starting of product col -->
 				<div class="row fivecolumns"><!--starting of product row 1 -->
+					<a href="displayProduct.php" class="productLink">
 					<div class="col-sm-3 col-xs-6 paddingright30"><!--starting of row1 col1 -->
 						<div class="row card">
 							<img src="images/blog3.png" class="img-responsive productImg">
-							<div class="productContent padding10">
+							<div class="productContent padding10 productLink">
 								<h4>Appartment Name plates</h4>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
@@ -86,7 +87,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton productLink">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -101,12 +102,12 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div></a>
 	
 					<div class="col-sm-3 col-xs-6 paddingright30"><!--starting of row1 col2 -->
 						<div class="row card">
 							<img src="images/blog3.png" class="img-responsive productImg">
-							<div class="productContent padding10">
+							<div class="productContent padding10 ">
 								<h4>Appartment Name plates</h4>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
@@ -115,7 +116,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -144,7 +145,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -173,7 +174,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -191,11 +192,12 @@
 					</div>
 				</div>	<!--ending of product row 1 -->
 
-				<div class="row marginbottom30"><!--starting of product row 1 -->
-					<div class="col-sm-3  paddingright30"><!--starting of row1 col1 -->
+				<div class="row fivecolumns"><!--starting of product row 1 -->
+					<a href="displayProduct.php" class="productLink">
+					<div class="col-sm-3 col-xs-6 paddingright30"><!--starting of row1 col1 -->
 						<div class="row card">
 							<img src="images/blog3.png" class="img-responsive productImg">
-							<div class="productContent padding10">
+							<div class="productContent padding10 productLink">
 								<h4>Appartment Name plates</h4>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
@@ -204,7 +206,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton productLink">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -219,12 +221,12 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div></a>
 	
-					<div class="col-sm-3  paddingright30"><!--starting of row1 col2 -->
+					<div class="col-sm-3 col-xs-6 paddingright30"><!--starting of row1 col2 -->
 						<div class="row card">
 							<img src="images/blog3.png" class="img-responsive productImg">
-							<div class="productContent padding10">
+							<div class="productContent padding10 ">
 								<h4>Appartment Name plates</h4>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
@@ -233,7 +235,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -250,7 +252,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3  paddingright30"><!--starting of row1 col3-->
+					<div class="col-sm-3  col-xs-6 paddingright30"><!--starting of row1 col3-->
 						<div class="row card">
 							<img src="images/blog3.png" class="img-responsive productImg">
 							<div class="productContent padding10">
@@ -262,7 +264,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -279,7 +281,7 @@
 						</div>
 					</div>
 	
-					<div class="col-sm-3  paddingright30"><!--starting of row1 col4 -->
+					<div class="col-sm-3 col-xs-6 paddingright30"><!--starting of row1 col4 -->
 						<div class="row card">
 							<img src="images/blog3.png" class="img-responsive productImg">
 							<div class="productContent padding10">
@@ -291,7 +293,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -309,11 +311,12 @@
 					</div>
 				</div>	<!--ending of product row 1 -->
 
-				<div class="row marginbottom30"><!--starting of product row 1 -->
-					<div class="col-sm-3  paddingright30"><!--starting of row1 col1 -->
+				<div class="row fivecolumns"><!--starting of product row 1 -->
+					<a href="displayProduct.php" class="productLink">
+					<div class="col-sm-3 col-xs-6 paddingright30"><!--starting of row1 col1 -->
 						<div class="row card">
 							<img src="images/blog3.png" class="img-responsive productImg">
-							<div class="productContent padding10">
+							<div class="productContent padding10 productLink">
 								<h4>Appartment Name plates</h4>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
@@ -322,7 +325,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton productLink">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -337,12 +340,12 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div></a>
 	
-					<div class="col-sm-3  paddingright30"><!--starting of row1 col2 -->
+					<div class="col-sm-3 col-xs-6 paddingright30"><!--starting of row1 col2 -->
 						<div class="row card">
 							<img src="images/blog3.png" class="img-responsive productImg">
-							<div class="productContent padding10">
+							<div class="productContent padding10 ">
 								<h4>Appartment Name plates</h4>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<i class="fa fa-star-o" aria-hidden="true"></i>
@@ -351,7 +354,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -368,7 +371,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-3  paddingright30"><!--starting of row1 col3-->
+					<div class="col-sm-3  col-xs-6 paddingright30"><!--starting of row1 col3-->
 						<div class="row card">
 							<img src="images/blog3.png" class="img-responsive productImg">
 							<div class="productContent padding10">
@@ -380,7 +383,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>
@@ -397,7 +400,7 @@
 						</div>
 					</div>
 	
-					<div class="col-sm-3  paddingright30"><!--starting of row1 col4 -->
+					<div class="col-sm-3 col-xs-6 paddingright30"><!--starting of row1 col4 -->
 						<div class="row card">
 							<img src="images/blog3.png" class="img-responsive productImg">
 							<div class="productContent padding10">
@@ -409,7 +412,7 @@
 								<i class="fa fa-star-o" aria-hidden="true"></i>
 								<h5>₹ 3,000,00 - ₹ 9,000.00</h5>
 								
-								<div class="pdoductbutton">
+								<div class="productbutton">
 									<div class="wishlist">
 										<span><i class="fa fa-heart" aria-hidden="true"></i></span>
 									</div>

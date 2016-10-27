@@ -2,13 +2,23 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.42857143;
     color: #333;
     font-weight: 300;
     background: #fff;
 }
 
+.mediumGreay{
+  color: #333;
+}
+.whiteColor{
+  color: white;
+}
+
+.whiteColor:hover{
+  color: white;
+}
 /*header css*/
 	/*top bar css*/
 .header{
@@ -69,7 +79,6 @@ body{
 
 .form-control {
 	padding: 0px 0px 0px 0px;
-	width: 65%;
 	height: 2.2em;
 	border-radius: 2px;
 }
@@ -78,7 +87,6 @@ body{
 .logo{
   font-size:2.5em;
   font-weight:1.2em;
-  font-family: inherit;
   font-family: "Futura-Light", sans-serif;
 
 }
@@ -130,17 +138,23 @@ background:#0BBAE8;
       box-sizing: border-box;
     }
 
-    .slider {
-        width: 100%;
-        margin: 100px auto;
-    }
-
-    
-
-    .slick-prev:before,
-    .slick-next:before {
-        color: black;
-    }
+.slider 
+{
+  width: 100%;
+  margin: 100px auto;
+}
+.slick-prev:before,
+.slick-next:before 
+{
+  color: black;
+}
+.slick-next 
+{
+  right: -15px;
+}
+.slick-prev {
+    left: -10px;
+} 
 
 
 	
@@ -159,7 +173,7 @@ background:#0BBAE8;
 
 }
 .aboveMargin{
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 
@@ -188,13 +202,15 @@ background:#0BBAE8;
 
 .showcaseBorder{
   border:1px solid #0bbae8;
- padding-left:20px;
+ 
 }
 .colDist1{
   padding-right: 20px;
 
 }
-
+.innerCol{
+  padding: 0px;
+}
 
 /*footer css*/
 
@@ -263,9 +279,15 @@ background:#0BBAE8;
 
 
 .iconSize{
-	font-size:25px;
+	
 	color:#0DCBFF;
 	float:left
+}
+
+.ContactText h5{
+  
+  font-weight: 900;
+
 }
 .fa-linkedin:before {
     content: "\f0e1";
@@ -299,6 +321,33 @@ background:#0BBAE8;
 	    background-image:none;
 	    padding: 10px;
 }
+
+.back-to-top 
+{
+  background: none;
+  margin: 0;
+  margin-right: 15px;
+  margin-bottom: 30px; 
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0px 10px 0px 10px;
+  z-index: 100;
+  display: none;
+  text-decoration: none; 
+  background-color: #0BBAE8;
+  border-radius: 7px;
+ 
+}
+ 
+ .back-to-top i {
+ 
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+ 
+}
+
 
 /*blog grid*/
 
@@ -363,6 +412,7 @@ background:#0BBAE8;
 {
   width: 230px;
 }
+
 .aboutContent p{
   font-size: 18px;
     line-height: 1.42857143;
@@ -372,29 +422,24 @@ background:#0BBAE8;
 
 /*product css*/
 
-/*left na*/
+/*left nav*/
 .navLinks ul{
   list-style: none;
   padding: 0px;
   padding-top: 10px;
-  line-height: 1.42857143;    font-family: "Futura", sans-serif;
-    font-weight: 300;
-
 }
 .navLinks ul li a{
   color: #3B3B3B;
   text-decoration: none;
   text-align: left;
+  font-weight: 600;
   line-height: 1.42857143;
-  font-family: "Futura", sans-serif;
-  font-weight: 300;
-
+  font-size: 16px;
    
 }
 .navLinks li{
   padding-top: 5px;    
-  font-family: "Futura", sans-serif;
-  font-weight: 300;
+ 
 }
 
 .colleftstyelnone{
@@ -406,20 +451,54 @@ background:#0BBAE8;
   padding: 15px 3px 15px 3px; 
 }
 .productContent{
-
+  text-decoration: none;
+  color: black;
 }
-.pdoductbutton{
+.productbutton{
   list-style: none;
   padding-bottom: 25px;
  
 }
-.pdoductbutton span{
+.productbutton span{
   float: left;
   margin-right: 6px;
-   
+   color: black;
+
 
 }
-.pdoductbutton i{
+.productbutton i{
+  color: white;
+ background:#0BBAE8;
+ padding:1px;
+ border-radius: 3px;
+
+}
+
+.productbutton span{
+  color: white;
+ background:#0BBAE8;
+ padding: 3px;
+ border-radius: 3px;
+  font-family: "Futura-Regular", sans-serif;
+}
+.productbutton i , span{
+  font-size: 0.84em;
+  line-height: 1.9;
+
+}
+.pdoductbutton1{
+  list-style: none;
+  padding-bottom: 25px;
+ 
+}
+.pdoductbutton1 span{
+  float: left;
+  margin-right: 6px;
+   color: black;
+
+
+}
+.pdoductbutton1 i{
   color: white;
  background:#0BBAE8;
  padding:2px;
@@ -427,23 +506,146 @@ background:#0BBAE8;
 
 }
 
-.pdoductbutton span{
+.pdoductbutton1 span{
   color: white;
  background:#0BBAE8;
  padding: 3px;
  border-radius: 3px;
   font-family: "Futura-Regular", sans-serif;
 }
-.pdoductbutton i , span{
-  font-size: 0.84em;
+.pdoductbutton1 i , span{
+  font-size: 0.97em;
+  line-height: 1.9;
 
 }
 
+.productLink a{
+  
+}
 .wishlist i{
   
   padding-top: 4px;
 }
-/*padding classes*/
+/
+
+/*single product css*/
+
+.productBorder{
+  border:1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.sugProduct{
+  min-height: 80px;
+
+}
+.proHead{
+  font-size: 30px;
+}
+.drakGreay{
+  color: #3B3B3B;
+  font-family: "Futura", sans-serif;
+  font-weight: 600;
+  line-height: 1.42857143;
+  font-size: 16px;
+}
+.productCount{
+  float: left;
+  width:15%;
+  font-weight: 600;
+  color: black;
+  font-family: "Futura-Light", sans-serif;
+
+}
+.quantity h4{
+  float: left;
+}
+.proWishList{
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+.proWishList:hover{
+  text-decoration: none;
+  color: black;
+}
+.black{
+  color: black;
+}
+.reviewFeilds{
+  display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #3B3B3B;
+}
+.btn{
+  margin-top: 20px;
+}
+.table{
+  margin-bottom: 0px;
+}
+
+.table td{
+  font-size: 16px;
+}
+
+
+
+/*cart css*/
+
+.thead-default{
+  background: #ECEEEF;
+}
+
+
+.faintgrey{
+  background: #F5F5F5;
+}
+
+.greayBorder{
+  border: 1px solid #ddd;
+}
+
+
+/*chaeckout css*/
+
+
+.noPadding{
+  padding-left: 0px;
+}
+
+.noPadding h4{
+  font-weight: 600;
+  color: #333;
+}
+.placeOrderText p{
+  color: #3B3B3B;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.placeOrderText{
+  background: #DFDCDE;
+}
+.placeOrderText span{
+  font-weight: 1200;
+  font-size: 15px;
+}
+.boderRadius5{
+      border-radius: 5px;
+}
+
+
+
+/*social icons*/
+
+
+
+/*contact css*/
+
+
+/*padding class h4es*/
   
     /*padding classes*/
 .padding10{
@@ -600,7 +802,8 @@ background:#0BBAE8;
   margin-top: 50px;
 }
 .margintop65{
-  margin-top: -75px;
+  margin-top: -80px;
+  margin-bottom: -150px;
 }
 
    /*padding bottom class*/
@@ -631,8 +834,8 @@ background:#0BBAE8;
 @media only screen and (min-width : 480px) {
     .row .smMargin {
      margin-right: 0px; 
-    /* margin-left: -15px; 
-}
+    /* margin-left: -15px; */}
+
 
     }
 

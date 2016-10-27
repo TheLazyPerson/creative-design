@@ -5,27 +5,62 @@
     <div class="clearfix"></div>
 
   
-  <!-- product showcase -->
+  <!-- product showcase 
+   <img src="images/block1.jpg" class="img-responsive"   >
+   <img src="images/block2.jpg" class="img-responsive"   >
+   <img src="images/block2.jpg" class="img-responsive"   >
+   <img src="images/block1.jpg" class="img-responsive"   >
+   <img src="images/block1.jpg" class="img-responsive"   >
+
+
+  -->
+
+  <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-lg" style="color:#ffffff">
+                      <i class="fa fa-circle fa-stack-2x icon-background1"></i>
+                      <i class="fa fa-google-plus fa-stack-1x"></i>
+                    </span>
+                    <span class="fa-stack fa-lg" style="color:#ffffff">
+                      <i class="fa fa-circle fa-stack-2x icon-background1"></i>
+                      <i class="fa fa-whatsapp fa-stack-1x"></i>
+                    </span>
     <section class="margintop50">
       <div class="container">
         <div class="row"><!--whole row-->
+          <div class="col-sm-3 innerCol  ">
+            <div class="col-sm-12  showcaseBorder">
+              <img src="images/block1.jpg" class="img-responsive"   >
+            </div>
+          </div>
+          <div class="col-sm-6 ">
+            <div class="col-sm-12 innerCol ">
+              <div class="col-sm-6 marginbottom20 showcaseBorder  ">
+                 <img src="images/block2.jpg" class="img-responsive paddingbottom30"   >
+              </div>  
 
-          <div class="col-sm- colDist1 showcaseBorder">
-            <div class="col-sm-3">
-            <img src="images/block1.jpg" class="img-responsive"   >
-          </div></div>
-          <div class="col-sm-3 colDist1 showcaseBorder"> 
-            <img src="images/block2.jpg" class="img-responsive"   >
+              <div class="col-sm-6  showcaseBorder ">
+                 <img src="images/block4.png" class="img-responsive paddingbottom30"   >
+              </div>
+            </div>
+            <div class="col-sm-12 showcaseBorder  ">
+               <img src="images/block3.png" class="img-responsive"   >
+            </div>
+          </div>
 
+          <div class="col-sm-3 innerCol  ">
+            <div class="col-sm-12  showcaseBorder">
+              <img src="images/block1.jpg" class="img-responsive"   >
+            </div>
           </div>
-          <div class="col-sm-3 colDist1 showcaseBorder"> 
-            <img src="images/block2.jpg" class="img-responsive"   >
-            
-          </div>
-          <div class="col-sm-3 colDist1 showcaseBorder">
-           <img src="images/block1.jpg" class="img-responsive"   >
-          </div>
-        </div> <!--col 2 ends -->
+
+        </div>
       </div>
     </section>
 
@@ -52,7 +87,7 @@
    
 
     <section class="container margintop65">
-      <div class="row fivecolumns center slider"><!--starting of product row 1 -->
+      <div class="row fivecolumns padding10 center slider"><!--starting of product row 1 -->
           <div class="col-sm-2 col-xs-6 paddingright30"><!--starting of row1 col1 -->
             <div class="row card1">
               <img src="images/blog3.png" class="img-responsive productImg">
@@ -65,7 +100,7 @@
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                 
-                <div class="pdoductbutton">
+                <div class="pdoductbutton1">
                   <div class="wishlist">
                     <span><i class="fa fa-heart" aria-hidden="true"></i></span>
                   </div>
@@ -94,7 +129,7 @@
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                 
-                <div class="pdoductbutton">
+                <div class="pdoductbutton1">
                   <div class="wishlist">
                     <span><i class="fa fa-heart" aria-hidden="true"></i></span>
                   </div>
@@ -123,7 +158,7 @@
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                 
-                <div class="pdoductbutton">
+                <div class="pdoductbutton1">
                   <div class="wishlist">
                    <span><i class="fa fa-heart" aria-hidden="true"></i></span>
                   </div>
@@ -152,7 +187,7 @@
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                 
-                <div class="pdoductbutton">
+                <div class="pdoductbutton1">
                   <div class="wishlist">
                    <span><i class="fa fa-heart" aria-hidden="true"></i></span>
                   </div>
@@ -181,7 +216,7 @@
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                 
-                <div class="pdoductbutton">
+               <div class="pdoductbutton1">
                   <div class="wishlist">
                     <span><i class="fa fa-heart" aria-hidden="true"></i></span>
                   </div>
@@ -190,10 +225,11 @@
                     <i class="fa fa-plus" aria-hidden="true"> Details</i></span>
                   </div>
                   <div class="sustomized">
-                    <span><i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
+                    <span>
+                     <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                     </span>
                   </div>
-                </div>
+               </div>
               </div>
             </div>
           </div>
@@ -201,7 +237,7 @@
     </section>
 <!-- end of all prduct carousal-->
 
- <!-- name plate heading with color-->
+    <!-- name plate heading with color-->
     <section id="homeContent" class="aboveMargin">
       <div class="container"><!-- Heading Content starts here-->
         <div class="row headingContent">
@@ -221,8 +257,8 @@
   
    
 
-    <section class="container margintop65">
-      <div class="row fivecolumns center slider"><!--starting of product row 1 -->
+    <section class="container margintop65 marginbottom30">
+      <div class="row fivecolumns padding10 center slider"><!--starting of product row 1 -->
           <div class="col-sm-2 col-xs-6 paddingright30"><!--starting of row1 col1 -->
             <div class="row card1">
               <img src="images/blog3.png" class="img-responsive productImg">
@@ -235,7 +271,7 @@
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                 
-                <div class="pdoductbutton">
+                <div class="pdoductbutton1">
                   <div class="wishlist">
                     <span><i class="fa fa-heart" aria-hidden="true"></i></span>
                   </div>
@@ -264,7 +300,7 @@
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                 
-                <div class="pdoductbutton">
+                <div class="pdoductbutton1">
                   <div class="wishlist">
                     <span><i class="fa fa-heart" aria-hidden="true"></i></span>
                   </div>
@@ -293,9 +329,9 @@
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                 
-                <div class="pdoductbutton">
+                <div class="pdoductbutton1">
                   <div class="wishlist">
-                    <span><i class="fa fa-heart" aria-hidden="true"></i></span>
+                   <span><i class="fa fa-heart" aria-hidden="true"></i></span>
                   </div>
                   <div class="details">
                     <span>
@@ -322,9 +358,9 @@
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                 
-                <div class="pdoductbutton">
+                <div class="pdoductbutton1">
                   <div class="wishlist">
-                    <span><i class="fa fa-heart" aria-hidden="true"></i></span>
+                   <span><i class="fa fa-heart" aria-hidden="true"></i></span>
                   </div>
                   <div class="details">
                     <span>
@@ -351,7 +387,7 @@
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                 
-                <div class="pdoductbutton">
+               <div class="pdoductbutton1">
                   <div class="wishlist">
                     <span><i class="fa fa-heart" aria-hidden="true"></i></span>
                   </div>
@@ -360,139 +396,87 @@
                     <i class="fa fa-plus" aria-hidden="true"> Details</i></span>
                   </div>
                   <div class="sustomized">
-                    <span><i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
+                    <span>
+                     <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                     </span>
                   </div>
-                </div>
+               </div>
               </div>
             </div>
           </div>
         </div>  <!--ending of product row 1 -->
     </section>
 <!-- end of all prduct carousal-->
-   
+
+
+ 
+  
 
      <!--Recent blog post-->
-    <section  class="full text-center"  >
-      <div class="container" >
-        <div class="row paddingtop20 paddingbottom40" >
-           <div class="row">
+   <section class="full text-center">
+      <div class="container">
+         <div class="row">
             <div class="col-sm-12">
-              <h2 class="text-center" style="color:white;">RECENT BLOG POST</h2>
+               <h2 class="text-center" style="color:white;">RECENT BLOG POST</h2>
+                   <img src="images/blog-star.png" >
             </div>
-            <div class="col-sm-12 text-center">
-              <img src="images/blog-star.png" >
-            </div>   
-          </div>
-          <!-- <div class="row ">
-            <div class="col-sm-3 colDist full-width-row ">
-              <div class="row smMargin  "> 
-                <img src="images/blog1.jpg" class="img-responsive blogImage margintop20">
-                <div class="BlogContent"> 
-                  <h3>Auctor consectetur ligula gravida</h3>
-                  <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
-                  <div class="text-center ">
-                  <button type="button" class="btn btn-info text-center">Ream More</button></div>
-                </div>
-              </div>
+         </div>
+
+         <div class="row marginbottom40">
+            <div class="col-sm-3">
+               <div class="col-sm-12 " style="padding-right:0px;">
+                  <img src="images/blog1.jpg" class="img-responsive blogImage margintop20"  >
+                  <div class=" BlogContent"> 
+                     <h3>Auctor consectetur ligula gravida</h3>
+                     <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
+                     <div class="text-center ">
+                        <button type="button" class="btn btn-info text-center">Ream More</button>
+                     </div>
+                  </div>
+               </div>   
             </div>
 
-            <div class="col-sm-3 colDist full-width-row ">
-              <div class="row "> 
-                  <img src="images/blog2.jpg" class="img-responsive blogImage margintop20" >
-                
-                <div class=" BlogContent"> 
-                  <h3>Auctor consectetur ligula gravida</h3>
-                  <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
-                  <div class="text-center ">
-                  <button type="button" class="btn btn-info text-center">Ream More</button></div>
-                </div>
-              </div>
+             <div class="col-sm-3">
+               <div class="col-sm-12 " style="padding-right:0px;">
+                  <img src="images/blog1.jpg" class="img-responsive blogImage margintop20"  >
+                  <div class=" BlogContent"> 
+                     <h3>Auctor consectetur ligula gravida</h3>
+                     <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
+                     <div class="text-center ">
+                        <button type="button" class="btn btn-info text-center">Ream More</button>
+                     </div>
+                  </div>
+               </div>   
             </div>
 
-            <div class="col-sm-3 colDist">
-              <div class="row "> 
-                <img src="images/blog3.png" class="img-responsive blogImage margintop20"  >
-              
-              <div class="BlogContent"> 
-                <h3>Auctor consectetur ligula gravida</h3>
-                <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
-                <div class="text-center ">
-                <button type="button" class="btn btn-info text-center">Ream More</button></div>
-              </div>
+            <div class="col-sm-3">
+               <div class="col-sm-12 " style="padding-right:0px;">
+                  <img src="images/blog1.jpg" class="img-responsive blogImage margintop20"  >
+                  <div class=" BlogContent"> 
+                     <h3>Auctor consectetur ligula gravida</h3>
+                     <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
+                     <div class="text-center ">
+                        <button type="button" class="btn btn-info text-center">Ream More</button>
+                     </div>
+                  </div>
+               </div>   
             </div>
-          </div>
 
-
-            <div class="col-sm-3 colDist">
-              <div class="row "> 
-                <img src="images/blog1.jpg" class="img-responsive blogImage margintop20"  >
-              
-              <div class=" BlogContent"> 
-                <h3>Auctor consectetur ligula gravida</h3>
-                <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
-                <div class="text-center ">
-                <button type="button" class="btn btn-info text-center">Ream More</button></div>
-              </div>
+            <div class="col-sm-3">
+               <div class="col-sm-12 " style="padding-right:0px;">
+                  <img src="images/blog1.jpg" class="img-responsive blogImage margintop20"  >
+                  <div class=" BlogContent"> 
+                     <h3>Auctor consectetur ligula gravida</h3>
+                     <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
+                     <div class="text-center ">
+                        <button type="button" class="btn btn-info text-center">Ream More</button>
+                     </div>
+                  </div>
+               </div>   
             </div>
-        </div>  
+         </div> 
       </div>
-
- -->
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="row recentBlogPadding ">
-            <img src="images/blog1.jpg" class="img-responsive blogImage margintop20"  >
-            <div class=" BlogContent"> 
-              <h3>Auctor consectetur ligula gravida</h3>
-              <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
-              <div class="text-center ">
-                <button type="button" class="btn btn-info text-center">Ream More</button>
-              </div>
-            </div>  
-            </div>
-          </div>
-        <div class="col-sm-3">
-          <div class="row recentBlogPadding">
-            <img src="images/blog1.jpg" class="img-responsive blogImage margintop20"  >
-            <div class=" BlogContent"> 
-              <h3>Auctor consectetur ligula gravida</h3>
-              <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
-              <div class="text-center ">
-                <button type="button" class="btn btn-info text-center">Ream More</button>
-              </div>
-            </div>  
-            </div>
-          </div>
-        <div class="col-sm-3">
-          <div class="row recentBlogPadding">
-            <img src="images/blog1.jpg" class="img-responsive blogImage margintop20"  >
-            <div class=" BlogContent"> 
-              <h3>Auctor consectetur ligula gravida</h3>
-              <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
-              <div class="text-center ">
-                <button type="button" class="btn btn-info text-center">Ream More</button>
-              </div>
-            </div>  
-            </div>
-          </div>
-         <div class="col-sm-3">
-          <div class="row recentBlogPadding">
-            <img src="images/blog1.jpg" class="img-responsive blogImage margintop20"  >
-            <div class=" BlogContent"> 
-              <h3>Auctor consectetur ligula gravida</h3>
-              <h4 style="line-height: 1.42857143;">In varius varius justo, eget ul velit diam iaculis velit, in ornare massa enim at lorem.</h4>
-              <div class="text-center ">
-                <button type="button" class="btn btn-info text-center">Ream More</button>
-              </div>
-            </div>  
-            </div>
-          </div>
-      </div>
-        </div>
-      </div>
-      
-    </section>
+   </section>
 
     <!-- Recent Work  section starts -->
     <section id="">
@@ -600,16 +584,22 @@
 
     <!--end of Features-->
     
-    <? include "footer.php" ?>
+    <?php include "footer.php" ?>
      
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
+  <script src="./js/bootstrap.min.js"></script>
   <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+   
     <script src="js/vegas.min.js"></script>
    <script type="text/javascript">
     $(document).ready(function(){
+      
+       $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+    });
         $(".wrapper").vegas({
             animation: 'kenburnsUp',
             transitionDuration: 2000,
@@ -638,7 +628,30 @@
       autoplaySpeed: 2000,
       variableWidth: true,
       });
-    });
+
+        $(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('.back-to-top').fadeIn();
+            } else {
+                $('.back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('.back-to-top').click(function () {
+            $('.back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
+
+});
+
+      
+});
 </script>  
   </body>
 </html>
