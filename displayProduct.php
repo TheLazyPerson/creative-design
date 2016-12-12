@@ -3,53 +3,32 @@
 		<section class="margintop50">
 			<div class="row">
 				<div class="col-sm-5 " > 
-					<div class="proImage productBorder " >
-						<img src="images/blog3.png" class="img-responsive padding40" >
+					<div class="proImage productBorder  padding20" >
+						 <div class="preview-pic tab-content">
+                          <div class="tab-pane active" id="pic-1"><img src="images/productImg/pro1.jpg" /></div>
+                          <div class="tab-pane" id="pic-2"><img src="images/productImg/pro2.jpg" /></div>
+                          <div class="tab-pane" id="pic-3"><img src="images/productImg/pro3.jpg" /></div>
+                          <div class="tab-pane" id="pic-4"><img src="images/productImg/product-img3.jpg" /></div>
+                          <div class="tab-pane" id="pic-5"><img src="images/productImg/product-img4.jpg" /></div>
+                      </div>
 					</div>	
 					<div class="row">
-						<div class="col-xs-6 col-sm-3 " >
-						  	<div class="proimage productBorder "  >
-								<img src="http://placehold.it/350x150"  class="img-responsive sugProduct" >
-							</div>	
-						</div>
-					 	<div class="col-xs-6 col-sm-3 " >
-						  	<div class="proimage productBorder "  >
-								<img src="http://placehold.it/350x150"  class="img-responsive sugProduct" >
-							</div>	
-						</div>
-						<div class="col-xs-6 col-sm-3 " >
-						  	<div class="proimage productBorder "  >
-								<img src="http://placehold.it/350x150"  class="img-responsive sugProduct" >
-							</div>	
-						</div>
-						<div class="col-xs-6 col-sm-3 " >
-						  	<div class="proimage productBorder "  >
-								<img src="http://placehold.it/350x150"  class="img-responsive sugProduct" >
-							</div>	
-						</div>
+						<ul class="preview-thumbnail nav nav-tabs productBorder ">
+                          <li class="active productBorder "><a data-target="#pic-1" data-toggle="tab"><img src="images/productImg/pro1.jpg" /></a></li>
+                          <li class="productBorder"><a data-target="#pic-2" data-toggle="tab"><img src="images/productImg/pro2.jpg" /></a></li>
+                          <li class="productBorder"><a data-target="#pic-3" data-toggle="tab"><img src="images/productImg/pro3.jpg" /></a></li>
+                          <li class="productBorder"><a data-target="#pic-4" data-toggle="tab"><img src="images/productImg/product-img3.jpg" /></a></li>
+                           <li class="productBorder"><a data-target="#pic-4" data-toggle="tab"><img src="images/productImg/product-img3.jpg" /></a></li>
+                      </ul>
 					</div>
-
 					<div class="row">
-						<div class="col-xs-6 col-sm-3 " >
-						  	<div class="proimage productBorder "  >
-								<img src="http://placehold.it/350x150"  class="img-responsive sugProduct" >
-							</div>	
-						</div>
-					 	<div class="col-xs-6 col-sm-3 " >
-						  	<div class="proimage productBorder "  >
-								<img src="http://placehold.it/350x150"  class="img-responsive sugProduct" >
-							</div>	
-						</div>
-						<div class="col-xs-6 col-sm-3 " >
-						  	<div class="proimage productBorder "  >
-								<img src="http://placehold.it/350x150"  class="img-responsive sugProduct" >
-							</div>	
-						</div>
-						<div class="col-xs-6 col-sm-3 " >
-						  	<div class="proimage productBorder "  >
-								<img src="http://placehold.it/350x150"  class="img-responsive sugProduct" >
-							</div>	
-						</div>
+						<ul class="preview-thumbnail nav nav-tabs productBorder ">
+                          <li class="active productBorder "><a data-target="#pic-1" data-toggle="tab"><img src="images/productImg/pro1.jpg" /></a></li>
+                          <li class="productBorder"><a data-target="#pic-2" data-toggle="tab"><img src="images/productImg/pro2.jpg" /></a></li>
+                          <li class="productBorder"><a data-target="#pic-3" data-toggle="tab"><img src="images/productImg/pro3.jpg" /></a></li>
+                          <li class="productBorder"><a data-target="#pic-4" data-toggle="tab"><img src="images/productImg/product-img3.jpg" /></a></li>
+                           <li class="productBorder"><a data-target="#pic-4" data-toggle="tab"><img src="images/productImg/product-img3.jpg" /></a></li>
+                      </ul>
 					</div>
 				</div>
 				<div class="col-sm-7 proComtent"> 
@@ -63,7 +42,7 @@
 						
 					<h3>₹ 175.00 </h3>
 					<p class="drakGreay">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam fermentum pulvinar. Maecenas feugiat in enim in pulvinar. Sed mattis pretium mi. Nullam facilisis enim et augue ullamcorper, ac maximus sem interdum. Pellentesque ornare libero eget neque fringilla, pulvinar dictum leo tristique. Aliquam ultricies dui in nibh venenatis semper. Donec varius orci in dolor cursus, tempus vehicula nulla varius. Integer molestie risus et odio molestie convallis. Phasellus quis porta purus. Vestibulum consectetur metus in sem laoreet elementum a et erat.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam fermentum pulvinar. Maecenas feugiat in enim in 
 					</p>
 					<div class="quantity ">
 						<h4 class="productCount">Quantity </h4>
@@ -73,25 +52,45 @@
 					<a href="cart.php">
 						<button type="button" class="btn btn-info text-center">Add to Cart</button></a>
 					<a href="#" class="proWishList"><h4>Add to Wishlist </h4></a>
-					<h3 class="black">Note:</h3>
+					<!-- <h3 class="black">Note:</h3>
 					<h4>1. Size in Outer Dimensions. </h4>
-					<h4>2. Prices exclusive of taxes and Courier Charges. </h4>
+					<h4>2. Prices exclusive of taxes and Courier Charges. </h4> -->
 					<h4>Max. Rows: 1</h4> 
 					<h4>Max. Characters/row: 12</h4>
 
 					<table class="table table-bordered">
 					  <tbody>
 					    <tr>
-					      <td class="col-md-2 black">In Stock:</td>
-					      <td>Yes</td>
+					      <td class="col-sm-2 black">In Stock:</td>
+					      <td class="col-sm-2 ">Yes</td>
+					      <td class="col-sm-2 black">Material</td>
+					      <td class="col-sm-2 ">Wooden</td>
 					    </tr>
 					    <tr>
-					      <td class="black">Categories:</td>
-					      <td>Wooden Laser Cutting </td>
+					      <td class="col-sm-2 black">COD</td>
+					      <td class="col-sm-2 ">No</td>
+					      <td class="col-sm-2 black">Letters</td>
+					      <td class="col-sm-2 ">Engraving</td>
 					    </tr>
-					     <tr>
-					      <td class="black">Tag</td>
-					      <td>Latest Product</td>
+					    <tr>
+					      <td class="col-sm-2 black">Fitting Place</td>
+					      <td class="col-sm-2 ">Wall fitting</td>
+					      <td class="col-sm-2 black">Nameplate Use </td>
+					      <td class="col-sm-2 ">Indoor</td>
+					    </tr>
+					</tbody>
+					</table>
+					<table class="table table-bordered">
+					  <tbody>    
+					    <tr>
+					      <td class="col-sm-1 black">Length</td>
+					      <td class="col-sm-1 ">14"</td>
+					      <td class="col-sm-1 black">Height</td>
+					      <td class="col-sm-1 ">14"</td>
+					      <td class="col-sm-1 black">Depth</td>
+					      <td class="col-sm-1 ">14"</td>
+					      <td class="col-sm-1 black">Weight</td>
+					      <td class="col-sm-1 ">500gm</td>
 					    </tr>			   
 					  </tbody>
 					</table>
@@ -115,84 +114,62 @@
 
 		<hr/>
 
-		<style>
-   .tabs>li.active>a, .tabs>li.active>a:focus, .tabs>li.active>a:hover{
-      border: none;
-      border-bottom: 1px solid #ddd;
-      background: white;
-
-   }
-   .tabs {
-    border-bottom: none;
-}
-
-   .tabs>li{
-      float: none;
-   }
-
-   .tabs>li>a{
-      color: #ddd;
-   }
-</style>
-
-<div class="container">
+<div class="container" style="min-height:600px;">
   
-  <div class="col-sm-5">
+  <div class="col-sm-5" >
      <ul class="nav nav-tabs tabs">
        
-       <li><a href="#menu1">Description</a></li>
-       <li><a href="#menu2">Additional Information</a></li>
+       <li class="black "><a href="#menu1">Description</a></li>
+       <li ><a href="#menu2">Additional Information</a></li>
        <li><a href="#menu3">Reviews (0)</a></li>
      </ul>
   </div>
   <div class="col-sm-7">
      <div class="tab-content">
        
-       <div id="menu1" class="tab-pane fade">
-         <h3>Menu 1</h3>
-         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       <div id="menu1" class="tab-pane fade ">
+         <h3 class="black">Description</h3>
+        	<p  class="text-justify pContent">
+			Another definition for design is a roadmap or a strategic approach for someone to achieve a unique expectation. It defines the specifications, plans, parameters, costs, activities, processes and how and what to do within legal, political, social, environmental, safety and economic constraints in achieving that objective.</p>
+			<p  class="text-justify pContent" >
+			Here, a "specification" can be manifested as either a plan or a finished product, and "primitives" are the elements from which the design object is composed.</p>
+			
        </div>
        <div id="menu2" class="tab-pane fade">
          <h3>Menu 2</h3>
          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
        </div>
        <div id="menu3" class="tab-pane fade">
-         <h3>Menu 3</h3>
-         <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-       </div>
-     </div>
-   </div>  
-</div>
-
-<script>
-$(document).ready(function(){
-    $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-    });
-});
-</script>
-
-		<!-- <section class="margintop50 marginbottom50">
+         <section class="margintop50 marginbottom50">
 			<div class="row">
-				<div class="col-sm-5">
-					<h4 class="black">Reviews (1)</h4>
-					<hr/>
-				</div>
-				<div class="col-sm-7">
+				<div class="col-sm-12">
 					<span class="proHead black">1 review for Wooden Laser Cutting Earring 3</span><br/>
 					<h3 class="black">Add a review </h3>
 					<h4>Your email address will not be published. Required fields are marked *</h4>
-					<h4 class="reviewFeilds">Your Rating</h4><br/>
+					<h4 class="reviewFeilds">Your Rating</h4>&nbsp
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i><br/>
 					<h4 class="reviewFeilds">Your Review *</h4>
 					<textarea class="form-control" rows="3"></textarea>
 					<h4 class="reviewFeilds">Name *</h4>
 					<input type="number" class="form-control " id="exampleInputName2" placeholder=" ">
 					<h4 class="reviewFeilds">Email *</h4>
 					<input type="number" class="form-control " id="exampleInputName2" placeholder=" ">
-					<button type="button" class="btn btn-info text-center margintop30; ">Submit</button>
+					<button type="button" class="btn btn-info text-center margintop30; ">Add Review</button>
 				</div>
 			</div>
-		</section> -->
+		</section>
+       </div>
+     </div>
+   </div>  
+</div>
+
+
+
+		
 
 	</div>
 	
@@ -200,3 +177,15 @@ $(document).ready(function(){
 
 
 <?php include "footer.php" ?>
+
+<script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
+  <script src="./js/bootstrap.min.js"></script>
+
+  <script>
+$(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+    });
+});
+</script>

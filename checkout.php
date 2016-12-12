@@ -2,7 +2,7 @@
 
 	<div class="container margintop50">	<!--starting of product grid -->
 		<div class="row marginbottom50" ><!--starting of product main row -->
-			<div class="col-sm-3 colleftstyelnone"><!--starting of heading -->
+			<!-- <div class="col-sm-3 colleftstyelnone">
 				<div class="card padding20" >
 					<div class="row headingContent">
           				<div class="col-sm-12">
@@ -20,12 +20,12 @@
     					</ul>
             		</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="col-sm-9" >  
+			<div class="col-sm-12" >  
         		<div class="row headingContent" id="homeContent">
           			<div class="col-sm-12">
-            			<h1>Cart</h1>
+            			<h1>Checkout</h1>
           			</div>
         		</div>
 
@@ -72,7 +72,7 @@
 		        			</div>
 
 		        			<div class="col-sm-12 noPadding">
-		        				<h4>Contury</h4>
+		        				<h4>country</h4>
 		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
 		        			</div>
 
@@ -88,7 +88,7 @@
 		        			</div>
 
 		        			<div class="col-sm-6 noPadding">
-		        				<h4>State / Country</h4>
+		        				<h4>State / country</h4>
 		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
 		        			</div>
 		        			<div class="col-sm-6 noPadding">
@@ -97,7 +97,7 @@
 		        			</div>
 
 		        			<div class="col-sm-12 noPadding">
-		        				<a href="#"><h4> <input class="form-check-input" type="checkbox" value=""> Creat an account ?</h4></a>
+		        				<a href="#"><h4> <input class="form-check-input" type="checkbox" value=""> Create an account ?</h4></a>
 		        			</div>
 
 
@@ -146,7 +146,7 @@
 	        	</div>		
 
 	        	<div class="row margintop40">
-	        		<div class="col-sm-12 thead-default boderRadius5">
+	        		<!-- <div class="col-sm-12 thead-default boderRadius5">
 	        			<h3 class="black">Online Payments [TEST MODE]</h3>
 	        				<div class="col-sm-12 placeOrderText  margintop20 boderRadius5"><br/>
 	        					<p>Pay securely by Credit or Debit card or internet banking through PayUindia.</p>
@@ -159,8 +159,8 @@
 	        					</p>
 
 
-	        				</div>
-	        				<div class="paddingbottom20 pull-right">
+	        				</div> -->
+	        		<div class="paddingbottom20 pull-right">
 						<a href="#">
 							<button type="button" class="btn btn-info text-center ">Place Order</button>
 						</a>	

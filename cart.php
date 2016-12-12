@@ -2,7 +2,7 @@
 
 
  <!-- name plate heading with color-->
-    <section id="homeContent" class="aboveMargin">
+    <section id="headingContent" class="aboveMargin">
       <div class="container"><!-- Heading Content starts here-->
         <div class="row headingContent">
           <div class="col-sm-12">
@@ -21,8 +21,8 @@
   			<td class="col-md-1 black thead-default"></td>
 		      <td class="col-md-1 black"></td>
 		      <td class="col-md-3 black">Product</td>
-		      <td class="col-md-2 black">Prize</td>
-		      <td class="col-md-3 black">Qunatity</td>
+		      <td class="col-md-2 black">Price</td>
+		      <td class="col-md-3 black">Quantity</td>
 		      <td class="col-md-2 black">Total</td>
   			</thead>
 		  <tbody>
@@ -43,8 +43,7 @@
 		      </td>
 		      <td class="col-md-3 black">
 		      	<div class="quantity ">
-						<h4 class="productCount">Quantity </h4>
-						<input type="number" class="form-control productCount" id="exampleInputName2" placeholder=" ">
+						<input type="number" class="form-control productCount" value="1" id="exampleInputName2" placeholder=" ">
 					</div>
 		      </td>
 		      <td class="col-md-2 black">

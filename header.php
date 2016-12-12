@@ -11,16 +11,23 @@
    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
-  <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css" >
   
   <script src="js/jquery.min.js"></script>
   <link rel="stylesheet" href="js/vegas.min.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
-  
+   
   <!--font Awosom-->
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <!-- <link rel="stylesheet" href="style/custmoziedIconCss.css.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+  <!-- animate css-->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- animate hover css-->
+  <link href="css/hover.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="style/blog.css">
+  <link rel="stylesheet" href="style/slider.css">
   <link rel="stylesheet" href="style/style.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,31 +40,195 @@
   <body>
 
     <!--top line start here -->
-    <div class="header" >
-      <div id="top-line" ><!--id for top line-->
+    <div class="header ">
+      <div id="top-line"  ><!--id for top line-->
         <div class="container"><!--container start here-->
-          <div class="row topLineText smCenter" >
-              <div class="col-sm-4">
-                <i class="fa fa-tags"></i> Offers
-                  <span  class="topNameplateText">Name Plate Design</span>
+          <div class="row topLineText " >
+              <div class="col-sm-2 col-xs-12">
+                <a href="offers.php " class="whiteColor">
+                  <i class="fa fa-tags"></i> Offers</a>
+                  <!-- <span  class="topNameplateText">Name Plate Design</span> -->
               </div>
-              <div class="col-sm-8"> 
-                <div class="col-sm-6"> 
-                  <i class="fa fa-whatsapp"></i> +91 8087676981 (10.00am to 7.00pm Mon-Sat)
-                </div>
-                <div class="col-sm-6">
-                    <a class="whiteColor" href="testimonial.php"><i class="fa fa-comments"></i> Testimonials &nbsp</a>
-                    <i class="fa fa-map-marker"></i> Locate Us &nbsp
-                    <!-- Button trigger modal -->
-                    <a class="whiteColor" data-toggle="modal" data-target="#myModal"><i class="fa fa-key"></i> Login/Register &nbsp</a>
-                </div>
+              <div class="col-sm-5 smRight">
+                <img src="images/Phone.png" style="height:18px" >  +91 8087676981 (10.00am to 7.00pm Mon-Sat)
+              </div>
+              <div class="col-sm-5 col-xs-12 smRight"> 
+                <a class="whiteColor" href="testimonial.php"><img src="images/Message.png" style="height:18px" >  Testimonials &nbsp</a>
+                <a href="contactUs.php" class="whiteColor">
+                  <img src="images/Location.png" style="height:18px" > Locate Us &nbsp</a>
+                    <!-- Button trigger modal data-toggle="modal" data-target="#myModal" -->
+                  <a href="login.php" class="whiteColor" ><img src="images/Key.png" style="height:18px" > Login/Register &nbsp</a>
               </div>      
           </div>
         </div><!-- container end here-->  
       </div><!--id for top line end here-->
 
+
+      <!--it contains logo,navbar,add-to-cart-->
+      <div id="navHeader" style="box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
+        <div class="container"><!--container start here-->
+          <div class="row "><!--nav header starts here-->
+              <div  class="col-sm-4 paddingtop20 paddingbottom20 logo">
+                <a href="index.php">
+                  <h1>Creative Design</h1>
+                </a>  
+              </div><!--logo ends here here-->
+              <div class="col-sm-8">
+                <div class="row  ">
+                  <div class="col-sm-12  listStyle "><!--cart starts here -->
+                    <div class="pull-right ulBottomMargin"> 
+                      <ul class="pull-left paddingright20 paddingtop10 ">
+                        <li class="dropdown">
+                          <a href="cart.php" class="cartContents ">
+                             ₹350.00  &nbsp 2 Items <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <ul class="dropdown-menu cartLiBack" style="width:250%;">
+                                <li>
+                                  <a href="cart.php">
+                                  <table class="table  table-borderless" style="width:50%;">
+                                    <tbody  style="width:50%;">
+                                      <tr>
+                                        <td class="col-md-1 black"  style="width:70%;">
+                                          <a href="#">
+                                            <i class="fa  fa-close" aria-hidden="true"></i>
+                                          </a>
+                                        </td>
+                                        <td class="col-md-1 black">
+                                          <img src="images/blog3.png" class="" style="hegiht:50px;width:50px;">
+                                        </td>
+                                        <td class="col-md-3 black">
+                                          <h6>Wooden Laser</h6>
+                                        </td>
+                                        <td class="col-md-2 black">
+                                          ₹ 175.00
+                                        </td>
+                                      </tr>
+                                               
+                                    </tbody>
+                                  </table>
+                                  </a>
+                                </li>
+
+                                <li>
+                                  <a href="cart.php">
+                                  <table class="table  table-borderless" style="width:50%;">
+        
+                                    <tbody  style="width:50%;">
+                                      <tr>
+                                        <td class="col-md-1 black"  style="width:70%;">
+                                          <a href="#">
+                                            <i class="fa  fa-close" aria-hidden="true"></i>
+                                          </a>
+                                        </td>
+                                        <td class="col-md-1 black">
+                                          <img src="images/blog3.png" class="" style="hegiht:50px;width:50px;">
+                                        </td>
+                                        <td class="col-md-3 black">
+                                          <h6>Wooden Laser</h6>
+                                        </td>
+                                        <td class="col-md-2 black">
+                                          ₹ 175.00
+                                        </td>
+                                      </tr>
+                                               
+                                    </tbody>
+                                  </table>
+                                  </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li class="paddingleft10">
+                                  <table class="table paddingright20">
+                                    <thead><h4 class="black">Cart Totals</h4></thead>
+                                      <tr>
+                                        <td class="col-md-6 thead-default">Subtotal</td>
+                                        <td class="col-md-6">₹ 175.00</td>
+                                      </tr>
+                                      <tr>  
+                                        <td class="col-md-6 black thead-default">Total</td>
+                                        <td class="col-md-6 black">₹ 175.00</td>
+
+                                      </tr> 
+                                  </table>
+                                </li>
+                                <li class="paddingleft10">
+                                  <div class="row">
+                                    <div class="col-sm-6 text-center">
+                                      <a href="cart.php">
+                                        <button type="button" class="btn btn-xs btn-info text-center ">View Cart</button>
+                                      </a>  
+                                    </div>
+                                    <div class="col-sm-6">
+                                      <a href="checkout.php">
+                                        <button type="button" class="btn btn-xs btn-info text-center ">Checkout</button>
+                                      </a>  
+                                    </div>
+                                  </div>
+                                </li>
+                                <hr/>
+                            </ul> 
+                          </a>
+                        </li>
+                      </ul>
+                      <!-- <ul class=" navbar-right pull-left  ">
+                        <li class="hrLine">
+                          <a href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
+                        </li>
+                      </ul> -->
+                      <ul class="pull-left paddingtop10 " style="paddin-bottom:0px;">
+                        <li>
+                          <div class="form-group">
+                            <input type="text" class="form-control input-xs" style="width:200px;" placeholder=" Search">
+                          </div>
+                        </li>  
+                      </ul>   
+                  </div>
+                </div><!--cart ends here-->
+              </div>
+              
+              <div class="row smCenter"><!--navbar starts here-->
+                <nav role="navigation" class="navbar navbar-default">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header" style="background: #fff;">
+                      <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      
+                  </div>
+                  <!-- Collection of nav links and other content for toggling -->
+                  <div id="navbarCollapse" class="collapse navbar-collapse" style="padding-bottom:10px;">
+                      <ul class="nav navbar-nav navbar-right">
+                          <li class="active"><a href="index.php">HOME</a></li>
+                          <li class="dropdown">
+                            <a href="product.php" >PRODUCTS</a>
+                            <!-- <ul class="dropdown-menu navLiBackColor">
+                              <li><a href="appartmentNamePlates.php">Appartment Name Plates</a></li>
+                              <li><a href="product.php">Customised</a></li>
+                              <li><a href="wallClockProduct.php">Wall Clock Products</a></li>
+                              <li><a href="product.php">Home Name Plate</a></li>
+                              <li><a href="product.php">Simple Products</a></li>
+                              <li><a href="product.php">Villas Name Plate</a></li>
+                            </ul> -->
+                          </li>
+                          <li><a href="about.php">ABOUT US</a></li>
+                          <li><a href="franchise.php">FRANCHISE</a></li>
+                          <li><a href="stores.php">STORES</a></li>
+                          <li><a href="contactUs.php">CONTACT US</a></li>
+                          <li><a href="blog.php">BLOGS</a></li>
+                          <!-- <li><a href="#">SITE MAP</a></li> -->
+                      </ul>
+                  </div>
+                </nav>
+              </div><!--navbar ends here-->
+            </div><!-- cart and navbavr ends here-->
+          </div><!--nav header ends here-->
+        </div><!--container ends here--> 
+      </div>
+
+
       <!--login model start --> 
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <!--  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -67,7 +238,7 @@
             <h4 class="modal-title" id="myModalLabel">Login</h4>
           </div>
           <div class="modal-body">
-           <h4>Your Email*</h4>
+            <h4>Your Email*</h4>
                   <input type="text" class="form-control padding20" id="exampleInputEmail1">
                 <h4>Your Password*</h4>
                   <input type="text" class="form-control padding20" id="exampleInputEmail1">
@@ -76,23 +247,23 @@
             <div class="col-sm-12">
               <a  data-toggle="modal" data-dismiss="modal" data-target="#myModal1"><p><h4 class="black">Register Here</h4></p></a>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Login</button>
             </div>  
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--login model end --> 
 
     <!--register model start --> 
-      <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="flase">
+    <!--   <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="flase">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h4 class="modal-title" id="myModalLabel">Login</h4>
+            <h4 class="modal-title" id="myModalLabel">Register Here</h4>
           </div>
           <div class="modal-body">
                 <div class="col-sm-6 noPadding">
@@ -117,76 +288,16 @@
                     <input type="text" class="form-control padding20" id="exampleInputEmail1">
                   </div>
           </div>
-          <div class="modal-footer">
+          <div class="modal-footer" style="border:none">
               
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
           </div>
         </div>
       </div>
     </div>
-    <!--register model end --> 
+    
 
-      <!--it contains logo,navbar,add-to-cart-->
-      <div id="navHeader">
-        <div class="container"><!--container start here-->
-          <div class="row smCenter"><!--nav header starts here-->
-              <div  class="col-sm-4 paddingtop40 logo"><h1>Creative Design</h1>
-              </div><!--logo ends here here-->
-              <div class="col-sm-8">
-                <div class="row smCenter">
-                  <div class="col-sm-12"><!--cart starts here --> 
-                    <ul style="list-style:none;" class="topCartNav navbar-right">
-                      <li class="hrLine">
-                        <a href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
-                      </li>
-                      <li>
-                        <a href="cart.php" class="cartContents"> ₹ &nbsp 350.00 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <div class="form-group">
-                          <input type="text" class="form-control input-xs" style="width:100px;" placeholder=" Search">
-                        </div>
-                      </li>  
-                    </ul>   
-                </div><!--cart ends here-->
-              </div>
-              
-              <div class="row smCenter"><!--navbar starts here-->
-                <nav role="navigation" class="navbar navbar-default">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header" style="background: #fff;">
-                      <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                          <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                      </button>
-                      
-                  </div>
-                  <!-- Collection of nav links and other content for toggling -->
-                  <div id="navbarCollapse" class="collapse navbar-collapse" style="padding-bottom:10px;">
-                      <ul class="nav navbar-nav navbar-right">
-                          <li class="active"><a href="index.php">HOME</a></li>
-                          <li><a href="product.php">PRODUCTS</a></li>
-                          <li><a href="about.php">ABOUT US</a></li>
-                          <li><a href="franchise.php">FRANCHISE</a></li>
-                          <li><a href="stores.php">STORES</a></li>
-                          <li><a href="contactUs.php">CONTACT US</a></li>
-                          <li><a href="blog.php">BLOGS</a></li>
-                          <li><a href="#">SITE MAP</a></li>
-                      </ul>
-                  </div>
-                </nav>
-              </div><!--navbar ends here-->
-            </div><!-- cart and navbavr ends here-->
-          </div><!--nav header ends here-->
-        </div><!--container ends here--> 
-      </div>
-
-
-
-    </div><!--header ends here-->
+    </div> --><!--header ends here-->
     <!-- top line ends here -->
 
