@@ -2,7 +2,7 @@
     <Footer >
       <div style="background:#202020;">
         <div class="container">
-          <div class="row margintop20 marginbottom20">
+          <div class="row margintop40 marginbottom40">
             <div class="col-sm-3 footerTextColor"><!-- Testimonial start  here-->
               <h3>Testimonial</h3>
               <div id="menCollection" class="carousel slide" data-ride="carousel">
@@ -68,7 +68,7 @@
 
             <!-- Sitmap start  here-->
             <div class="col-sm-3 footerTextColor FootSiteMap" >
-              <div class="col-md-offset-4">
+              <div class="col-md-offset-2">
                <h3>Site Map</h3>
                 <ul>
                   <li><a href="testimonial.php">Testimonial</a></li>
@@ -85,7 +85,7 @@
             </div><!-- sitemap ends here-->
             <!-- Products start  here-->
             <div class="col-sm-3 footerTextColor FootSiteMap">
-              <div class="col-md-offset-4">
+              <div class="col-md-offset-2">
               <h3>Products</h3>
                 <ul >
                   <li><a href="">Nameplates</a></li>
@@ -116,8 +116,8 @@
 
     <div style="min-height:50px;background:black"></div>
   </Footer>
-  <script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
+  <!--script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/bootstrap-slider.js"></script>
   <script type="text/javascript">
@@ -190,4 +190,4 @@ $('[data-toggle=collapse]').click(function (e) {
 $('.slider').slider()
 
 });
-</script>  
+</script-->

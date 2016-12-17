@@ -1,102 +1,9 @@
 <?php include "header.php" ?>
     <!-- top line ends here -->
     <div class="clearfix"></div>
-    <div class="wrapper" id="fullpage mainnav"  >  
+    <div class="wrapper" id="fullpage mainnav"  style="position:relative">  
     </div>
-    
-
-  
-  <!-- product showcase 
-   <img src="images/block1.jpg" class="img-responsive"   >
-   <img src="images/block2.jpg" class="img-responsive"   >
-   <img src="images/block2.jpg" class="img-responsive"   >
-   <img src="images/block1.jpg" class="img-responsive"   >
-   <img src="images/block1.jpg" class="img-responsive"   >
-
-
-  -->
-    <!-- <section class="socialIcons">
-       <ul>
-          <li>
-             <a href="#">
-                <span class="fa-stack fa-lg">
-                   <i class="fa fa-circle fa-stack-2x"></i>
-                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-             </a>   
-          </li>  
-       
-          <li>
-             <a href="#">
-                <span class="fa-stack fa-lg">
-                   <i class="fa fa-circle fa-stack-2x"></i>
-                   <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
-                </span>
-             </a>   
-          </li>
-
-          <li>
-             <a href="#">
-                <span class="fa-stack fa-lg" style="color:#ffffff">
-                   <i class="fa fa-circle fa-stack-2x icon-background1"></i>
-                   <i class="fa fa-google-plus fa-stack-1x"></i>
-                </span>
-             </a>   
-          </li>
-         
-          <li>
-             <a href="#">
-                <span class="fa-stack fa-lg" style="color:#ffffff">
-                   <i class="fa fa-circle fa-stack-2x icon-background1"></i>
-                   <i class="fa fa-whatsapp fa-stack-1x"></i>
-                </span>
-             </a>
-          </li>
-       </ul>
-    </section> --><!--Social Icons ends here-->
-
-<!--  <section class="margintop50">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3 col-xs-10 innerCol  ">
-            <div class="col-sm-12  showcaseBorder">
-              <img src="images/block1.jpg" class="img-responsive"   >
-            </div>
-          </div>
-          <div class="col-sm-6   ">
-            <div class="col-sm-12 innerCol ">
-              <div class="col-sm-6 col-xs-6   " style="padding-left:0px;margin-bottom:15px">
-                <div class="col-sm-12 marginright10 showcaseBorder" >
-                 <img src="images/block2.jpg" height="295" class="img-responsive paddingtop20 paddingbottom30" style="margin-bottom:4px;"   >
-                </div>
-              </div>  
-              <div class="col-sm-6  col-xs-6 noPaddingLeftRight showcaseBorder">
-                <div class="col-sm-12   " >
-                 <img src="images/block4.png" class="img-responsive paddingbottom20 paddingtop10"  style="margin-bottom:7px;"  >
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-xs-12 showcaseBorder  ">
-               <img src="images/block3.png" class="img-responsive"   >
-            </div>
-          </div>
-
-          <div class="col-sm-3 innerCol  ">
-            <div class="col-sm-12  showcaseBorder onlyPaddingRight "style="margin-bottom:15px"  >
-                  <img src="images/Home-Page_03.jpg" class="img-responsive" style="height:295px"  >
-                </div>
-              
-              
-                <div class="col-sm-12 showcaseBorder col-xs-6 noPaddingLeftRight">
-                  <img src="images/img.png" class="img-responsive text-center paddingleft10" >
-                </div>  
-               
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section> -->
+      
     <section class="margintop30 marginbottom30" style="min-height:600px">
       <div class="container topPosition">
         <div class="row">
@@ -126,61 +33,7 @@
       </div>
     </section>
 
-<!-- 
-    <section class="container-fluid " id="section0">
-      <div class="row ">
-        <div class="col-sm-3 noPaddingLeftRight ">
-          <div class="blueBackColor paddingleft10">
-             <span class="showCaseText whiteColor ">RECENT <br/>POST</span>
-          </div>
-          <div class="  col-sm-12 box foo noPaddingLeftRight  ">
-              <img src="images/showCase11.jpg" class="img-responsive col1Height" style="min-height:228px;">
-          </div>  
-        </div>
-        <div class="col-sm-6 noPaddingLeftRight blueBackColor ">
-            <div class="col-sm-12 box block1 foo noPaddingLeftRight">
-              <img src="images/showCase5.jpg" class="img-responsive blueBackColor ">
-                <div class="block-caption1  ">
-                  <i class="fa fa-angle-right" aria-hidden="true"></i> 
-                  <h3 class="whiteColor"> Quick View</h3>
-                </div>
-            </div>
-            <div class="col-sm-6 noPaddingLeftRight ">
-              <div class="col2Height paddingleft10 blueBackColor">
-                <span class="showCaseText whiteColor">TEXT <br/>2</span>
-              </div>
-            </div>
-            <div class="col-sm-6 noPaddingLeftRight  box foo">
-              <img src="images/showCase10.jpg" class="img-responsive col1Height">
-            </div>
-        </div>
-        <div class="col-sm-3 noPaddingLeftRight ">
-          <div class="col3Height col-sm-12 noPaddingLeftRight  box foo">
-             <img src="images/showCase13.jpg" class="img-responsive col3Height">
-          </div>
-          <div class="col3Height blueBackColor paddingleft10">
-             <span class="showCaseText whiteColor"> TEXT <br/>1</span>
-          </div>
-          <div class="col3Height col-sm-12 noPaddingLeftRight  box foo">
-             <img src="images/showCase12.jpg" class="img-responsive col3Height">
-          </div>
-        </div>
-        <div class="col-sm-12 noPaddingLeftRight">
-          <div class="col-sm-6  noPaddingLeftRight">
-             <img src="images/showCase1.jpg" class="img-responsive col3Height">
-          </div>
-          <div class="col-sm-4 noPaddingLeftRight col3Height blueBackColor paddingleft10">
-              <span class="showCaseText whiteColor"> TEXT <br/>1</span>
-          </div>
-          <div class="col-sm-6 noPaddingLeftRight">
-            <img src="images/showCase1.jpg" class="img-responsive col3Height">
-          </div>
-        </div>
-      </div>      
 
-    </section> -->
-
-    <!-- end of  product showcase-->  
 
     <!-- name plate heading with color-->
     <section id="homeContent" class="" id="section1">
@@ -199,30 +52,30 @@
   
   
  <section class="container  ">
-    <div class="row margintop10 marginbottom20"> 
-      <div class=" center slider "><!--starting of product row 1 -->
-        <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/product1.jpg" class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+    <div class="row margintop40 marginbottom35"> 
+      <div class=" center  "><!--starting of product row 1 -->
+        <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 ">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product1.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">1.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                    <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -230,7 +83,7 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
@@ -242,79 +95,77 @@
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-         <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/product2.jpg" class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
-                  <div class="padding10">
-                      <h4 class="h4Height">2.Appartment Name plates & Stainless Ethcing</h4>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                    <div class="productbutton1  ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
-                            <a href="#">
-                              <i class="fa fa-heart" aria-hidden="true"></i>
-                            </a> 
-                          </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
-                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
-                            </a> 
-                          </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
-                            <a href="customized.php">
-                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
-                            </a>
-                          </div>
-                        </div>  
+         <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product2.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
                     </div>
+                </a>
+                <div class="padding10">
+                    <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                    <div class="starIcon"> 
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                    </div>                      
+                  <div class="productbutton1   ">
+                      <div class="row">
+                        <div class="col-sm-2 noPaddingRight" style="">
+                          <a href="#">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                          </a> 
+                        </div>
+                        <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <a href="displayProduct.php">
+                            <i class="fa fa-plus" aria-hidden="true"> Details</i>
+                          </a> 
+                        </div>
+                        <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <a href="customized.php">
+                            <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
+                          </a>
+                        </div>
+                      </div>  
                   </div>
                 </div>
+              </div>
             </div>
           </div>
-        </div>
 
-         <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/product2.jpg" class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+         <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product3.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">3.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                     <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -322,7 +173,7 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
@@ -334,33 +185,32 @@
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/product4.jpg"class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+         <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product4.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">4.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                     <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -368,7 +218,7 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
@@ -380,33 +230,32 @@
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/product3.jpg"class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+          <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product3.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">5.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                     <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -414,7 +263,7 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
@@ -426,10 +275,9 @@
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
 <!-- end of all prduct carousal-->
@@ -451,30 +299,30 @@
   
   
  <section class="container  ">
-    <div class="row margintop10 marginbottom20"> 
-      <div class=" center slider "><!--starting of product row 1 -->
-        <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/showCase14.jpg" class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+    <div class="row margintop40 marginbottom35"> 
+      <div class=" center  "><!--starting of product row 1 -->
+        <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 ">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product12.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">1.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                    <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -482,7 +330,7 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
@@ -494,79 +342,77 @@
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-         <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/showCase18.jpg" class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
-                  <div class="padding10">
-                      <h4 class="h4Height">2.Appartment Name plates & Stainless Ethcing</h4>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                    <div class="productbutton1  ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
-                            <a href="#">
-                              <i class="fa fa-heart" aria-hidden="true"></i>
-                            </a> 
-                          </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
-                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
-                            </a> 
-                          </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
-                            <a href="customized.php">
-                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
-                            </a>
-                          </div>
-                        </div>  
+         <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product13.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
                     </div>
+                </a>
+                <div class="padding10">
+                    <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                    <div class="starIcon"> 
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                    </div>                      
+                  <div class="productbutton1   ">
+                      <div class="row">
+                        <div class="col-sm-2 noPaddingRight" style="">
+                          <a href="#">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                          </a> 
+                        </div>
+                        <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <a href="displayProduct.php">
+                            <i class="fa fa-plus" aria-hidden="true"> Details</i>
+                          </a> 
+                        </div>
+                        <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <a href="customized.php">
+                            <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
+                          </a>
+                        </div>
+                      </div>  
                   </div>
                 </div>
+              </div>
             </div>
           </div>
-        </div>
 
-         <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/showCase17.jpg" class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+         <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product14.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">3.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                     <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -574,7 +420,7 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
@@ -586,33 +432,32 @@
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/showCase18.jpg"class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+         <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product15.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">4.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                     <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -620,7 +465,7 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
@@ -632,33 +477,32 @@
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/showCase6.jpg"class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+          <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product16.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">5.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                     <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -666,7 +510,7 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
@@ -678,13 +522,11 @@
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
-<!-- end of all prduct carousal-->
 
    <!-- name plate heading with color-->
     <section id="homeContent" class="">
@@ -702,31 +544,31 @@
 <!--end of name plate heading with color-->
   
   
- <section class="container  ">
-    <div class="row margintop10"> 
-      <div class=" center slider "><!--starting of product row 1 -->
-        <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 ">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/showCase13.jpg" class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+  <section class="container  ">
+    <div class="row margintop40 marginbottom35"> 
+      <div class=" center  "><!--starting of product row 1 -->
+        <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 ">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product18.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">1.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                     <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -734,91 +576,89 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
                           <div class="col-sm-6 pull-right noPaddingleft"> 
-                            <a href="#">
+                            <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
                           </div>
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-         <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/showCase12.jpg" class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
-                  <div class="padding10">
-                      <h4 class="h4Height">2.Appartment Name plates & Stainless Ethcing</h4>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
-                        <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                    <div class="productbutton1  ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
-                            <a href="#">
-                              <i class="fa fa-heart" aria-hidden="true"></i>
-                            </a> 
-                          </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
-                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
-                            </a> 
-                          </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
-                            <a href="#">
-                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
-                            </a>
-                          </div>
-                        </div>  
+         <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product19.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
                     </div>
+                </a>
+                <div class="padding10">
+                    <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                    <div class="starIcon"> 
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                    </div>                      
+                  <div class="productbutton1   ">
+                      <div class="row">
+                        <div class="col-sm-2 noPaddingRight" style="">
+                          <a href="#">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                          </a> 
+                        </div>
+                        <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <a href="displayProduct.php">
+                            <i class="fa fa-plus" aria-hidden="true"> Details</i>
+                          </a> 
+                        </div>
+                        <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <a href="customized.php">
+                            <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
+                          </a>
+                        </div>
+                      </div>  
                   </div>
                 </div>
+              </div>
             </div>
           </div>
-        </div>
 
-         <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/showCase14.jpg" class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+         <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product20.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">3.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                     <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -826,45 +666,44 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
                           <div class="col-sm-6 pull-right noPaddingleft"> 
-                            <a href="#">
+                            <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
                           </div>
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/showCase15.jpg"class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+         <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product21.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">4.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                     <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -872,45 +711,44 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
                           <div class="col-sm-6 pull-right noPaddingleft"> 
-                            <a href="#">
+                            <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
                           </div>
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-sm-3">
-          <div class="col-sm-12 onlyPaddingRight">
-            <div class="card1 marginbottom10">
-              <a href="#" class="hoverImage block " data-toggle="modal" 
-                  data-target="#myModal2">
-                <img src="images/showCase17.jpg" class="img-responsive padding10 productImgSize">
-                  <div class="block-caption  ">
-                    <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
-                  </div>
-              </a>
-               <div class="productContent ">
+          <div class="col-sm-3 product">
+            <div class="col-sm-12 onlyPaddingRight">
+              <div class="card1 marginbottom10">
+                <a href="#" class="hoverImage block " data-toggle="modal" 
+                    data-target="#myModal2">
+                  <img src="images/product22.jpg" class="img-responsive padding10 ">
+                    <div class="block-caption  ">
+                      <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
+                    </div>
+                </a>
                   <div class="padding10">
-                      <h4 class="h4Height">5.Appartment Name plates & Stainless Ethcing</h4>
+                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                      <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
-                        <p class="drakGreay1">Festive Hampers</p>
-                     
-                    <div class="productbutton1  ">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
+                      </div>                      
+                    <div class="productbutton1   ">
                         <div class="row">
                           <div class="col-sm-2 noPaddingRight" style="">
                             <a href="#">
@@ -918,28 +756,26 @@
                             </a> 
                           </div>
                           <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                            <a href="#">
+                            <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
                           <div class="col-sm-6 pull-right noPaddingleft"> 
-                            <a href="#">
+                            <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
                           </div>
                         </div>  
                     </div>
                   </div>
-                </div>
+              </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
-<!-- end of all prduct carousal-->
 
      <!--Recent blog post-->
-   <section class="full text-center margintop20">
+   <section class="full text-center marginbottom40">
       <div class="container">
          <div class="row">
             <div class="col-sm-12">
@@ -948,10 +784,10 @@
             </div>
          </div>
 
-         <div class="row marginbottom30   noPaddingLeftRight">
+         <div class="row marginbottom40   noPaddingLeftRight">
             <div class="col-sm-3">
                <div class="col-sm-12 " style="padding-right:0px;">
-                  <img src="images/showCase14.jpg" class="img-responsive blogImage margintop20"  >
+                  <img src="images/showCase14.jpg" class="img-responsive blogImage margintop40"  >
                   <div class=" BlogContent blogImage1"> 
                      <h4 class="text-left paddingbottom10">August 26,2016</h4>
                       <h4 class="text-left paddingbottom10">Designer Stone Namplate</h4>
@@ -967,7 +803,7 @@
 
              <div class="col-sm-3">
                <div class="col-sm-12 " style="padding-right:0px;">
-                  <div class=" BlogContent1 margintop20 "> 
+                  <div class=" BlogContent1 margintop40 "> 
                     <div class="padding10">
                      <h4 class="text-left paddingbottom10">August 26,2016</h4>
                       <h4 class="text-left paddingbottom10">Designer Stone Namplate</h4>
@@ -984,7 +820,7 @@
 
             <div class="col-sm-3">
                <div class="col-sm-12 " style="padding-right:0px;">
-                  <img src="images/showCase18.jpg" class="img-responsive blogImage margintop20"  >
+                  <img src="images/showCase18.jpg" class="img-responsive blogImage margintop40"  >
                   <div class=" BlogContent blogImage1"> 
                     <h4 class="text-left paddingbottom10">August 26,2016</h4>
                       <h4 class="text-left paddingbottom10">Designer Stone Namplate</h4>
@@ -1000,7 +836,7 @@
 
             <div class="col-sm-3">
                <div class="col-sm-12 " style="padding-right:0px;">
-                 <div class=" BlogContent1 margintop20"> 
+                 <div class=" BlogContent1 margintop40"> 
                     <div class="padding10">
                      <h4 class="text-left paddingbottom10">August 26,2016</h4>
                       <h4 class="text-left paddingbottom10">Designer Stone Namplate</h4>
@@ -1033,7 +869,7 @@
         </div>
 
         <!-- Product grid start here-->
-        <div class="row fivecolumns" id="recentproductMargin">
+        <div class="row fivecolumns marginbottom30 margintop30">
           <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6">
             <img src="images/showCase10.jpg" class="img-responsive productBorder">
           </div>
@@ -1049,7 +885,7 @@
           
         </div>
     
-        <div class="row fivecolumns marginbottom20" id="recentproductMargin">
+        <div class="row fivecolumns marginbottom40">
           <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6">
             <img src="images/showCase10.jpg" class="img-responsive productBorder">
           </div>
@@ -1249,57 +1085,78 @@
     <script src="js/vegas.min.js"></script>
    <script type="text/javascript">
     $(document).ready(function(){
-      
-       $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-    });
-        $(".wrapper").vegas({
-            animation: 'kenburnsUp',
-            transitionDuration: 2000,
-            slides: [
-                { src: "images/slide-show-1-low.jpg" },
-                { src: "images/slide-show-3-low.jpg" },
-                { src: "images/slide-show-5-low.jpg" }
-            ]
-            
-        });
-
-       $(".dropdown").hover(            
-          function() {
-              $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
-              $(this).toggleClass('open');        
-          },
-          function() {
-              $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
-              $(this).toggleClass('open');       
+      $(window).scroll(function () {
+          if ($(this).scrollTop() > 500) {
+              $('.back-to-top').fadeIn();
+          } else {
+              $('.back-to-top').fadeOut();
           }
-      );
-        $(".center").slick({
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      autoplay: false,
-      autoplaySpeed: 2000
+      });
+      // scroll body to 0px on click
+      $('.back-to-top').click(function () {
+          $('.back-to-top').tooltip('hide');
+          $('body,html').animate({
+              scrollTop: 0
+          }, 800);
+          return false;
+      });
+      
+      $('#back-to-top').tooltip('show');
+      $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+      });
+      $(".wrapper").vegas({
+          animation: 'kenburnsUp',
+          transitionDuration: 2000,
+          slides: [
+              { src: "images/slide-show-1-low.jpg" },
+              { src: "images/slide-show-3-low.jpg" },
+              { src: "images/slide-show-5-low.jpg" }
+          ]
+          
       });
 
-        $(document).ready(function(){
-     $(window).scroll(function () {
-            if ($(this).scrollTop() > 50) {
-                $('.back-to-top').fadeIn();
-            } else {
-                $('.back-to-top').fadeOut();
-            }
-        });
-        // scroll body to 0px on click
-        $('.back-to-top').click(function () {
-            $('.back-to-top').tooltip('hide');
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
-        
-        $('#back-to-top').tooltip('show');
+      
+      /*$(".center").slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000
+      });*/
 
+        $('.center').slick({
+  infinite: true,
+  autoplayspeed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 });
 
   $('#mainNav').affix({
@@ -1308,6 +1165,18 @@
   }
 })
 
+$(window).scroll(function(){
+  var threshold = 200; // number of pixels before bottom of page that you want to start fading
+  var op = (($(document).height() - $(window).height()) - $(window).scrollTop()) / threshold;
+  if( op <= 0 ){
+    $("#top-line").hide();
+  } else {
+    $("#top-line").show();
+  }
+  $("#top-line").css("opacity", op ); 
+});
+
+  
         // $('#myModal2').appendTo("body");
 
 

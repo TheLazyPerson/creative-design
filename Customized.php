@@ -559,16 +559,85 @@
 	</div>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 <? include "footer.php" ?>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
+  <script src="./js/bootstrap.min.js"></script>
+   <script src="./js/bootstrap-slider.js"></script>
+     <script type="text/javascript">
+    $(document).ready(function(){
+      $(window).scroll(function () {
+          if ($(this).scrollTop() > 50) {
+              $('.back-to-top').fadeIn();
+          } else {
+              $('.back-to-top').fadeOut();
+          }
+      });
+      // scroll body to 0px on click
+      $('.back-to-top').click(function () {
+          $('.back-to-top').tooltip('hide');
+          $('body,html').animate({
+              scrollTop: 0
+          }, 800);
+          return false;
+      });
+      
+      
+      
+      $(".center").slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000
+      });
+
+        
+
+  $('#mainNav').affix({
+  offset: {
+    top: 100
+  }
+})
+
+$(window).scroll(function(){
+  var threshold = 200; // number of pixels before bottom of page that you want to start fading
+  var op = (($(document).height() - $(window).height()) - $(window).scrollTop()) / threshold;
+  if( op <= 0 ){
+    $("#top-line").hide();
+  } else {
+    $("#top-line").show();
+  }
+  $("#top-line").css("opacity", op ); 
+});
+
+  
+        // $('#myModal2').appendTo("body");
+
+
+  $('.collapse').on('shown.bs.collapse', function (e) 
+  {
+    $('.collapse').not(this).removeClass('in');
+  });
+
+  $('[data-toggle=collapse]').click(function (e) 
+  {
+    $('[data-toggle=collapse]').parent('li').removeClass('active');
+    $(this).parent('li').toggleClass('active');
+  });
+
+
+      var navpos = $('#mainnav').offset();
+      console.log(navpos.top);
+      $(window).bind('scroll', function () {
+          if ($(window).scrollTop() > navpos.top) {
+              $('#mainnav').addClass('navbar-fixed-top');
+              $('#topnav').removeClass('navbar-fixed-top');
+          } else {
+              $('#topnav').addClass('navbar-fixed-top');
+              $('#mainnav').removeClass('navbar-fixed-top');
+          }
+      });
+ 
+});
+</script>

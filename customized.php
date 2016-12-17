@@ -1,3 +1,4 @@
+
 <? include "header.php" ?>
 
 	<section id="homeContent" class="aboveMargin">
@@ -147,63 +148,56 @@
 					<h4>Your Name as on Name Plate</h4>
 				</div>
 				<div class="row">
-					<div class="col-sm-4 inputWidth1 ">
+					<div class="col-sm-4 inputWidth1 paddingright20 ">
 						<h5>Line 1	</h5>
 						<input type="text" class="form-control inputSize ">
 					</div>
 					<div class="col-sm-8  inputWidth paddingright20 noPadding ">
 						<div class="col-sm-4">
 							<h5>Size</h5>
-							<!-- <input type="text" class=""> -->
-							<li class="dropdown " style="list-style:none; ">
-				          		<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-				          		<input type="text" class="form-control inputSize " id="usr" value="10"> </a>
-						          <ul class="dropdown-menu  cutomizeDropdown" style="width:50px;">
-						            <li>10</li>
-						            <li>20</li>
-						            <li>30</li>
-						            <li>40</li>
-						            <li>50</li>
-						            <li>60</li>
-						            <li>70</li>
-						            <li>80</li>
-						            <li>90</li>
-						            <li>100</li>
-						            <li>120</li>
-						            <li>130</li>
-						            <li>140</li>
-						            <li>150</li>
-						            <li>160</li>
-						            <li>170</li>
-						            <li>180</li>
-						            <li>190</li>
-						            <li>200</li>
-						          </ul>
-				        	</li>
+							
+				        	<div class="bs-docs-example custSize">
+				              <select class="selectpicker" data-style="btn-primary">
+				                  	<option>10</option>
+						            <option>20</option>
+						            <option>30</option>
+						            <option>40</option>
+						            <option>50</option>
+						            <option>60</option>
+						            <option>70</option>
+						            <option>80</option>
+						            <option>90</option>
+						            <option>100</option>
+						            <option>120</option>
+						            <option>130</option>
+						            <option>140</option>
+						            <option>150</option>
+						            <option>160</option>
+						            <option>170</option>
+						            <option>180</option>
+						            <option>190</option>
+						            <option>200</option>
+				              </select>
+			              </div>
 						</div>	
 						<div class="col-sm-4">	
 							<h5>Angle</h5>	
-							<!-- <input type="text"> -->
-							<li class="dropdown" style="list-style:none; ">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-				          	<input type="text" value="No" class="form-control inputSize " id="usr"> </a>
-				          <ul class="dropdown-menu   cutomizeDropdown" style="width:50px;">
-				            <li>Yes</li>
-				            <li>No</li>
-				          </ul>
-				        </li>
+							<div class="bs-docs-example custSize">
+					              <select class="selectpicker" data-style="btn-primary">
+					                  	<option>Yes</option>
+							            <option>No</option>
+							        </select>
+							    </div>     
 						</div>
 						<div class="col-sm-4">	
 							<h5>Bold</h5>
 							<!-- <input type="text"> -->
-							<li class="dropdown" style="list-style:none; ">
-				          		<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-				          		<input type="text" value="No" class="form-control inputSize " id="usr"> </a>
-					          <ul class="dropdown-menu  cutomizeDropdown" style="width:50px;">
-					          	<li>Yes</li>
-					            <li>No</li>
-					          </ul>
-				        	</li>
+							<div class="bs-docs-example custSize">
+					              <select class="selectpicker" data-style="btn-primary">
+					                  	<option>Yes</option>
+							            <option>No</option>
+							        </select>
+							    </div>     
 						</div>
 					</div>
 				</div>
@@ -217,56 +211,47 @@
 					<div class="col-sm-8  inputWidth paddingright20 noPadding ">
 						<div class="col-sm-4">
 							<h5>Size</h5>
-							<!-- <input type="text" class=""> -->
-							<li class="dropdown " style="list-style:none; ">
-				          		<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-				          		<input type="text" class="form-control inputSize " id="usr" value="10"> </a>
-						          <ul class="dropdown-menu  cutomizeDropdown" style="width:50px;">
-						            <li>10</li>
-						            <li>20</li>
-						            <li>30</li>
-						            <li>40</li>
-						            <li>50</li>
-						            <li>60</li>
-						            <li>70</li>
-						            <li>80</li>
-						            <li>90</li>
-						            <li>100</li>
-						            <li>120</li>
-						            <li>130</li>
-						            <li>140</li>
-						            <li>150</li>
-						            <li>160</li>
-						            <li>170</li>
-						            <li>180</li>
-						            <li>190</li>
-						            <li>200</li>
-						          </ul>
-				        	</li>
+							<div class="bs-docs-example custSize">
+				              <select class="selectpicker" data-style="btn-primary">
+				                  	<option>10</option>
+						            <option>20</option>
+						            <option>30</option>
+						            <option>40</option>
+						            <option>50</option>
+						            <option>60</option>
+						            <option>70</option>
+						            <option>80</option>
+						            <option>90</option>
+						            <option>100</option>
+						            <option>120</option>
+						            <option>130</option>
+						            <option>140</option>
+						            <option>150</option>
+						            <option>160</option>
+						            <option>170</option>
+						            <option>180</option>
+						            <option>190</option>
+						            <option>200</option>
+				              </select>
+			              </div>
 						</div>	
 						<div class="col-sm-4">	
 							<h5>Angle</h5>	
-							<!-- <input type="text"> -->
-							<li class="dropdown" style="list-style:none; ">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-				          	<input type="text" value="No" class="form-control inputSize " id="usr"> </a>
-				          <ul class="dropdown-menu   cutomizeDropdown" style="width:50px;">
-				            <li>Yes</li>
-				            <li>No</li>
-				          </ul>
-				        </li>
+								<div class="bs-docs-example custSize">
+					              <select class="selectpicker" data-style="btn-primary">
+					                  	<option>Yes</option>
+							            <option>No</option>
+							        </select>
+							    </div>        
 						</div>
 						<div class="col-sm-4">	
 							<h5>Bold</h5>
-							<!-- <input type="text"> -->
-							<li class="dropdown" style="list-style:none; ">
-				          		<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-				          		<input type="text" value="No" class="form-control inputSize " id="usr"> </a>
-					          <ul class="dropdown-menu  cutomizeDropdown" style="width:50px;">
-					          	<li>Yes</li>
-					            <li>No</li>
-					          </ul>
-				        	</li>
+							<div class="bs-docs-example custSize">
+					              <select class="selectpicker" data-style="btn-primary">
+					                  	<option>Yes</option>
+							            <option>No</option>
+							        </select>
+							    </div>     
 						</div>
 					</div>
 				</div>
@@ -280,56 +265,47 @@
 					<div class="col-sm-8  inputWidth paddingright20 noPadding ">
 						<div class="col-sm-4">
 							<h5>Size</h5>
-							<!-- <input type="text" class=""> -->
-							<li class="dropdown " style="list-style:none; ">
-				          		<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-				          		<input type="text" class="form-control inputSize " id="usr" value="10"> </a>
-						          <ul class="dropdown-menu  cutomizeDropdown" style="width:50px;">
-						            <li>10</li>
-						            <li>20</li>
-						            <li>30</li>
-						            <li>40</li>
-						            <li>50</li>
-						            <li>60</li>
-						            <li>70</li>
-						            <li>80</li>
-						            <li>90</li>
-						            <li>100</li>
-						            <li>120</li>
-						            <li>130</li>
-						            <li>140</li>
-						            <li>150</li>
-						            <li>160</li>
-						            <li>170</li>
-						            <li>180</li>
-						            <li>190</li>
-						            <li>200</li>
-						          </ul>
-				        	</li>
+							<div class="bs-docs-example custSize">
+				              <select class="selectpicker" data-style="btn-primary">
+				                  	<option>10</option>
+						            <option>20</option>
+						            <option>30</option>
+						            <option>40</option>
+						            <option>50</option>
+						            <option>60</option>
+						            <option>70</option>
+						            <option>80</option>
+						            <option>90</option>
+						            <option>100</option>
+						            <option>120</option>
+						            <option>130</option>
+						            <option>140</option>
+						            <option>150</option>
+						            <option>160</option>
+						            <option>170</option>
+						            <option>180</option>
+						            <option>190</option>
+						            <option>200</option>
+				              </select>
+			              </div>
 						</div>	
 						<div class="col-sm-4">	
 							<h5>Angle</h5>	
-							<!-- <input type="text"> -->
-							<li class="dropdown" style="list-style:none; ">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-				          	<input type="text" value="No" class="form-control inputSize " id="usr"> </a>
-				          <ul class="dropdown-menu   cutomizeDropdown" style="width:50px;">
-				            <li>Yes</li>
-				            <li>No</li>
-				          </ul>
-				        </li>
+							<div class="bs-docs-example custSize">
+					              <select class="selectpicker" data-style="btn-primary">
+					                  	<option>Yes</option>
+							            <option>No</option>
+							        </select>
+							    </div>     
 						</div>
 						<div class="col-sm-4">	
 							<h5>Bold</h5>
-							<!-- <input type="text"> -->
-							<li class="dropdown" style="list-style:none; ">
-				          		<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-				          		<input type="text" value="No" class="form-control inputSize " id="usr"> </a>
-					          <ul class="dropdown-menu  cutomizeDropdown" style="width:50px;">
-					          	<li>Yes</li>
-					            <li>No</li>
-					          </ul>
-				        	</li>
+							<div class="bs-docs-example custSize">
+					              <select class="selectpicker" data-style="btn-primary">
+					                  	<option>Yes</option>
+							            <option>No</option>
+							        </select>
+							    </div>     
 						</div>
 					</div>
 				</div>
@@ -644,3 +620,5 @@
 
 
 <? include "footer.php" ?>
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help

@@ -74,7 +74,7 @@
       autoplaySpeed: 2000
       });
 
-        $(document).ready(function(){
+        
      $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('.back-to-top').fadeIn();
@@ -92,8 +92,6 @@
         });
         
         $('#back-to-top').tooltip('show');
-
-});
 
         // $('#myModal2').appendTo("body");
 

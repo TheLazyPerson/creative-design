@@ -1,89 +1,53 @@
-<?php include "header.php" ?>
-
-
- <!-- name plate heading with color-->
-    <section id="headingContent" class="aboveMargin">
-      <div class="container"><!-- Heading Content starts here-->
-        <div class="row headingContent">
-          <div class="col-sm-12">
-            <h1>Cart</h1>
+<? include "header.php" ?>
+		
+	<section class="container margintop40 marginbottom40">
+		<div class="row  ">
+			<div class=" col-md-offset-3 col-sm-6  col-md-offset-4" >
+				<div class="card ">
+					<div class="padding10"> 
+				    <div class="col-sm-12 ">
+            <h4>First Name</h4>
+            <input type="text" class="form-control padding20" id="exampleInputEmail1">
           </div>
-          
+          <div class="col-sm-12">
+            <h4>Last Name</h4>
+            <input type="text" class="form-control padding20" id="exampleInputEmail1">
+          </div>
+          <div class="col-sm-12">
+            <h4>Email Address</h4>
+            <input type="text" class="form-control padding20" id="exampleInputEmail1">
+          </div>
+          <div class="col-sm-12">
+            <h4>Phone</h4>
+            <input type="text" class="form-control padding20" id="exampleInputEmail1">
+          </div>
+
+          <div class="col-sm-12 ">
+            <h4>Town/City</h4>
+            <input type="text" class="form-control padding20" id="exampleInputEmail1">
+          </div>
+         		
+                <div class="paddingbottom10 text-center">
+                  <a href="#">
+                    <button type="button" class="btn btn-info text-center " style="width:60%">Sign Up</button>
+                  </a>
+                </div>
+
+ 					</div>	              	
         </div>
-      </div><!-- Heading Content ends here-->
-    </section>
-<!--end of name plate heading with color-->
-  
-<section class="container margintop40 marginbottom20" >
-	<div class="row">
-  		<table class="table table-bordered">
-  			<thead class="thead-default">
-  			<td class="col-md-1 black thead-default"></td>
-		      <td class="col-md-1 black"></td>
-		      <td class="col-md-3 black">Product</td>
-		      <td class="col-md-2 black">Price</td>
-		      <td class="col-md-3 black">Quantity</td>
-		      <td class="col-md-2 black">Total</td>
-  			</thead>
-		  <tbody>
-		    <tr>
-		      <td class="col-md-1 black">
-		      	<a href="#">
-		      		<i class="fa fa-times" aria-hidden="true"></i>
-		      	</a>
-		      </td>
-		      <td class="col-md-1 black">
-		      	<img src="images/block1.jpg" class="img-responsive"   >
-		      </td>
-		      <td class="col-md-3 black">
-		      	Wooden Laser Cutting Earring 3
-		      </td>
-		      <td class="col-md-2 black">
-		      	₹ 175.00
-		      </td>
-		      <td class="col-md-3 black">
-		      	<div class="quantity ">
-						<input type="number" class="form-control productCount" value="1" id="exampleInputName2" placeholder=" ">
-					</div>
-		      </td>
-		      <td class="col-md-2 black">
-		      	₹ 175.00
-		      </td>
-		    </tr>
-		    			   
-		  </tbody>
-		</table>
-	</div>
-</section>
 
-<section class="container faintgrey marginbottom40" >
-	<div class="row ">
-		<div class="col-sm-7"></div>
-		<div class="col-sm-5 margintop40 " >
-			<div class="col-sm-12 marginbottom30 greayBorder">
-				<table class="table paddingright20">
-					<thead><h3 class="black">Cart Totals</h3></thead>
-						<tr>
-							<td class="col-md-6 thead-default">Subtotal</td>
-							<td class="col-md-6">₹ 175.00</td>
-						</tr>
-						<tr>	
-							<td class="col-md-6 black thead-default">Total</td>
-							<td class="col-md-6 black">₹ 175.00</td>
+          <div class="paddingtop30 text-center">
+           <h4> Already have an account? <a href="login.php">Log In</a></h4>
+          </div>
+      </div>
+		   
+    	
+    </div>		    
+	</section>
 
-						</tr>	
-				</table>
-					<div class="paddingbottom20">
-						<a href="checkout.php">
-							<button type="button" class="btn btn-info text-center ">Proceed to Checkout</button>
-						</a>	
-					</div>	
-			</div>
-		</div>
-	</div>	
-</section>	
-  
-<?php include "footer.php" ?>
+
+
+<? include "footer.php" ?>
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
     <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->

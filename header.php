@@ -11,7 +11,7 @@
    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
-  <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css" >
+  <!-- <link rel="stylesheet" href="bootstrap/bootstrap-theme.min.css" > -->
   
   <script src="js/jquery.min.js"></script>
   <link rel="stylesheet" href="js/vegas.min.css">
@@ -35,13 +35,13 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script></script>
   </head>
   <body>
 
     <!--top line start here -->
     <div class="header ">
-      <div id="top-line"  ><!--id for top line-->
+      <div id="top-line" style="" ><!--id for top line-->
         <div class="container"><!--container start here-->
           <div class="row topLineText " >
               <div class="col-sm-2 col-xs-12">
@@ -65,7 +65,7 @@
 
 
       <!--it contains logo,navbar,add-to-cart-->
-      <div id="navHeader" style="box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);">
+      <div id="navHeader" >
         <div class="container"><!--container start here-->
           <div class="row "><!--nav header starts here-->
               <div  class="col-sm-4 paddingtop20 paddingbottom20 logo">
@@ -73,7 +73,7 @@
                   <h1>Creative Design</h1>
                 </a>  
               </div><!--logo ends here here-->
-              <div class="col-sm-8">
+              <div class="col-sm-8"><!-- cart and nav linke starts here-->
                 <div class="row  ">
                   <div class="col-sm-12  listStyle "><!--cart starts here -->
                     <div class="pull-right ulBottomMargin"> 
@@ -202,14 +202,6 @@
                           <li class="active"><a href="index.php">HOME</a></li>
                           <li class="dropdown">
                             <a href="product.php" >PRODUCTS</a>
-                            <!-- <ul class="dropdown-menu navLiBackColor">
-                              <li><a href="appartmentNamePlates.php">Appartment Name Plates</a></li>
-                              <li><a href="product.php">Customised</a></li>
-                              <li><a href="wallClockProduct.php">Wall Clock Products</a></li>
-                              <li><a href="product.php">Home Name Plate</a></li>
-                              <li><a href="product.php">Simple Products</a></li>
-                              <li><a href="product.php">Villas Name Plate</a></li>
-                            </ul> -->
                           </li>
                           <li><a href="about.php">ABOUT US</a></li>
                           <li><a href="franchise.php">FRANCHISE</a></li>
@@ -221,83 +213,11 @@
                   </div>
                 </nav>
               </div><!--navbar ends here-->
-            </div><!-- cart and navbavr ends here-->
+            </div> <!-- cart and nav linke starts here>-->
           </div><!--nav header ends here-->
         </div><!--container ends here--> 
       </div>
-
-
-      <!--login model start --> 
-     <!--  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <h4 class="modal-title" id="myModalLabel">Login</h4>
-          </div>
-          <div class="modal-body">
-            <h4>Your Email*</h4>
-                  <input type="text" class="form-control padding20" id="exampleInputEmail1">
-                <h4>Your Password*</h4>
-                  <input type="text" class="form-control padding20" id="exampleInputEmail1">
-          </div>
-          <div class="modal-footer">
-            <div class="col-sm-12">
-              <a  data-toggle="modal" data-dismiss="modal" data-target="#myModal1"><p><h4 class="black">Register Here</h4></p></a>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Login</button>
-            </div>  
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!--login model end --> 
-
-    <!--register model start --> 
-    <!--   <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="flase">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <h4 class="modal-title" id="myModalLabel">Register Here</h4>
-          </div>
-          <div class="modal-body">
-                <div class="col-sm-6 noPadding">
-                    <h4>First Name</h4>
-                    <input type="text" class="form-control padding20" id="exampleInputEmail1">
-                  </div>
-                  <div class="col-sm-6 noPadding">
-                    <h4>Last Name</h4>
-                    <input type="text" class="form-control padding20" id="exampleInputEmail1">
-                  </div>
-                  <div class="col-sm-6 noPadding">
-                    <h4>Email Address</h4>
-                    <input type="text" class="form-control padding20" id="exampleInputEmail1">
-                  </div>
-                  <div class="col-sm-6 noPadding">
-                    <h4>Phone</h4>
-                    <input type="text" class="form-control padding20" id="exampleInputEmail1">
-                  </div>
-
-                  <div class="col-sm-12 noPadding">
-                    <h4>Town/City</h4>
-                    <input type="text" class="form-control padding20" id="exampleInputEmail1">
-                  </div>
-          </div>
-          <div class="modal-footer" style="border:none">
-              
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
-          </div>
-        </div>
-      </div>
     </div>
-    
 
-    </div> --><!--header ends here-->
-    <!-- top line ends here -->
 
+     
