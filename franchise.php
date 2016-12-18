@@ -14,22 +14,26 @@
 	
 	<!--  about us content-->
 	<div class="container">	
-		<div class="row card margintop30 marginbottom30 aboutContent">
-			<p class="padding10"> Given our experience in the market and in business, we think there would be unique and fruitful opportunity to be a franchise partner of our products. Our products are liked and appreciated by domestic and international customers too. We have seen immense interest and demand by many clients where we do not have physical presence. Though, we are expanding rapidly, we strongly belive that a like minded partner would add immense value to the company.</p>
+		<div class="row ">
+      <div class="col-sm-12"> 
+        <div class="card margintop30 marginbottom30 aboutContent">
+    			<p class="padding10"> Given our experience in the market and in business, we think there would be unique and fruitful opportunity to be a franchise partner of our products. Our products are liked and appreciated by domestic and international customers too. We have seen immense interest and demand by many clients where we do not have physical presence. Though, we are expanding rapidly, we strongly belive that a like minded partner would add immense value to the company.</p>
 
 
-			<p class="padding10">The franchise should be an individual/entrepreneur with some level of exposure to Interior Designing or Art
-			</p>
+    			<p class="padding10">The franchise should be an individual/entrepreneur with some level of exposure to Interior Designing or Art
+    			</p>
 
-			<p class="padding10"> The franchise should be willing to invest capital to operate a owned or rented retail outlet(175 to 300 Square feet) in very prime retail location or a famous mall.
-			</p>		
+    			<p class="padding10"> The franchise should be willing to invest capital to operate a owned or rented retail outlet(175 to 300 Square feet) in very prime retail location or a famous mall.
+    			</p>		
 
-			<p class="padding10">
-			GharKonacha.com is a closely held company, big on quality and determined to have strong positive influence one of surrounding communities. We will expect the same of our partners.</p>
-			<p class="padding10">
-			Prospective franchisee interested may please email or post with detail resume to rakeshkarli@gmail.com. We would get in touch with you at the earliest</p>
-		</div>
-	</div>
+    			<p class="padding10">
+    			GharKonacha.com is a closely held company, big on quality and determined to have strong positive influence one of surrounding communities. We will expect the same of our partners.</p>
+    			<p class="padding10">
+    			Prospective franchisee interested may please email or post with detail resume to rakeshkarli@gmail.com. We would get in touch with you at the earliest</p>
+		    </div>
+      </div>  
+    </div>
+  </div>
 
 
 

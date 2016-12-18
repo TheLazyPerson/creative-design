@@ -52,8 +52,8 @@
   
   
  <section class="container  ">
-    <div class="row margintop40 marginbottom35"> 
-      <div class=" center  "><!--starting of product row 1 -->
+    <div class="row margintop40 marginbottom35 center"> 
+     <!--  <div class="   "> --><!--starting of product row 1 -->
         <div class="col-sm-3 product">
             <div class="col-sm-12 onlyPaddingRight">
               <div class="card1 ">
@@ -76,18 +76,18 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
                     <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -120,25 +120,25 @@
                       <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                     </div>                      
-                  <div class="productbutton1   ">
-                      <div class="row">
-                        <div class="col-sm-2 noPaddingRight" style="">
-                          <a href="#">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                          </a> 
-                        </div>
-                        <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                          <a href="displayProduct.php">
-                            <i class="fa fa-plus" aria-hidden="true"> Details</i>
-                          </a> 
-                        </div>
-                        <div class="col-sm-6 pull-right noPaddingleft"> 
-                          <a href="customized.php">
-                            <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
-                          </a>
-                        </div>
-                      </div>  
-                  </div>
+                   <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
+                            <a href="#">
+                              <i class="fa fa-heart" aria-hidden="true"></i>
+                            </a> 
+                          </div>
+                          <div class="button2">
+                            <a href="displayProduct.php">
+                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
+                            </a> 
+                          </div>
+                          <div class="button3"> 
+                            <a href="customized.php">
+                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
+                            </a>
+                          </div>
+                        </div>  
+                    </div>
                 </div>
               </div>
             </div>
@@ -165,19 +165,19 @@
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
-                    <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                     <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -210,19 +210,19 @@
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
-                    <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                     <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -255,19 +255,19 @@
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
-                    <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                     <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -278,7 +278,7 @@
               </div>
             </div>
           </div>
-      </div>
+     <!--  </div> -->
     </section>
 <!-- end of all prduct carousal-->
 
@@ -311,8 +311,8 @@
                       <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View
                     </div>
                 </a>
-                  <div class="padding10">
-                      <h4>1.Appartment Name plates & Stainless Ethcing</h4>
+                  <div class="padding10 paddingtop2 0">
+                      <h4>2.Appartment Name plates & Stainless Ethcing</h4>
                       <div class="starIcon"> 
                         <i class="fa fa-star-o" aria-hidden="true"></i>
                         <i class="fa fa-star-o" aria-hidden="true"></i>
@@ -323,18 +323,18 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
                     <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -367,25 +367,25 @@
                       <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                     </div>                      
-                  <div class="productbutton1   ">
-                      <div class="row">
-                        <div class="col-sm-2 noPaddingRight" style="">
-                          <a href="#">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                          </a> 
-                        </div>
-                        <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                          <a href="displayProduct.php">
-                            <i class="fa fa-plus" aria-hidden="true"> Details</i>
-                          </a> 
-                        </div>
-                        <div class="col-sm-6 pull-right noPaddingleft"> 
-                          <a href="customized.php">
-                            <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
-                          </a>
-                        </div>
-                      </div>  
-                  </div>
+                   <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
+                            <a href="#">
+                              <i class="fa fa-heart" aria-hidden="true"></i>
+                            </a> 
+                          </div>
+                          <div class="button2">
+                            <a href="displayProduct.php">
+                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
+                            </a> 
+                          </div>
+                          <div class="button3"> 
+                            <a href="customized.php">
+                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
+                            </a>
+                          </div>
+                        </div>  
+                    </div>
                 </div>
               </div>
             </div>
@@ -412,19 +412,19 @@
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
-                    <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                     <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -457,19 +457,19 @@
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
-                    <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                     <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -502,19 +502,19 @@
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
-                    <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                     <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -568,19 +568,19 @@
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
-                    <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                     <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -613,25 +613,25 @@
                       <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                     </div>                      
-                  <div class="productbutton1   ">
-                      <div class="row">
-                        <div class="col-sm-2 noPaddingRight" style="">
-                          <a href="#">
-                            <i class="fa fa-heart" aria-hidden="true"></i>
-                          </a> 
-                        </div>
-                        <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
-                          <a href="displayProduct.php">
-                            <i class="fa fa-plus" aria-hidden="true"> Details</i>
-                          </a> 
-                        </div>
-                        <div class="col-sm-6 pull-right noPaddingleft"> 
-                          <a href="customized.php">
-                            <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
-                          </a>
-                        </div>
-                      </div>  
-                  </div>
+                   <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
+                            <a href="#">
+                              <i class="fa fa-heart" aria-hidden="true"></i>
+                            </a> 
+                          </div>
+                          <div class="button2">
+                            <a href="displayProduct.php">
+                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
+                            </a> 
+                          </div>
+                          <div class="button3"> 
+                            <a href="customized.php">
+                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
+                            </a>
+                          </div>
+                        </div>  
+                    </div>
                 </div>
               </div>
             </div>
@@ -658,19 +658,19 @@
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
-                    <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                     <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -703,19 +703,19 @@
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
-                    <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                     <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -748,19 +748,19 @@
                         <h5>₹ 3,000,00 - ₹ 9,000.00</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
                       </div>                      
-                    <div class="productbutton1   ">
-                        <div class="row">
-                          <div class="col-sm-2 noPaddingRight" style="">
+                     <div class="productbutton1   ">
+                        <div class="row text-center">
+                          <div class="button1" style="">
                             <a href="#">
                               <i class="fa fa-heart" aria-hidden="true"></i>
                             </a> 
                           </div>
-                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+                          <div class="button2">
                             <a href="displayProduct.php">
                               <i class="fa fa-plus" aria-hidden="true"> Details</i>
                             </a> 
                           </div>
-                          <div class="col-sm-6 pull-right noPaddingleft"> 
+                          <div class="button3"> 
                             <a href="customized.php">
                               <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
                             </a>
@@ -786,7 +786,7 @@
 
          <div class="row marginbottom40   noPaddingLeftRight">
             <div class="col-sm-3">
-               <div class="col-sm-12 " style="padding-right:0px;">
+              <!--  <div class=" " style="padding-right:0px;"> -->
                   <img src="images/showCase14.jpg" class="img-responsive blogImage margintop40"  >
                   <div class=" BlogContent blogImage1"> 
                      <h4 class="text-left paddingbottom10">August 26,2016</h4>
@@ -798,11 +798,11 @@
                         <button type="button" class="btn btn-info text-center">Read More</button>
                      </div>
                   </div>
-               </div>   
+              <!--  </div>    -->
             </div>
 
              <div class="col-sm-3">
-               <div class="col-sm-12 " style="padding-right:0px;">
+               <!-- <div class="" style="padding-right:0px;"> -->
                   <div class=" BlogContent1 margintop40 "> 
                     <div class="padding10">
                      <h4 class="text-left paddingbottom10">August 26,2016</h4>
@@ -815,11 +815,11 @@
                      </div></div>
                   </div>
                   <img src="images/showCase17.jpg" class="img-responsive blogImage1 "  >
-               </div>   
+               <!-- </div>    -->
             </div>
 
             <div class="col-sm-3">
-               <div class="col-sm-12 " style="padding-right:0px;">
+               <!-- <div class="" style="padding-right:0px;"> -->
                   <img src="images/showCase18.jpg" class="img-responsive blogImage margintop40"  >
                   <div class=" BlogContent blogImage1"> 
                     <h4 class="text-left paddingbottom10">August 26,2016</h4>
@@ -831,11 +831,11 @@
                         <button type="button" class="btn btn-info text-center">Read More</button>
                      </div>
                   </div>
-               </div>   
+               <!-- </div>  -->  
             </div>
 
             <div class="col-sm-3">
-               <div class="col-sm-12 " style="padding-right:0px;">
+               
                  <div class=" BlogContent1 margintop40"> 
                     <div class="padding10">
                      <h4 class="text-left paddingbottom10">August 26,2016</h4>
@@ -848,7 +848,7 @@
                      </div></div>
                   </div>
                   <img src="images/showCase17.jpg" class="img-responsive blogImage1 "  >
-               </div>   
+               
             </div>
          </div> 
       </div>
@@ -869,33 +869,33 @@
         </div>
 
         <!-- Product grid start here-->
-        <div class="row fivecolumns marginbottom30 margintop30">
-          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6">
+        <div class="row fivecolumns  margintop30">
+          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6  marginbottom30">
             <img src="images/showCase10.jpg" class="img-responsive productBorder">
           </div>
-          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 marginbottom30">
             <img src="images/showCase11.jpg" class="img-responsive productBorder">
          </div>
-         <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6">
+         <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 marginbottom30">
             <img src="images/showCase10.jpg" class="img-responsive productBorder">
          </div>
-          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 marginbottom30">
             <img src="images/showCase11.jpg" class="img-responsive productBorder">
           </div>
           
         </div>
     
         <div class="row fivecolumns marginbottom40">
-          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 marginbottom30">
             <img src="images/showCase10.jpg" class="img-responsive productBorder">
           </div>
-          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 marginbottom30">
             <img src="images/showCase11.jpg" class="img-responsive productBorder">
          </div>
-         <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6">
+         <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 marginbottom30">
             <img src="images/showCase10.jpg" class="img-responsive productBorder">
          </div>
-          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6">
+          <div class="col-md-3 col-sm-3 col-lg-3 col-xs-6 marginbottom30">
             <img src="images/showCase11.jpg" class="img-responsive productBorder">
           </div>
         </div>

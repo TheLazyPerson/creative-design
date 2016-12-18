@@ -2,8 +2,8 @@
 
 
 	<div class="container ">
-		<div class="row margintop40">
-			<div class="col-sm-4">
+		<div class="row ">
+			<div class="col-sm-4  margintop30">
 				<div class="col-sm-12 productBorder">
 					<div class="testinomialcontent ">
 						<img src="images/quotes1.png" class="img-responsive">
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 		
-			<div class="col-sm-4">
+			<div class="col-sm-4 margintop30">
 				<div class="col-sm-12 productBorder">
 					<div class="testinomialcontent ">
 						<img src="images/quotes1.png" class="img-responsive">
@@ -30,7 +30,7 @@
 					</div>	
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 margintop30">
 				<div class="col-sm-12 productBorder">
 					<div class="testinomialcontent ">
 						<img src="images/quotes1.png" class="img-responsive">
@@ -45,8 +45,8 @@
 			</div>
 		</div>
 
-		<div class="row margintop40">
-			<div class="col-sm-4">
+		<div class="row ">
+			<div class="col-sm-4 margintop30">
 				<div class="col-sm-12 productBorder">
 					<div class="testinomialcontent ">
 						<img src="images/quotes1.png" class="img-responsive">
@@ -60,7 +60,7 @@
 				</div>
 			</div>
 		
-			<div class="col-sm-4">
+			<div class="col-sm-4 margintop30">
 				<div class="col-sm-12 productBorder">
 					<div class="testinomialcontent ">
 						<img src="images/quotes1.png" class="img-responsive">
@@ -73,7 +73,7 @@
 					</div>	
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 margintop30">
 				<div class="col-sm-12 productBorder">
 					<div class="testinomialcontent ">
 						<img src="images/quotes1.png" class="img-responsive">
@@ -88,8 +88,8 @@
 			</div>
 		</div>
 
-		<div class="row margintop40">
-			<div class="col-sm-4">
+		<div class="row marginbottom30">
+			<div class="col-sm-4 margintop30">
 				<div class="col-sm-12 productBorder">
 					<div class="testinomialcontent ">
 						<img src="images/quotes1.png" class="img-responsive">
@@ -103,7 +103,7 @@
 				</div>
 			</div>
 		
-			<div class="col-sm-4">
+			<div class="col-sm-4 margintop30">
 				<div class="col-sm-12 productBorder">
 					<div class="testinomialcontent ">
 						<img src="images/quotes1.png" class="img-responsive">
@@ -116,7 +116,7 @@
 					</div>	
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-4 margintop30">
 				<div class="col-sm-12 productBorder">
 					<div class="testinomialcontent ">
 						<img src="images/quotes1.png" class="img-responsive">

@@ -6,7 +6,7 @@
 	<!--  about us content-->
 	<div class="container margintop40">	<!--starting of product grid -->
 		<div class="row marginbottom40" ><!--starting of product main row -->
-			<div class="col-sm-3 colleftstyelnone"><!--starting of heading -->
+			<div class="col-sm-3 "><!--starting of heading -->
 				<div class="card marginbottom40" >
 					<div class=" priceRangeCheckbox  ">
 						<div class="headingContent padding10 ">
@@ -61,8 +61,8 @@
 			</div><!--end of heading -->
 
 			<div class="col-sm-9"><!--starting of product col -->
-				<div class="row  marginbottom40"><!--starting of product row 1 -->
-					<div class="col-sm-4 product">
+				<div class="row  "><!--starting of product row 1 -->
+					<div class="col-sm-4 product marginbottom40">
 			            <div class="col-sm-12 onlyPaddingRight">
 			              <div class="card1 ">
 			                <a href="#" class="hoverImage block " data-toggle="modal" 
@@ -84,18 +84,18 @@
 			                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
 			                      </div>                      
 			                    <div class="productbutton1   ">
-			                        <div class="row">
-			                          <div class="col-sm-2 noPaddingRight" style="">
+			                        <div class="row text-center">
+			                          <div class="button1" style="">
 			                            <a href="#">
 			                              <i class="fa fa-heart" aria-hidden="true"></i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+			                          <div class="button2">
 			                            <a href="displayProduct.php">
 			                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-6 pull-right noPaddingleft"> 
+			                          <div class="button3"> 
 			                            <a href="customized.php">
 			                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
 			                            </a>
@@ -107,7 +107,7 @@
 			            </div>
 			          </div>
 	
-					<div class="col-sm-4 product">
+					<div class="col-sm-4 product marginbottom40">
 			            <div class="col-sm-12 onlyPaddingRight">
 			              <div class="card1 ">
 			                <a href="#" class="hoverImage block " data-toggle="modal" 
@@ -129,18 +129,18 @@
 			                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
 			                      </div>                      
 			                    <div class="productbutton1   ">
-			                        <div class="row">
-			                          <div class="col-sm-2 noPaddingRight" style="">
+			                        <div class="row text-center">
+			                          <div class="button1" style="">
 			                            <a href="#">
 			                              <i class="fa fa-heart" aria-hidden="true"></i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+			                          <div class="button2">
 			                            <a href="displayProduct.php">
 			                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-6 pull-right noPaddingleft"> 
+			                          <div class="button3"> 
 			                            <a href="customized.php">
 			                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
 			                            </a>
@@ -152,7 +152,7 @@
 			            </div>
 			          </div>
 
-					<div class="col-sm-4 product">
+					<div class="col-sm-4 product marginbottom40">
 			            <div class="col-sm-12 onlyPaddingRight">
 			              <div class="card1 ">
 			                <a href="#" class="hoverImage block " data-toggle="modal" 
@@ -174,18 +174,18 @@
 			                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
 			                      </div>                      
 			                    <div class="productbutton1   ">
-			                        <div class="row">
-			                          <div class="col-sm-2 noPaddingRight" style="">
+			                        <div class="row text-center">
+			                          <div class="button1" style="">
 			                            <a href="#">
 			                              <i class="fa fa-heart" aria-hidden="true"></i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+			                          <div class="button2">
 			                            <a href="displayProduct.php">
 			                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-6 pull-right noPaddingleft"> 
+			                          <div class="button3"> 
 			                            <a href="customized.php">
 			                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
 			                            </a>
@@ -199,8 +199,8 @@
 					
 				</div>	<!--ending of product row 1 -->
 
-				<div class="row  marginbottom40"><!--starting of product row 1 -->
-					<div class="col-sm-4 product">
+				<div class="row   "><!--starting of product row 1 -->
+					<div class="col-sm-4 product marginbottom40">
 			            <div class="col-sm-12 onlyPaddingRight">
 			              <div class="card1 ">
 			                <a href="#" class="hoverImage block " data-toggle="modal" 
@@ -222,18 +222,18 @@
 			                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
 			                      </div>                      
 			                    <div class="productbutton1   ">
-			                        <div class="row">
-			                          <div class="col-sm-2 noPaddingRight" style="">
+			                        <div class="row text-center">
+			                          <div class="button1" style="">
 			                            <a href="#">
 			                              <i class="fa fa-heart" aria-hidden="true"></i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+			                          <div class="button2">
 			                            <a href="displayProduct.php">
 			                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-6 pull-right noPaddingleft"> 
+			                          <div class="button3"> 
 			                            <a href="customized.php">
 			                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
 			                            </a>
@@ -245,7 +245,7 @@
 			            </div>
 			          </div>
 	
-					<div class="col-sm-4 product">
+					<div class="col-sm-4 product marginbottom40">
 			            <div class="col-sm-12 onlyPaddingRight">
 			              <div class="card1 ">
 			                <a href="#" class="hoverImage block " data-toggle="modal" 
@@ -267,30 +267,30 @@
 			                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
 			                      </div>                      
 			                    <div class="productbutton1   ">
-			                        <div class="row">
-			                          <div class="col-sm-2 noPaddingRight" style="">
+			                        <div class="row text-center">
+			                          <div class="button1" style="">
 			                            <a href="#">
 			                              <i class="fa fa-heart" aria-hidden="true"></i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+			                          <div class="button2">
 			                            <a href="displayProduct.php">
 			                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-6 pull-right noPaddingleft"> 
+			                          <div class="button3"> 
 			                            <a href="customized.php">
 			                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
 			                            </a>
 			                          </div>
 			                        </div>  
-			                    </div>
+			                    </div>		
 			                  </div>
 			              </div>
 			            </div>
 			          </div>
 
-					<div class="col-sm-4 product">
+					<div class="col-sm-4 product marginbottom40">
 			            <div class="col-sm-12 onlyPaddingRight">
 			              <div class="card1 ">
 			                <a href="#" class="hoverImage block " data-toggle="modal" 
@@ -312,18 +312,18 @@
 			                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
 			                      </div>                      
 			                    <div class="productbutton1   ">
-			                        <div class="row">
-			                          <div class="col-sm-2 noPaddingRight" style="">
+			                        <div class="row text-center">
+			                          <div class="button1" style="">
 			                            <a href="#">
 			                              <i class="fa fa-heart" aria-hidden="true"></i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+			                          <div class="button2">
 			                            <a href="displayProduct.php">
 			                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-6 pull-right noPaddingleft"> 
+			                          <div class="button3"> 
 			                            <a href="customized.php">
 			                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
 			                            </a>
@@ -337,8 +337,8 @@
 					
 				</div>	<!--ending of product row 1 -->
 
-				<div class="row  marginbottom40"><!--starting of product row 1 -->
-					<div class="col-sm-4 product">
+				<div class="row  "><!--starting of product row 1 -->
+					<div class="col-sm-4 product marginbottom40">
 			            <div class="col-sm-12 onlyPaddingRight">
 			              <div class="card1 ">
 			                <a href="#" class="hoverImage block " data-toggle="modal" 
@@ -360,18 +360,18 @@
 			                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
 			                      </div>                      
 			                    <div class="productbutton1   ">
-			                        <div class="row">
-			                          <div class="col-sm-2 noPaddingRight" style="">
+			                        <div class="row text-center">
+			                          <div class="button1" style="">
 			                            <a href="#">
 			                              <i class="fa fa-heart" aria-hidden="true"></i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+			                          <div class="button2">
 			                            <a href="displayProduct.php">
 			                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-6 pull-right noPaddingleft"> 
+			                          <div class="button3"> 
 			                            <a href="customized.php">
 			                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
 			                            </a>
@@ -383,7 +383,7 @@
 			            </div>
 			          </div>
 	
-					<div class="col-sm-4 product">
+					<div class="col-sm-4 product marginbottom40">
 			            <div class="col-sm-12 onlyPaddingRight">
 			              <div class="card1 ">
 			                <a href="#" class="hoverImage block " data-toggle="modal" 
@@ -405,18 +405,18 @@
 			                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
 			                      </div>                      
 			                    <div class="productbutton1   ">
-			                        <div class="row">
-			                          <div class="col-sm-2 noPaddingRight" style="">
+			                        <div class="row text-center">
+			                          <div class="button1" style="">
 			                            <a href="#">
 			                              <i class="fa fa-heart" aria-hidden="true"></i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+			                          <div class="button2">
 			                            <a href="displayProduct.php">
 			                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-6 pull-right noPaddingleft"> 
+			                          <div class="button3"> 
 			                            <a href="customized.php">
 			                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
 			                            </a>
@@ -428,7 +428,7 @@
 			            </div>
 			          </div>
 
-					<div class="col-sm-4 product">
+					<div class="col-sm-4 product marginbottom40">
 			            <div class="col-sm-12 onlyPaddingRight">
 			              <div class="card1 ">
 			                <a href="#" class="hoverImage block " data-toggle="modal" 
@@ -450,18 +450,18 @@
 			                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur venenatis blandit. Praesent vehicula, libero non pretium vulputate, lacus arcu facilisis lectus, sed feugiat tellus nulla eu dolor. Nulla porta bibendum lectus quis euismod. Aliquam volutpat ultricies porttitor. Cras risus nisi, accumsan vel cursus ut, sollicitudin vitae dolor. Fusce scelerisque eleifend lectus in bibendum. Suspendisse lacinia egestas felis a volutpat.</p>
 			                      </div>                      
 			                    <div class="productbutton1   ">
-			                        <div class="row">
-			                          <div class="col-sm-2 noPaddingRight" style="">
+			                        <div class="row text-center">
+			                          <div class="button1" style="">
 			                            <a href="#">
 			                              <i class="fa fa-heart" aria-hidden="true"></i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-4 noPaddingLeftRight noPaddingRight">
+			                          <div class="button2">
 			                            <a href="displayProduct.php">
 			                              <i class="fa fa-plus" aria-hidden="true"> Details</i>
 			                            </a> 
 			                          </div>
-			                          <div class="col-sm-6 pull-right noPaddingleft"> 
+			                          <div class="button3"> 
 			                            <a href="customized.php">
 			                              <i class="fa fa-pencil-square-o" aria-hidden="true"> Customized</i>
 			                            </a>

@@ -13,117 +13,129 @@
 <div class="clearfix"></div>
 	
 	<!--  about us content-->
-		<div class="container card margintop30 marginbottom30">	
-			<div class="row  margintop30 marginbottom50 aboutContent" >
-				<div class="col-sm-4" >
-	             <h3>Corporate Office</h3>
-	             	
-	             	<div class="address"> 
-	               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="card margintop30 marginbottom30 ">	
+						<div class="row storesPadding margintop30  aboutContent" >
+							<div class="col-sm-4" >
 
-	          		<div class="address "> 
-	               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
+				             <h3>Corporate Office</h3>
+				             	
+				             	<div class="address"> 
+				               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
 
-	          		<div class="address"> 
-	               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
-	          </div>
-	          <div class="col-md-8">
-        			<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
-    			</div>
+				          		<div class="address "> 
+				               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+
+				          		<div class="address"> 
+				               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+				          </div>
+				          <div class="col-md-8">
+			        			<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
+			    			</div>
+						</div>
+						<hr class="hrLine2" />
+
+						<div class="row storesPadding   aboutContent" >
+							<div class="col-sm-4" >
+
+				             <h3>Corporate Office</h3>
+				             	
+				             	<div class="address"> 
+				               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+
+				          		<div class="address "> 
+				               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+
+				          		<div class="address"> 
+				               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+				          </div>
+				          <div class="col-md-8">
+			        			<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
+			    			</div>
+						</div>
+						<hr class="hrLine2" />
+
+						<div class="row storesPadding   aboutContent" >
+							<div class="col-sm-4" >
+
+				             <h3>Corporate Office</h3>
+				             	
+				             	<div class="address"> 
+				               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+
+				          		<div class="address "> 
+				               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+
+				          		<div class="address"> 
+				               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+				          </div>
+				          <div class="col-md-8">
+			        			<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
+			    			</div>
+						</div>
+						<hr class="hrLine2" />
+
+						<div class="row storesPadding   aboutContent" >
+							<div class="col-sm-4" >
+
+				             <h3>Corporate Office</h3>
+				             	
+				             	<div class="address"> 
+				               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+
+				          		<div class="address "> 
+				               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+
+				          		<div class="address"> 
+				               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
+				                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
+				                		</div>
+				          		</div><!-- Address ends  here-->
+				          </div>
+				          <div class="col-md-8">
+			        			<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
+			    			</div>
+						</div>
+						<hr class="hrLine2" />
+					</div>
+				</div>
 			</div>
-			<hr/>
-
-			<div class="row  margintop30 marginbottom50 aboutContent" >
-				<div class="col-sm-4" >
-	             	<h3>Corporate Office</h3>	
-	             	<div class="address"> 
-	               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
-
-	          		<div class="address "> 
-	               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
-
-	          		<div class="address"> 
-	               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
-	          	</div>
-	          	<div class="col-md-8">
-        			<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
-    			</div>
-			</div>
-			<hr/>
-
-			<div class="row  margintop30 marginbottom50 aboutContent" >
-				<div class="col-sm-4" >
-	             <h3>Corporate Office</h3>
-	             	
-	             	<div class="address"> 
-	               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
-
-	          		<div class="address "> 
-	               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
-
-	          		<div class="address"> 
-	               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
-	          </div>
-	          <div class="col-md-8">
-        			<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
-    			</div>
-			</div>
-			<hr/>
-			
-			<div class="row  margintop30 marginbottom50 aboutContent" >
-				<div class="col-sm-4" >
-	             <h3>Corporate Office</h3>
-	             	
-	             	<div class="address"> 
-	               		 <p><i class="fa fa-home iconSize paddingbottom10 paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> Shop No. 6, Venktesh Hights, 448, Guruwar Peth, Nr. Ahilyadevi Mitra Mandal, Pune 411 042.</h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
-
-	          		<div class="address "> 
-	               		 <p><i class="fa fa-phone iconSize  paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> +91 - 80876 76981 </h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
-
-	          		<div class="address"> 
-	               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
-	                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
-	                		</div>
-	          		</div><!-- Address ends  here-->
-	          </div>
-	          <div class="col-md-8">
-        			<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
-    			</div>
-			</div>
-		</div>
+		</div>	
 
 
 

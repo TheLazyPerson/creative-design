@@ -80,10 +80,10 @@
 					    </tr>
 					</tbody>
 					</table>
-					<table class="table table-bordered">
+					<table class="table table-bordered tablepadding">
 					  <tbody>    
 					    <tr>
-					      <td class="col-sm-1 black">Length</td>
+					      <td class="col-sm-1 onlyPaddingRight black">Length</td>
 					      <td class="col-sm-1 ">14"</td>
 					      <td class="col-sm-1 black">Height</td>
 					      <td class="col-sm-1 ">14"</td>
