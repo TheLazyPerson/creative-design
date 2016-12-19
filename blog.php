@@ -17,7 +17,7 @@
 		<div class="container">	
 			<div class="row row-page margintop30 marginbottom30 aboutContent " >
         <div class="col-page col-sm-8 col-md-8 ">
-          <a href="" class="black fondo-publicacion-home">
+          <a href="displayBlog.php" class="black fondo-publicacion-home">
             <div class="img-publicacion-principal-home">
               <img class="" src="images/showCase11.jpg" class="img-responsive ">
             </div>

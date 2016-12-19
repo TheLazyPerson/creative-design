@@ -117,11 +117,11 @@ body{
 .dropdown-menu {
   width: 200%;
 }
-.form-control {
+/*.form-control {
 	padding: 0px 0px 0px 0px;
 	height: 2.2em;
 	border-radius: 2px;
-}
+}*/
 .listStyle ul{
   list-style: none;
   line-height: 3;
@@ -361,6 +361,10 @@ display: block;
 
 .marginrightZero{
   margin-right: 0px;
+}
+
+.marginleftZero{
+  margin-left: 0px;
 }
 .onlyPaddingRight{
   padding-left: 0px;
@@ -882,7 +886,7 @@ display: block;
 
 .productbutton1 i , span{
   font-size:1em;
-  line-height:2.3em;
+  line-height:1.5em;
   
 }
 
@@ -975,9 +979,11 @@ display: block;
   font-family: "Futura-Light", sans-serif;
 
 }
-.quantity h4{
+/*.quantity h4{
   float: left;
-}
+}*/
+
+
 .proWishList{
   text-decoration: none;
   color: black;
@@ -1026,8 +1032,19 @@ display: block;
 }
 
 
+.cart .cartHeading{
+  line-height: 2.5em;
+}
+
+.minheight175{
+  height: 200px;
+}
 
 
+.cartBorderRight{
+   border-right: 1px solid #ddd;
+   min-height: 200px;
+}
 .cartContent > li > a{
   float: left;
   margin-left: 0px;

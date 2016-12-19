@@ -187,3 +187,69 @@ body {
     border-radius: 3px;
     }
 }
+
+#myCarousel .carousel-caption {
+    left:0;
+    right:0;
+    bottom:0;
+    text-align:left;
+    padding:10px;
+    background:rgba(0,0,0,0.6);
+    text-shadow:none;
+}
+
+/*.item .active{
+    min-height: 1000px
+}
+*/
+
+.BlogItem{
+    border: 1px solid #ddd;
+    border-right:none; 
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+    height: 500px;
+    min-width: 100%;
+}
+
+#myCarousel .carousel-caption{
+    background: rgba(11, 186, 232,0.6);
+}
+.blueColor{
+    background: 
+}
+.item .activeBlog img{
+    min-height: 200px;
+}
+.activeBlog img{
+    height: 100px;
+}
+#myCarousel .list-group {
+    position:absolute;
+    top:0;
+    right:0;
+}
+#myCarousel .list-group-item {
+    border-radius:0px;
+    cursor:pointer;
+    min-height: 100px;
+}
+#myCarousel .list-group .active {
+    background-color:#0BBAE8;
+    border: none; 
+
+}
+
+@media (min-width: 992px) { 
+    #myCarousel {padding-right:33.3333%;}
+    #myCarousel .carousel-controls {display:none;}  
+}
+@media (max-width: 991px) { 
+    .carousel-caption p,
+    #myCarousel .list-group {display:none;} 
+}
+
+.carouselHeight{
+    min-height: 1000px
+}
+

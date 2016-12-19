@@ -16,44 +16,124 @@
   
 <section class="container margintop40 marginbottom20" >
 	<div class="row">
-  		<table class="table table-bordered">
-  			<thead class="thead-default">
-  			<td class="col-md-1 black thead-default"></td>
-		      <td class="col-md-1 black"></td>
-		      <td class="col-md-3 black">Product</td>
-		      <td class="col-md-2 black">Price</td>
-		      <td class="col-md-3 black">Quantity</td>
-		      <td class="col-md-2 black">Total</td>
-  			</thead>
-		  <tbody>
-		    <tr>
-		      <td class="col-md-1 black">
-		      	<a href="#">
-		      		<i class="fa fa-times" aria-hidden="true"></i>
-		      	</a>
-		      </td>
-		      <td class="col-md-1 black">
-		      	<img src="images/block1.jpg" class="img-responsive"   >
-		      </td>
-		      <td class="col-md-3 black">
-		      	Wooden Laser Cutting Earring 3
-		      </td>
-		      <td class="col-md-2 black">
-		      	₹ 175.00
-		      </td>
-		      <td class="col-md-3 black">
-		      	<div class="quantity ">
-						<input type="number" class="form-control productCount" value="1" id="exampleInputName2" placeholder=" ">
-					</div>
-		      </td>
-		      <td class="col-md-2 black">
-		      	₹ 175.00
-		      </td>
-		    </tr>
-		    			   
-		  </tbody>
-		</table>
-	</div>
+  		<div class=" col-sm-12 ">
+        <div class="card padding10 ">
+          <div class="row marginrightZero marginleftZero greayBorder cart  ">         
+             <div class="col-sm-1 cartBorderRight ">
+              <img src="images/block1.jpg" class="img-responsive minheight175"   >
+            </div>
+
+            <div class="col-sm-8 black cartBorderRight paddingtop30">
+              <div class="row">
+                  <div class="col-sm-6">
+                    <h4>Wooden Laser Cutting Earring 3</h4>
+                  </div>
+                  <div class="col-sm-6 text-right">  
+                      <i class="fa fa-times " aria-hidden="true"></i> 
+                  </div>
+              </div>   
+                <h4>₹ 175.00</h4>                
+                  <div class="quantity ">
+                    <!-- <input type="number" class="form-control productCount" value="1" id="exampleInputName2" placeholder=" "> -->
+                      <div class="input-group" style="width: 120px;">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+                                <span class="glyphicon glyphicon-minus"></span>
+                            </button>
+                        </span>
+                        <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                        </span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-3 faintgrey minheight175 paddingtop30 ">
+              <h4>ToTal :- ₹ 175.00</h4>  
+
+            </div>
+          </div>
+
+           <div class="row marginrightZero marginleftZero greayBorder cart  ">         
+             <div class="col-sm-1 cartBorderRight ">
+              <img src="images/product1.jpg" class="img-responsive minheight175"   >
+            </div>
+
+            <div class="col-sm-8 black cartBorderRight paddingtop30">
+              <div class="row">
+                  <div class="col-sm-6">
+                    <h4>Wooden Laser Cutting Earring 3</h4>
+                  </div>
+                  <div class="col-sm-6 text-right">  
+                      <i class="fa fa-times " aria-hidden="true"></i> 
+                  </div>
+              </div>   
+                <h4>₹ 175.00</h4>                
+                  <div class="quantity ">
+                    <!-- <input type="number" class="form-control productCount" value="1" id="exampleInputName2" placeholder=" "> -->
+                      <div class="input-group" style="width: 120px;">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+                                <span class="glyphicon glyphicon-minus"></span>
+                            </button>
+                        </span>
+                        <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                        </span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-3 faintgrey minheight175 paddingtop30 ">
+              <h4>ToTal :- ₹ 175.00</h4>  
+
+            </div>
+          </div>
+
+           <div class="row marginrightZero marginleftZero greayBorder cart  ">         
+             <div class="col-sm-1 cartBorderRight ">
+              <img src="images/product19.jpg" class="img-responsive minheight175"   >
+            </div>
+
+            <div class="col-sm-8 black cartBorderRight paddingtop30">
+              <div class="row">
+                  <div class="col-sm-6">
+                    <h4>Wooden Laser Cutting Earring 3</h4>
+                  </div>
+                  <div class="col-sm-6 text-right">  
+                      <i class="fa fa-times " aria-hidden="true"></i> 
+                  </div>
+              </div>   
+                <h4>₹ 175.00</h4>                
+                  <div class="quantity ">
+                    <!-- <input type="number" class="form-control productCount" value="1" id="exampleInputName2" placeholder=" "> -->
+                      <div class="input-group" style="width: 120px;">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+                                <span class="glyphicon glyphicon-minus"></span>
+                            </button>
+                        </span>
+                        <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+                                <span class="glyphicon glyphicon-plus"></span>
+                            </button>
+                        </span>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-3 faintgrey minheight175 paddingtop30 ">
+              <h4>ToTal :- ₹ 175.00</h4>  
+
+            </div>
+          </div>
+        </div>  
+	    </div>
+    </div>  
 </section>
 
 <section class="container faintgrey marginbottom40" >
@@ -91,25 +171,14 @@
   <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    
-    <script src="js/vegas.min.js"></script>
+    <script src="js/bootstrap-spinner.js"></script>
    <script type="text/javascript">
     $(document).ready(function(){
-      
-       $(".nav-tabs a").click(function(){
+        $(".nav-tabs a").click(function(){
         $(this).tab('show');
     });
-        $(".wrapper").vegas({
-            animation: 'kenburnsUp',
-            transitionDuration: 2000,
-            slides: [
-                { src: "images/slide-show-1-low.jpg" },
-                { src: "images/slide-show-3-low.jpg" },
-                { src: "images/slide-show-5-low.jpg" }
-            ]
-            
-        });
-
-       $(".dropdown").hover(            
+        
+        $(".dropdown").hover(            
           function() {
               $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
               $(this).toggleClass('open');        
@@ -119,13 +188,11 @@
               $(this).toggleClass('open');       
           }
       );
-        $(".center").slick({
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      autoplay: false,
-      autoplaySpeed: 2000
-      });
-
+       
+       $('.spinner').spinner({
+          min: 1,
+          max: 10
+        });
         
      $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
@@ -148,13 +215,13 @@
         // $('#myModal2').appendTo("body");
 
 
-      $('.collapse').on('shown.bs.collapse', function (e) {
-  $('.collapse').not(this).removeClass('in');
-});
+//       $('.collapse').on('shown.bs.collapse', function (e) {
+//   $('.collapse').not(this).removeClass('in');
+// });
 
-$('[data-toggle=collapse]').click(function (e) {
-  $('[data-toggle=collapse]').parent('li').removeClass('active');
-  $(this).parent('li').toggleClass('active');
-});
+// $('[data-toggle=collapse]').click(function (e) {
+//   $('[data-toggle=collapse]').parent('li').removeClass('active');
+//   $(this).parent('li').toggleClass('active');
+// });
 });
 </script>

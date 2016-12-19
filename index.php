@@ -4,7 +4,7 @@
     <div class="wrapper" id="fullpage mainnav"  style="position:relative">  
     </div>
       
-    <section class="margintop30 marginbottom30" style="min-height:600px">
+    <section class="margintop30 marginbottom30" style="min-height:600px" id="showcase">
       <div class="container topPosition">
         <div class="row">
           <div class="col-sm-3 col-xs-6 showcaseBorder smallBottomMargin">
@@ -36,11 +36,11 @@
 
 
     <!-- name plate heading with color-->
-    <section id="homeContent" class="" id="section1">
+    <section id="homeContent" class="">
       <div class="container"><!-- Heading Content starts here-->
-        <div class="row headingContent ">
-          <div class="col-sm-6 ">
-            <h1>Customized Nameplate</h1>
+        <div class="row headingContent">
+          <div class="col-sm-6">
+            <h1>Customize Nameplates</h1>
           </div>
           <div class="col-sm-6 text-right noPaddingLeftRight">
             <a href="product.php" class="whiteColor"><h1>View All</h1></a>

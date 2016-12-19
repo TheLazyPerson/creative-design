@@ -77,8 +77,8 @@
                   <li><a href="about.php">About Us</a></li> 
                   <li><a href="product.php">Product</a></li>
                   <li><a href="franchise.php">Franchise</a></li>
-                  <li><a href="">Cancallation & Returns/FAQ</a></li>
-                  <li><a href="">Terms & Condition</a></li>
+                  <li><a href="faq.php">Cancallation & Returns/FAQ</a></li>
+                  <li><a href="termsCondition.php">Terms & Condition</a></li>
                   <!-- <li><a href="">Site map</a></li>   --> 
                 </ul>
               </div>

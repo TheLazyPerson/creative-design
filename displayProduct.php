@@ -33,21 +33,16 @@
 				</div>
 				<div class="col-sm-7 proComtent"> 
 					<span class="proHead">Wooden Laser Cutting Earring 3</span><br/>
-						<h4>(1 customer review)</h4>
-						<i class="fa fa-star-o" aria-hidden="true"></i>
-						<i class="fa fa-star-o" aria-hidden="true"></i>
-						<i class="fa fa-star-o" aria-hidden="true"></i>
-						<i class="fa fa-star-o" aria-hidden="true"></i>
-						<i class="fa fa-star-o" aria-hidden="true"></i>
+						
 						
 					<h3>₹ 175.00 </h3>
 					<p class="drakGreay">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam fermentum pulvinar. Maecenas feugiat in enim in 
 					</p>
-					<div class="quantity ">
+					<!-- <div class="quantity ">
 						<h4 class="productCount">Quantity </h4>
 						<input type="number" class="form-control productCount" id="exampleInputName2" placeholder=" ">
-					</div>
+					</div> -->
 					<div class="clearfix"></div>
 					<a href="cart.php">
 						<button type="button" class="btn btn-info text-center">Add to Cart</button></a>
@@ -55,8 +50,14 @@
 					<!-- <h3 class="black">Note:</h3>
 					<h4>1. Size in Outer Dimensions. </h4>
 					<h4>2. Prices exclusive of taxes and Courier Charges. </h4> -->
-					<h4>Max. Rows: 1</h4> 
-					<h4>Max. Characters/row: 12</h4>
+					<div class="col-sm-3">
+						<h4>Max. Rows: 1</h4> 
+					</div>
+					<div class="col-sm-6">
+						<h4>Max. Characters/row: 12</h4>
+					</div>
+					
+				 
 
 					<table class="table table-bordered">
 					  <tbody>
@@ -101,12 +102,19 @@
 					      	<div class="col-md-2 black">Note:</div><br/>
 								1. Size in Outer Dimensions. <br/>
 								2. Prices exclusive of taxes and Courier Charges. <br/>
-									Max. Rows: 1 <br/>
-									Max. Characters/row: 12 <br/>
+									<!-- Max. Rows: 1 <br/>
+									Max. Characters/row: 12 <br/> -->
 					      </td>
 					    </tr>
 					  </tbody>
 					</table>
+
+					<h4>(1 customer review)</h4>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
+						<i class="fa fa-star-o" aria-hidden="true"></i>
 				</div>
 			</div>
 		</section>	
