@@ -1183,6 +1183,7 @@ display: block;
 }
 .custSize select{
     height: 44px;
+    width: 50px;
     padding: 0px;
     margin: 0px;
     font-size: 18px;
@@ -1197,8 +1198,35 @@ display: block;
     border-radius: 4px;
     
 }
+.custSize1 select{
+    height: 44px;
+    width: 260px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    display: block;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+.custSize>select>option{
+  height: 500px;
+}
+
+#div1 {
+    min-width: 100%;
+    min-height: 600px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
 .inputWidth1 input{
-  width: 80px;
+  width: 120px;
 }
 
 .inputWidth h5{
@@ -1230,6 +1258,35 @@ display: block;
 .tableBottomBorder thead>tr>th{
   height: 100px;
   padding-bottom: 30px;
+}
+
+
+  #thumbwrap {
+  /*margin:75px auto;
+  width:252px; height:252px;*/
+}
+.thumb {
+   /* must be floated for same cross browser position of larger image */
+  position:relative;
+  margin:3px;
+}
+.thumb img { 
+  border:1px solid #ddd;
+  vertical-align:bottom;
+}
+.thumb:hover {
+  border:0; /* IE6 needs this to show large image */
+  z-index:1;
+  min-height: 30px;
+}
+.thumb span { 
+  position:absolute;
+  visibility:hidden;
+}
+.thumb:hover span { 
+  visibility:visible;
+  top:37px; 
+  left: 0px; 
 }
 
 td{
