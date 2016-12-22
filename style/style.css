@@ -1165,7 +1165,7 @@ display: block;
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 } 
 
-.CustomSubHead{
+.CustomSubHead {
   padding: 5px 0px 5px 0px;
   background:#0BBAE8;
   color: white;
@@ -1220,10 +1220,18 @@ display: block;
 }
 
 #div1 {
-    min-width: 100%;
+    width:570px;
     min-height: 600px;
-    padding: 10px;
-    border: 1px solid #aaaaaa;
+    padding: 10px 10px 10px 0px;
+    border: 1px solid #ddd;
+}
+
+.custButton{
+  width: 80%;
+}
+
+.custButton i{
+  color: white;
 }
 .inputWidth1 input{
   width: 120px;
@@ -1231,14 +1239,28 @@ display: block;
 
 .inputWidth h5{
   padding-left: 10px;
+   color: black;
 }
 .inputWidth1 h5{
   padding-left: 10px;
+  color: black;
 }
 .cutomizeDropdown{
   min-width: 40px;
 }
 
+.styleBUI span{
+  padding: 10px;
+  background: #0BBAE8;
+  color: white;
+
+}
+.styleBUI i{
+  padding: 10px;
+  background: #0BBAE8;
+  color: white;
+  
+}
 .cutomizeDropdown ul.cutomizeDropdown-menu 
 {
   border-radius:4px;

@@ -15,7 +15,7 @@
 	<div class="row " >
 		<div class="col-sm-3 noPadding ">
 			<div class="card">
-				<div class="bs-example  padding10  " id="thumbwrap" style="min-height:600px">
+				<div class="bs-example  padding10  " id="thumbwrap" style="min-height:720px">
 				    <div class="panel-group" id="accordion">
 				        <div class="panel panel-default">
 				            <div class="panel-heading">
@@ -169,317 +169,326 @@
 	    	</div>
 		</div>
 
-		<div class="col-sm-6 ">
-			<div class="col-sm-12">
-				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-				<img id="drag1" src="images/showCase17.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69">
+		<div class="col-sm-6 text-center">
+			<div class="row">
+				<div class="col-sm-3 nopaddingleft ">
+					<div class="card  padding10">
+						<span> +91 8087676981</span>
+					</div>
+				</div>
+				<div class="col-sm-5 nopaddingleft ">
+					<div class="card padding10">
+						<span> How to make Nameplate ?</span>
+					</div>
+				</div>
+				<div class="col-sm-4 nopaddingleft">
+					<div class="card padding10">
+						<span>Request Design</span>
+					</div>
+				</div>
 			</div>	
+				<div class="row margintop20 nopaddingleft text-center">
+					<div class="col-md-offset-1 col-sm-2 ">
+						<a href="#"><img src="images/style1.jpg" class="img-responsive card" style="height:40px;"></a>
+					</div>
+
+					<div class="col-sm-2 ">
+						<a href="#">
+							<img src="images/style2.jpg" class="img-responsive card" style="height:40px;">
+						</a>		
+					</div>
+
+					<div class="col-sm-2 ">
+						<a href="#">
+							<img src="images/style3.jpg" class="img-responsive card" style="height:40px;">
+						</a>		
+					</div>
+
+					<div class="col-sm-2 ">
+						<a href="#">
+							<img src="images/style4.jpg" class="img-responsive card" style="height:40px;">
+						</a>		
+					</div>
+
+					<div class="col-sm-2 ">
+						<a href="#">
+							<img src="images/style5.jpg" class="img-responsive card" style="height:40px;">
+						</a>		
+					</div>
+				</div>	
+			
+			<div class="row margintop20">
+				<div class="col-sm-12 nopaddingleft">
+					<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<img id="drag1" src="images/product17.jpg" draggable="true" ondragstart="drag(event)" width="300px" height="300px">
+				</div>
+			</div>		
 		</div>
 
 
-		<div class="col-sm-3 card ">
-			<div class="paddingtop10 ">
-				<div class="CustomSubHead">
-					<h4>Your Name as on Name Plate</h4>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 inputWidth1  ">
-						<h5>Line 1	</h5>
-						<input type="text" class="form-control inputSize ">
-					</div>
-					<div class="col-sm-6  inputWidth paddingright20 noPadding ">
-						<div class="col-sm-6">
-							<h5>Size</h5>
-							
-				        	<div class="bs-docs-example custSize">
-				              <select class="selectpicker" data-style="btn-primary">
-				                  	<option>10</option>
-						            <option>20</option>
-						            <option>30</option>
-						            <option>40</option>
-						            <option>50</option>
-						            <option>60</option>
-						            <option>70</option>
-						            <option>80</option>
-						            <option>90</option>
-						            <option>100</option>
-						            <option>120</option>
-						            <option>130</option>
-						            <option>140</option>
-						            <option>150</option>
-						            <option>160</option>
-						            <option>170</option>
-						            <option>180</option>
-						            <option>190</option>
-						            <option>200</option>
-				              </select>
-			              </div>
-						</div>	
-						<!-- <div class="col-sm-4">	
-							<h5>Font</h5>	
-							<div class="bs-docs-example custSize">
-					              <select class="selectpicker" data-style="btn-primary">
-					                  	<option style="font-family: 'Comic Sans MS'">Comic Sans MS</option>
-     									<option style="font-family: Arial">Arial</option>
-     									<option style="font-family: 'Times New Roman'">Times New Roman</option>
-							        </select>
-							    </div>     
-						</div> -->
-						<div class="col-sm-6">	
-							<h5>Color</h5>
-							<!-- <input type="text"> -->
-							<div class="bs-docs-example custSize" >
-					              <select class="selectpicker" data-style="btn-primary">
-					                  	<option class=" height30" value="1" style="background-color: blue"></option>
-  										<option value="2" style="background-color: green"></option>
-  										<option value="2" style="background-color: red"></option>
-  										<option value="2" style="background-color: black"></option>
-  										<option value="2" style="background-color: white"></option>
-							            
-							        </select>
-							    </div>     
-						</div>
-					</div>
-				</div>
-				<hr class="hrLine">
-
-				<div class="row">
-					<div class="col-sm-6 inputWidth1  ">
-						<h5>Line 1	</h5>
-						<input type="text" class="form-control inputSize ">
-					</div>
-					<div class="col-sm-6  inputWidth paddingright20 noPadding ">
-						<div class="col-sm-6">
-							<h5>Size</h5>
-							
-				        	<div class="bs-docs-example custSize">
-				              <select class="selectpicker" data-style="btn-primary">
-				                  	<option>10</option>
-						            <option>20</option>
-						            <option>30</option>
-						            <option>40</option>
-						            <option>50</option>
-						            <option>60</option>
-						            <option>70</option>
-						            <option>80</option>
-						            <option>90</option>
-						            <option>100</option>
-						            <option>120</option>
-						            <option>130</option>
-						            <option>140</option>
-						            <option>150</option>
-						            <option>160</option>
-						            <option>170</option>
-						            <option>180</option>
-						            <option>190</option>
-						            <option>200</option>
-				              </select>
-			              </div>
-						</div>	
-						<!-- <div class="col-sm-4">	
-							<h5>Font</h5>	
-							<div class="bs-docs-example custSize">
-					              <select class="selectpicker" data-style="btn-primary">
-					                  	<option style="font-family: 'Comic Sans MS'">Comic Sans MS</option>
-     									<option style="font-family: Arial">Arial</option>
-     									<option style="font-family: 'Times New Roman'">Times New Roman</option>
-							        </select>
-							    </div>     
-						</div> -->
-						<div class="col-sm-6">	
-							<h5>Color</h5>
-							<!-- <input type="text"> -->
-							<div class="bs-docs-example custSize" >
-					              <select class="selectpicker" data-style="btn-primary">
-					                  	<option value="1" style="background-color: blue"></option>
-  										<option value="2" style="background-color: green"></option>
-  										<option value="2" style="background-color: red"></option>
-  										<option value="2" style="background-color: black"></option>
-  										<option value="2" style="background-color: white"></option>
-							            
-							        </select>
-							    </div>     
-						</div>
-					</div>
-				</div>
-				<hr class="hrLine">
-
-				<div class="row">
-					<div class="col-sm-6 inputWidth1  ">
-						<h5>Line 1	</h5>
-						<input type="text" class="form-control inputSize ">
-					</div>
-					<div class="col-sm-6  inputWidth paddingright20 noPadding ">
-						<div class="col-sm-6">
-							<h5>Size</h5>
-							
-				        	<div class="bs-docs-example custSize">
-				              <select class="selectpicker" data-style="btn-primary">
-				                  	<option>10</option>
-						            <option>20</option>
-						            <option>30</option>
-						            <option>40</option>
-						            <option>50</option>
-						            <option>60</option>
-						            <option>70</option>
-						            <option>80</option>
-						            <option>90</option>
-						            <option>100</option>
-						            <option>120</option>
-						            <option>130</option>
-						            <option>140</option>
-						            <option>150</option>
-						            <option>160</option>
-						            <option>170</option>
-						            <option>180</option>
-						            <option>190</option>
-						            <option>200</option>
-				              </select>
-			              </div>
-						</div>	
-						<!-- <div class="col-sm-4">	
-							<h5>Font</h5>	
-							<div class="bs-docs-example custSize">
-					              <select class="selectpicker" data-style="btn-primary">
-					                  	<option style="font-family: 'Comic Sans MS'">Comic Sans MS</option>
-     									<option style="font-family: Arial">Arial</option>
-     									<option style="font-family: 'Times New Roman'">Times New Roman</option>
-							        </select>
-							    </div>     
-						</div> -->
-						<div class="col-sm-6">	
-							<h5>Color</h5>
-							<!-- <input type="text"> -->
-							<div class="bs-docs-example custSize" >
-					              <select class="selectpicker" data-style="btn-primary">
-					                  	<option value="1" style="background-color: blue"></option>
-  										<option value="2" style="background-color: green"></option>
-  										<option value="2" style="background-color: red"></option>
-  										<option value="2" style="background-color: black"></option>
-  										<option value="2" style="background-color: white"></option>
-							            
-							        </select>
-							    </div>     
-						</div>
-					</div>
-				</div>
-				<hr class="hrLine">
-
-				<!-- <div class="row padding10 ">
+		<div class="col-sm-3  ">
+			<div class="row card">
+				<div class="padding10">
 					<div class="CustomSubHead">
 						<h4>Your Name as on Name Plate</h4>
+					</div>		
+					<div class="row">					
+						<div class="col-sm-6 inputWidth1  ">
+							<h5>Line 1	</h5>
+							<input type="text" class="form-control inputSize ">
+						</div>
+						<div class="col-sm-6  inputWidth paddingright20 noPadding ">
+							<div class="col-sm-6">
+								<h5>Size</h5>
+								
+					        	<div class="bs-docs-example custSize">
+					              <select class="selectpicker" data-style="btn-primary">
+					                  	<option>10</option>
+							            <option>20</option>
+							            <option>30</option>
+							            <option>40</option>
+							            <option>50</option>
+							            <option>60</option>
+							            <option>70</option>
+							            <option>80</option>
+							            <option>90</option>
+							            <option>100</option>
+							            <option>120</option>
+							            <option>130</option>
+							            <option>140</option>
+							            <option>150</option>
+							            <option>160</option>
+							            <option>170</option>
+							            <option>180</option>
+							            <option>190</option>
+							            <option>200</option>
+					              </select>
+				              </div>
+							</div>	
+								
+							<div class="col-sm-6">	
+								<h5>Color</h5>
+								<!-- <input type="text"> -->
+								<div class="bs-docs-example custSize" >
+						              <select class="selectpicker" data-style="btn-primary">
+						                  	<option class=" height30" value="1" style="background-color: blue"></option>
+	  										<option value="2" style="background-color: green"></option>
+	  										<option value="2" style="background-color: red"></option>
+	  										<option value="2" style="background-color: black"></option>
+	  										<option value="2" style="background-color: white"></option>
+								            
+								        </select>
+								    </div>     
+							</div>
+						</div>
 					</div>
-						<div class="margintop10 colorVisit">
-							<a href="#" class="">
-								<div class="col-sm-2 nopaddingleft paddingright10 "> 
-									<div class="height30 greyBorder " 	style="background:green;">
-									</div>	
-								</div>
+
+					<div class="row">					
+						<div class="col-sm-6 inputWidth1  ">
+							<h5>Line 1	</h5>
+							<input type="text" class="form-control inputSize ">
+						</div>
+						<div class="col-sm-6  inputWidth paddingright20 noPadding ">
+							<div class="col-sm-6">
+								<h5>Size</h5>
+								
+					        	<div class="bs-docs-example custSize">
+					              <select class="selectpicker" data-style="btn-primary">
+					                  	<option>10</option>
+							            <option>20</option>
+							            <option>30</option>
+							            <option>40</option>
+							            <option>50</option>
+							            <option>60</option>
+							            <option>70</option>
+							            <option>80</option>
+							            <option>90</option>
+							            <option>100</option>
+							            <option>120</option>
+							            <option>130</option>
+							            <option>140</option>
+							            <option>150</option>
+							            <option>160</option>
+							            <option>170</option>
+							            <option>180</option>
+							            <option>190</option>
+							            <option>200</option>
+					              </select>
+				              </div>
+							</div>	
+								
+							<div class="col-sm-6">	
+								<h5>Color</h5>
+								<!-- <input type="text"> -->
+								<div class="bs-docs-example custSize" >
+						              <select class="selectpicker" data-style="btn-primary">
+						                  	<option class=" height30" value="1" style="background-color: blue"></option>
+	  										<option value="2" style="background-color: green"></option>
+	  										<option value="2" style="background-color: red"></option>
+	  										<option value="2" style="background-color: black"></option>
+	  										<option value="2" style="background-color: white"></option>
+								            
+								        </select>
+								    </div>     
+							</div>
+						</div>
+					</div>
+
+					<div class="row">					
+						<div class="col-sm-6 inputWidth1  ">
+							<h5>Line 1	</h5>
+							<input type="text" class="form-control inputSize ">
+						</div>
+						<div class="col-sm-6  inputWidth paddingright20 noPadding ">
+							<div class="col-sm-6">
+								<h5>Size</h5>
+								
+					        	<div class="bs-docs-example custSize">
+					              <select class="selectpicker" data-style="btn-primary">
+					                  	<option>10</option>
+							            <option>20</option>
+							            <option>30</option>
+							            <option>40</option>
+							            <option>50</option>
+							            <option>60</option>
+							            <option>70</option>
+							            <option>80</option>
+							            <option>90</option>
+							            <option>100</option>
+							            <option>120</option>
+							            <option>130</option>
+							            <option>140</option>
+							            <option>150</option>
+							            <option>160</option>
+							            <option>170</option>
+							            <option>180</option>
+							            <option>190</option>
+							            <option>200</option>
+					              </select>
+				              </div>
+							</div>	
+								
+							<div class="col-sm-6">	
+								<h5>Color</h5>
+								<!-- <input type="text"> -->
+								<div class="bs-docs-example custSize" >
+						              <select class="selectpicker" data-style="btn-primary">
+						                  	<option class=" height30" value="1" style="background-color: blue"></option>
+	  										<option value="2" style="background-color: green"></option>
+	  										<option value="2" style="background-color: red"></option>
+	  										<option value="2" style="background-color: black"></option>
+	  										<option value="2" style="background-color: white"></option>
+								            
+								        </select>
+								    </div>     
+							</div>
+						</div>
+					</div>
+				</div>	
+					
+					<hr class="hrLine">
+
+					<div class="padding10">
+						<div class="CustomSubHead">
+							<h4>Font Family</h4>
+						</div>		
+							<div class="  fillterNav margintop20">
+								<h5>Line 1	</h5>
+					    		<div class="bs-docs-example custSize1" >
+					              	<select class="selectpicker" data-style="btn-primary">
+					                  	<option class="specialColor" value="volvo">Volvo</option>
+										<option class="specialColor" value="saab">Saab</option>
+										<option class="specialColor" value="mercedes">Mercedes</option>
+										<option class="specialColor" value="audi">Audi</option>
+							        </select>
+							    </div>     
+							</div>
+					
+
+							<div class="  fillterNav margintop20">
+								<h5>Line 2	</h5>
+					    		<div class="bs-docs-example custSize1" >
+					              	<select class="selectpicker" data-style="btn-primary">
+					                  	<option class="specialColor" value="volvo">Volvo</option>
+										<option class="specialColor" value="saab">Saab</option>
+										<option class="specialColor" value="mercedes">Mercedes</option>
+										<option class="specialColor" value="audi">Audi</option>
+							        </select>
+							    </div>     
+							</div>
+
+							<div class="  fillterNav margintop20">
+								<h5>Line 3	</h5>
+					    		<div class="bs-docs-example custSize1" >
+					              	<select class="selectpicker" data-style="btn-primary">
+					                  	<option class="specialColor" value="volvo">Volvo</option>
+										<option class="specialColor" value="saab">Saab</option>
+										<option class="specialColor" value="mercedes">Mercedes</option>
+										<option class="specialColor" value="audi">Audi</option>
+							        </select>
+							    </div>     
+							</div>
+						</div>
+
+					<hr class="hrLine">
+
+					<div class="padding10">
+						<!-- <div class="CustomSubHead">
+							<h4>Add Motif</h4>
+						</div> -->
+						<div class="row">
+							<div class="col-sm-6 styleBUI" >
+								<h5 class="marginbottom10">Style</h5>
+								<a href="#"><span >B</span></a>
+								<a href="#"><span class="">U</span></a>
+								<a href="#"><span class=""> I</span></a>		
+							</div>
+							<div class="col-sm-6 styleBUI">
+								<h5>Alignment</h5>	
+								<a href="#">
+									<span class="fa fa-align-left" aria-hidden="true"></span>
+									<span class="fa fa-align-center" aria-hidden="true"></span>
+									<span class="fa fa-align-right" aria-hidden="true"></span>
+								</a>		
+							</div>
+						</div>
+					</div>
+
+					<hr class="hrLine">
+
+					<div class="padding10 ">
+						<div class="col-sm-12 text-center paddingtop20">
+							<a href="#">
+								<button type="button" class="btn btn-info btn-lg text-center custButton ">Perfome Action</button>
 							</a>
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:yellow;">
-								</div>	
-							</div>
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:white;">
-								</div>	
-							</div>
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:blue;">
-								</div>	
-							</div>
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:purple;">
-								</div>	
-							</div>
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:white;">
-								</div>	
-							</div>	
-					</div>	
-					<div class="margintop50">
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:green;">
-								</div>	
-							</div>
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:yellow;">
-								</div>	
-							</div>
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:white;">
-								</div>	
-							</div>
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:blue;">
-								</div>	
-							</div>
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:purple;">
-								</div>	
-							</div>
-							<div class="col-sm-2 nopaddingleft paddingright10 "> 
-								<div class="height30 greyBorder " 	style="background:white;">
-								</div>	
-							</div>	
-					</div>   
-				<hr class="hrLine">
-			</div> -->	
+						</div>	
 
-					<div class="CustomSubHead margintop20">
-						<h4>Font Family</h4>
-					</div>
-					<div class="  fillterNav margintop20">
-						<h5>Line 1	</h5>
-			    		<div class="bs-docs-example custSize1" >
-			              	<select class="selectpicker" data-style="btn-primary">
-			                  	<option class="specialColor" value="volvo">Volvo</option>
-								<option class="specialColor" value="saab">Saab</option>
-								<option class="specialColor" value="mercedes">Mercedes</option>
-								<option class="specialColor" value="audi">Audi</option>
-					        </select>
-					    </div>     
+						<div class="col-sm-12 text-center paddingtop20">
+							<a href="#">
+								<button type="button" class="btn btn-info btn-lg text-center  custButton"><i class="fa fa-eye " aria-hidden="true"></i> Preview</button>
+							</a>
+						</div>	
+
+						<div class="col-sm-12 text-center paddingtop20 marginbottom30">
+							<a href="#">
+								<button type="button" class="btn btn-info btn-lg text-center custButton"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</button>
+							</a>
+						</div>		
 					</div>
 
-					<div class="  fillterNav margintop20">
-						<h5>Line 2	</h5>
-			    		<div class="bs-docs-example custSize1" >
-			              	<select class="selectpicker" data-style="btn-primary">
-			                  	<option class="specialColor" value="volvo">Volvo</option>
-								<option class="specialColor" value="saab">Saab</option>
-								<option class="specialColor" value="mercedes">Mercedes</option>
-								<option class="specialColor" value="audi">Audi</option>
-					        </select>
-					    </div>     
-					</div>
+					<!-- <hr class="hrLine">
+						<div class="padding10">
 
-					<div class="  fillterNav margintop20">
-						<h5>Line 3	</h5>
-			    		<div class="bs-docs-example custSize1" >
-			              	<select class="selectpicker" data-style="btn-primary">
-			                  	<option class="specialColor" value="volvo">Volvo</option>
-								<option class="specialColor" value="saab">Saab</option>
-								<option class="specialColor" value="mercedes">Mercedes</option>
-								<option class="specialColor" value="audi">Audi</option>
-					        </select>
-					    </div>     
-					</div>
-			    </div>
-				<hr class="hrLine">
-				<div class="clearfix"></div>
-
-				<div class="CustomSubHead">
-					<h4>Add Motif</h4>
-				</div>
-				<hr class="hrLine">
-
+						</div> -->
 			</div>	
-		</div>
+
+		</div>	
+	</div>
 
 	</div>
 	<hr class="hrLine margintop20">
 
-	<div class="container margintop40">
+	<div class="container margintop30 margintop30">
 		<div class="row ">
 			<div class="col-sm-6  ">
 				<div class="" style="min-height:520px"></div>
