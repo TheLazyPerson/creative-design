@@ -173,17 +173,17 @@
 			<div class="row">
 				<div class="col-sm-3 nopaddingleft ">
 					<div class="card  padding10">
-						<span> +91 8087676981</span>
+						<a href="#">+91 8087676981</a> 
 					</div>
 				</div>
 				<div class="col-sm-5 nopaddingleft ">
 					<div class="card padding10">
-						<span> How to make Nameplate ?</span>
+						<a href="#">How to make Nameplate ?</a> 
 					</div>
 				</div>
 				<div class="col-sm-4 nopaddingleft">
 					<div class="card padding10">
-						<span>Request Design</span>
+						<a href="#">Request Design</a> 
 					</div>
 				</div>
 			</div>	
@@ -219,8 +219,30 @@
 			
 			<div class="row margintop20">
 				<div class="col-sm-12 nopaddingleft">
-					<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-					<img id="drag1" src="images/product17.jpg" draggable="true" ondragstart="drag(event)" width="300px" height="300px">
+					<div id="div1" >
+    				<div class="span12" style="text-align:center">
+	                    <div class="dragme motifimage ui-draggable" id="selected_motif" style="position: absolute">
+	                        <p></p>
+	                    </div>
+
+	                    <div id="line1" class="dragme ui-draggable">
+	                        <p></p>
+	                    </div>
+	                    <div id="line2" class="dragme ui-draggable">
+	                        <p></p>
+	                    </div>
+	                    <div id="line3" class="dragme ui-draggable">
+	                        <p></p>
+	                    </div>
+	                    <div id="line4" class="dragme ui-draggable">
+	                        <p></p>
+	                    </div>
+					</div>
+					<img class="mainimage img-responsive" alt="" src="images/product1.jpg">
+					
+
+				    </div>
+					<!-- <img id="drag1" src="images/product17.jpg" draggable="true" ondragstart="drag(event)" width="300px" height="300px"> -->
 				</div>
 			</div>		
 		</div>
@@ -235,7 +257,7 @@
 					<div class="row">					
 						<div class="col-sm-6 inputWidth1  ">
 							<h5>Line 1	</h5>
-							<input type="text" class="form-control inputSize ">
+							<input type="text" class="form-control inputSize line-1-text">
 						</div>
 						<div class="col-sm-6  inputWidth paddingright20 noPadding ">
 							<div class="col-sm-6">
@@ -285,8 +307,8 @@
 
 					<div class="row">					
 						<div class="col-sm-6 inputWidth1  ">
-							<h5>Line 1	</h5>
-							<input type="text" class="form-control inputSize ">
+							<h5>Line 2	</h5>
+							<input type="text" class="form-control inputSize line-2-text">
 						</div>
 						<div class="col-sm-6  inputWidth paddingright20 noPadding ">
 							<div class="col-sm-6">
@@ -336,8 +358,8 @@
 
 					<div class="row">					
 						<div class="col-sm-6 inputWidth1  ">
-							<h5>Line 1	</h5>
-							<input type="text" class="form-control inputSize ">
+							<h5>Line 3	</h5>
+							<input type="text" class="form-control inputSize line-3-text">
 						</div>
 						<div class="col-sm-6  inputWidth paddingright20 noPadding ">
 							<div class="col-sm-6">
@@ -392,8 +414,8 @@
 						<div class="CustomSubHead">
 							<h4>Font Family</h4>
 						</div>		
-							<div class="  fillterNav margintop20">
-								<h5>Line 1	</h5>
+							<div class="fillterNav margintop20">
+								<h5>Line 1</h5>
 					    		<div class="bs-docs-example custSize1" >
 					              	<select class="selectpicker" data-style="btn-primary">
 					                  	<option class="specialColor" value="volvo">Volvo</option>
@@ -404,9 +426,8 @@
 							    </div>     
 							</div>
 					
-
-							<div class="  fillterNav margintop20">
-								<h5>Line 2	</h5>
+							<div class="fillterNav margintop20">
+								<h5>Line 2</h5>
 					    		<div class="bs-docs-example custSize1" >
 					              	<select class="selectpicker" data-style="btn-primary">
 					                  	<option class="specialColor" value="volvo">Volvo</option>
@@ -417,8 +438,8 @@
 							    </div>     
 							</div>
 
-							<div class="  fillterNav margintop20">
-								<h5>Line 3	</h5>
+							<div class="fillterNav margintop20">
+								<h5>Line 3</h5>
 					    		<div class="bs-docs-example custSize1" >
 					              	<select class="selectpicker" data-style="btn-primary">
 					                  	<option class="specialColor" value="volvo">Volvo</option>
@@ -697,21 +718,61 @@
 </div>
 <? include "footer.php" ?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+   <!-- <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script> -->
     <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
-  <script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.ui.touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 <script>
-function allowDrop(ev) {
-    ev.preventDefault();
-}
+	$(document).ready(function (e) {
+		$(".line-1-text").keyup(function(){
+			var text = $(this).val();
+	    	$("#line1 p").html(text);
+		});
 
-function drag(ev) {
-    ev.dataTransfer.setData("text", ev.target.id);
-}
+		$(".line-2-text").keyup(function(){
+			var text = $(this).val();
+	    	$("#line2 p").html(text);
+		});
+		$(".line-3-text").keyup(function(){
+			var text = $(this).val();
+	    	$("#line3 p").html(text);
+		});
 
-function drop(ev) {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
-}
+
+			/* drag names over name plate  */
+    $("div[class='dragme']").draggable({
+        containment: "#div1",
+        cursor: "move",
+        scroll: true,
+        drag: function() {
+            var $this = $(this);
+            var thisPos = $this.position();
+            var parentPos = $this.parent().position();
+
+            var x = thisPos.left;
+            var y = thisPos.top;
+
+            var id = $(this).attr("id").substring(4);
+            $("#line" + id + "coor").val(x + "," + y);
+        }
+    });
+	/* drag names over name plate  */
+
+	/* drag the motif over the name plate */
+    $("#selected_motif").draggable({
+        containment: "#div1",
+        cursor: "move",
+        scroll: true,
+        drag: function() {
+            var $this = $(this);
+            var thisPos = $this.position();
+
+            var x = thisPos.left;
+            var y = thisPos.top;
+            $("#motifcoor").val(x + "," + y);
+        }
+    });
+	});
 </script>

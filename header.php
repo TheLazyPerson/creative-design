@@ -29,13 +29,15 @@
   <link rel="stylesheet" href="style/blog.css">
   <link rel="stylesheet" href="style/slider.css">
   <link rel="stylesheet" href="style/style.css">
+  <link href="css/jquery-ui.min.css" rel="stylesheet" media="all">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
     <![endif]-->
-    <script></script>
+  
   </head>
   <body>
 
@@ -70,7 +72,7 @@
           <div class="row "><!--nav header starts here-->
               <div  class="col-sm-4 paddingtop20 paddingbottom20 logo">
                 <a href="index.php">
-                  <h1>Creative Design</h1>
+                  <h1>Ghar Konacha</h1>
                 </a>  
               </div><!--logo ends here here-->
               <div class="col-sm-8"><!-- cart and nav linke starts here-->

@@ -9,9 +9,11 @@ body{
     background: #fff;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    }
-
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+h3{
+  margin-top:10px !important;
+}
 .mediumGreay{
   color: #333;
 }
@@ -1805,6 +1807,12 @@ td{
 
 }
 
+
+#div1 .dragme {
+    position: absolute;
+    /*cursor: move;*/
+    padding: 5px;
+}
 
 /*==========  Mobile First Method  ==========*/
 

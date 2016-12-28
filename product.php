@@ -6,7 +6,8 @@
 	<!--  about us content-->
 	<div class="container margintop40">	<!--starting of product grid -->
 		<div class="row marginbottom40" ><!--starting of product main row -->
-			<div class="col-sm-3 "><!--starting of heading -->
+			<div class="col-sm-3 " ><!--starting of heading -->
+				<div class="affixed" data-spy="affix">
 				<div class="card marginbottom40" >
 					<div class=" priceRangeCheckbox  ">
 						<div class="headingContent padding10 ">
@@ -57,6 +58,7 @@
 							<a href="#" ><input class="form-check-input" type="checkbox" value=""> Rs. 10000 - Rs.15000</a>
 						</li>    						
 					</ul>
+				</div>
 				</div>
 			</div><!--end of heading -->
 
@@ -621,24 +623,33 @@
    <script type="text/javascript">
 
     $(document).ready(function(){
+
+    	var width = $('.affixed').width();
     	$(window).scroll(function () {
-          if ($(this).scrollTop() > 50) {
-              $('.back-to-top').fadeIn();
-          } else {
-              $('.back-to-top').fadeOut();
-          }
-      });
-      // scroll body to 0px on click
-      $('.back-to-top').click(function () {
+	          if ($(this).scrollTop() > 50) {
+	              $('.back-to-top').fadeIn();
+	          } else {
+	              $('.back-to-top').fadeOut();
+	          }
+	          if ($(this).scrollTop() > 100) {
+	             
+    			$('.affix').attr('width', width).attr('top' : 0);
+
+	          } else {
+	              $('.back-to-top').fadeOut();
+	          }
+      	});
+      	// scroll body to 0px on click
+      	$('.back-to-top').click(function () {
           $('.back-to-top').tooltip('hide');
           $('body,html').animate({
               scrollTop: 0
           }, 800);
           return false;
-      });
-      
-      $('#back-to-top').tooltip('show');
+      	});
     	
+      $('#back-to-top').tooltip('show');
+    
 
        
         $('.slider').slider();
@@ -653,14 +664,7 @@
               $(this).toggleClass('open');       
           }
       );
-        $(".center").slick({
-        dots: true,
-        infinite: true,
-        centerMode: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });
-
+        
     
 });
 </script>  
