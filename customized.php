@@ -1,6 +1,8 @@
 
 <? include "header.php" ?>
 
+  
+
 	<section id="homeContent" class="aboveMargin">
       <div class="container"><!-- Heading Content starts here-->
         <div class="row headingContent">
@@ -187,6 +189,9 @@
 					</div>
 				</div>
 			</div>	
+
+
+
 				<div class="row margintop20 nopaddingleft text-center">
 					<div class="col-md-offset-1 col-sm-2 ">
 						<a href="#"><img src="images/style1.jpg" class="img-responsive card" style="height:40px;"></a>
@@ -220,23 +225,23 @@
 			<div class="row margintop20">
 				<div class="col-sm-12 nopaddingleft">
 					<div id="div1" >
-    				<div class="span12" style="text-align:center">
+    				<div class="span12"  style="text-align:center">
 	                    <div class="dragme motifimage ui-draggable" id="selected_motif" style="position: absolute">
 	                        <p></p>
 	                    </div>
 
-	                    <div id="line1" class="dragme ui-draggable">
+	                    <div id="line1" class="dragme ui-draggable ">
 	                        <p></p>
 	                    </div>
-	                    <div id="line2" class="dragme ui-draggable">
+	                    <div id="line2" class="dragme ui-draggable ">
 	                        <p></p>
 	                    </div>
-	                    <div id="line3" class="dragme ui-draggable">
+	                    <div id="line3" class="dragme ui-draggable ">
 	                        <p></p>
 	                    </div>
-	                    <div id="line4" class="dragme ui-draggable">
+	                    <!-- <div id="line4" class="dragme ui-draggable">
 	                        <p></p>
-	                    </div>
+	                    </div> -->
 					</div>
 					<img class="mainimage img-responsive" alt="" src="images/product1.jpg">
 					
@@ -264,7 +269,7 @@
 								<h5>Size</h5>
 								
 					        	<div class="bs-docs-example custSize">
-					              <select class="selectpicker" data-style="btn-primary">
+					              <select class="selectpicker line-1-font-size " data-style="btn-primary" id="line1FontSize">
 					                  	<option>10</option>
 							            <option>20</option>
 							            <option>30</option>
@@ -292,12 +297,12 @@
 								<h5>Color</h5>
 								<!-- <input type="text"> -->
 								<div class="bs-docs-example custSize" >
-						              <select class="selectpicker" data-style="btn-primary">
-						                  	<option class=" height30" value="1" style="background-color: blue"></option>
-	  										<option value="2" style="background-color: green"></option>
-	  										<option value="2" style="background-color: red"></option>
-	  										<option value="2" style="background-color: black"></option>
-	  										<option value="2" style="background-color: white"></option>
+						              <select class="selectpicker line-1-font-color" data-style="btn-primary" id="line1FontColor">
+						                  	
+	  										<option value="00ff2e" style="background-color:#00ff2e"></option>
+	  										<option value="25247c" style="background-color: #25247c"></option>
+	  										<option value="000000" style="background-color:black"></option>
+     										<option value="ff0000" style="background-color:#ff0000"></option>
 								            
 								        </select>
 								    </div>     
@@ -315,7 +320,7 @@
 								<h5>Size</h5>
 								
 					        	<div class="bs-docs-example custSize">
-					              <select class="selectpicker" data-style="btn-primary">
+					              <select class="selectpicker line-2-font-size" data-style="btn-primary" id="line2FontSize">
 					                  	<option>10</option>
 							            <option>20</option>
 							            <option>30</option>
@@ -343,13 +348,11 @@
 								<h5>Color</h5>
 								<!-- <input type="text"> -->
 								<div class="bs-docs-example custSize" >
-						              <select class="selectpicker" data-style="btn-primary">
-						                  	<option class=" height30" value="1" style="background-color: blue"></option>
-	  										<option value="2" style="background-color: green"></option>
-	  										<option value="2" style="background-color: red"></option>
-	  										<option value="2" style="background-color: black"></option>
-	  										<option value="2" style="background-color: white"></option>
-								            
+						              <select class="selectpicker line-2-font-color" data-style="btn-primary" id="line2FontColor">
+						                  	<option value="00ff2e" style="background-color:#00ff2e"></option>
+	  										<option value="25247c" style="background-color: #25247c"></option>
+	  										<option value="000000" style="background-color:black"></option>
+     										<option value="ff0000" style="background-color:#ff0000"></option>
 								        </select>
 								    </div>     
 							</div>
@@ -366,7 +369,7 @@
 								<h5>Size</h5>
 								
 					        	<div class="bs-docs-example custSize">
-					              <select class="selectpicker" data-style="btn-primary">
+					              <select class="selectpicker line-3-font-size" data-style="btn-primary" id="line3FontSize">
 					                  	<option>10</option>
 							            <option>20</option>
 							            <option>30</option>
@@ -394,12 +397,11 @@
 								<h5>Color</h5>
 								<!-- <input type="text"> -->
 								<div class="bs-docs-example custSize" >
-						              <select class="selectpicker" data-style="btn-primary">
-						                  	<option class=" height30" value="1" style="background-color: blue"></option>
-	  										<option value="2" style="background-color: green"></option>
-	  										<option value="2" style="background-color: red"></option>
-	  										<option value="2" style="background-color: black"></option>
-	  										<option value="2" style="background-color: white"></option>
+						              <select class="selectpicker line-3-font-color" data-style="btn-primary" id="line3FontColor">
+						                  	<option value="00ff2e" style="background-color:#00ff2e"></option>
+	  										<option value="25247c" style="background-color: #25247c"></option>
+	  										<option value="000000" style="background-color:black"></option>
+     										<option value="ff0000" style="background-color:#ff0000"></option>
 								            
 								        </select>
 								    </div>     
@@ -718,61 +720,121 @@
 </div>
 <? include "footer.php" ?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   <!-- <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script> -->
+   <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
     <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
 	<script src="js/bootstrap.min.js"></script>
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.ui.touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+	<!--script src="https://code.jquery.com/jquery-1.12.4.js"></script-->
+	<script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.ui.touch-punch.js"></script>
 <script>
 	$(document).ready(function (e) {
+
+		/*$( "#selectable > div" ).selectable();*/
+
+		//for draging text
+		$( "#line1" ).draggable({
+			containment:"#div1 "
+		});
+		$( "#line2" ).draggable({
+			containment:"#div1 "
+		});
+		$( "#line3" ).draggable({
+			containment:"#div1 "
+		});
+		$( "#line4" ).draggable({
+			containment:"#div1 "
+		});
+			// $( "#line1" ).click(function() {
+			//   console.log('clicked!')
+			// });
+
+		
+		//for display input text on canvas
 		$(".line-1-text").keyup(function(){
 			var text = $(this).val();
 	    	$("#line1 p").html(text);
+	    	
 		});
 
 		$(".line-2-text").keyup(function(){
 			var text = $(this).val();
 	    	$("#line2 p").html(text);
+	    	
 		});
 		$(".line-3-text").keyup(function(){
 			var text = $(this).val();
 	    	$("#line3 p").html(text);
+	    	
 		});
+
+		//for applying font-size on canvas text
+		$(".line-1-font-size").change(function(){
+		 	var fontSize = $(" #line1FontSize option:selected ").text();
+		 	$("#line1 p").css('font-size',fontSize+'px' );
+		 });
+
+		$(".line-2-font-size").change(function(){
+		 	var fontSize = $(" #line2FontSize option:selected ").text();
+		 	$("#line2 p").css('font-size',fontSize+'px' );
+		 });
+
+		$(".line-3-font-size").change(function(){
+		 	var fontSize = $(" #line3FontSize option:selected ").text();
+		 	$("#line3 p").css('font-size',fontSize+'px' );
+		 });
+
+		//for applying text color on canvas text
+		$(".line-1-font-color").change(function(){
+		 	var color = $(this).val();
+		 	$("#line1 p").css('color','#'+color);
+		 });
+
+		$(".line-2-font-color").change(function(){
+		 	var color = $(this).val();
+		 	$("#line2 p").css('color','#'+color);
+		 });
+
+		$(".line-3-font-color").change(function(){
+		 	var color = $(this).val();
+		 	$("#line3 p").css('color','#'+color);
+		 });
+
+		
+	
 
 
 			/* drag names over name plate  */
-    $("div[class='dragme']").draggable({
-        containment: "#div1",
-        cursor: "move",
-        scroll: true,
-        drag: function() {
-            var $this = $(this);
-            var thisPos = $this.position();
-            var parentPos = $this.parent().position();
+    // $("div[class='dragme']").draggable({
+    //     containment: "#div1",
+    //     cursor: "move",
+    //     scroll: true,
+    //     drag: function() {
+    //         var $this = $(this);
+    //         var thisPos = $this.position();
+    //         var parentPos = $this.parent().position();
 
-            var x = thisPos.left;
-            var y = thisPos.top;
+    //         var x = thisPos.left;
+    //         var y = thisPos.top;
 
-            var id = $(this).attr("id").substring(4);
-            $("#line" + id + "coor").val(x + "," + y);
-        }
-    });
+    //         var id = $(this).attr("id").substring(4);
+    //         $("#line" + id + "coor").val(x + "," + y);
+    //     }
+    // });
 	/* drag names over name plate  */
 
 	/* drag the motif over the name plate */
-    $("#selected_motif").draggable({
-        containment: "#div1",
-        cursor: "move",
-        scroll: true,
-        drag: function() {
-            var $this = $(this);
-            var thisPos = $this.position();
+    // $("#selected_motif").draggable({
+    //     containment: "#div1",
+    //     cursor: "move",
+    //     scroll: true,
+    //     drag: function() {
+    //         var $this = $(this);
+    //         var thisPos = $this.position();
 
-            var x = thisPos.left;
-            var y = thisPos.top;
-            $("#motifcoor").val(x + "," + y);
-        }
-    });
+    //         var x = thisPos.left;
+    //         var y = thisPos.top;
+    //         $("#motifcoor").val(x + "," + y);
+    //     }
+    // });
 	});
 </script>
