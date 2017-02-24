@@ -36,9 +36,8 @@
 			    	<h4 class="text-center">Fitting place</h4>
 		    		<div class="bs-docs-example fillterDropdown">
 		              <select class="selectpicker" data-style="btn-primary">
-		                  	<option>Wall</option>
-				            <option>Door</option>
-				            <option>Sample 4</option>
+		                  	<option>Door</option>
+				            <option>Wall</option>
 				        </select>
 				    </div>  
 			    </div>

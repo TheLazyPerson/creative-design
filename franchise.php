@@ -1,22 +1,16 @@
 <? include "header.php" ?>
 
- <!--about us heading with color-->
-    <section id="homeContent" class="aboveMargin">
-      <div class="container"><!-- Heading Content starts here-->
-        <div class="row headingContent">
-          <div class="col-sm-12">
-            <h1>Franchise</h1>
-          </div>
-        </div>
-      </div><!-- Heading Content ends here-->
-    </section>
-<div class="clearfix"></div>
+ <div class="about-us-image" id="fullpage mainnav"  style="position:relative"> 
+    <div class="text-center aboutImgText" >
+       <h1>Franchise</h1> 
+    </div>
+  </div>
 	
 	<!--  about us content-->
 	<div class="container">	
 		<div class="row ">
       <div class="col-sm-12"> 
-        <div class="card margintop30 marginbottom30 aboutContent">
+        <div class=" margintop30 marginbottom30 aboutContent">
     			<p class="padding10"> Given our experience in the market and in business, we think there would be unique and fruitful opportunity to be a franchise partner of our products. Our products are liked and appreciated by domestic and international customers too. We have seen immense interest and demand by many clients where we do not have physical presence. Though, we are expanding rapidly, we strongly belive that a like minded partner would add immense value to the company.</p>
 
 
@@ -46,21 +40,21 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    
     <script src="js/vegas.min.js"></script>
+    <script src="js/common.js"></script>
    <script type="text/javascript">
     $(document).ready(function(){
       
        $(".nav-tabs a").click(function(){
         $(this).tab('show');
     });
-        $(".wrapper").vegas({
-            animation: 'kenburnsUp',
+        $(".about-us-image").vegas({
+          animation: 'kenburnsUp',
             transitionDuration: 2000,
             slides: [
-                { src: "images/slide-show-1-low.jpg" },
-                { src: "images/slide-show-3-low.jpg" },
-                { src: "images/slide-show-5-low.jpg" }
-            ]
-            
+                { src: "images/franchise-back.jpg" },
+                
+            ],
+            overlay: 'js/vegas/overlays/03.png'
         });
 
        $(".dropdown").hover(            

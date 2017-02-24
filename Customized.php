@@ -482,7 +482,7 @@
 								<td class="col-md-2">₹ 0</td>
 							</tr>	
 					</table>
-					
+
 					<table class="table margintop20 table-bordered tableBottomBorder">
 					    <tr>
 							<td rowspan="2" class="paddingtop40">Grand Total:</td>
@@ -550,21 +550,37 @@
 						 <h4> <input class="form-check-input" type="checkbox" value=""> Gift Wrap My Name Plate @ ₹100/-</h4>
 						 
 						<a href="#">
-							<button type="button" class="btn btn-info whiteColor1 text-center "><i class="fa fa-save "></i> &nbsp Save Name Plate and Continue</button>
+							<button type="button" class="btn btn-info whiteColor1 text-center " data-toggle="modal" data-target="#myModal3"><i class="fa fa-save "></i> &nbsp; Save Name Plate and Continue</button>
 						</a>	
 					</div>
 			
 			</div>
 		</div>
 	</div>
-
+	<!-- Modal -->
+	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+	      </div>
+	      <div class="modal-body">
+	        ...
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary" >Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 </div>
-<? include "footer.php" ?>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
     <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
   <script src="./js/bootstrap.min.js"></script>
-   <script src="./js/bootstrap-slider.js"></script>
      <script type="text/javascript">
     $(document).ready(function(){
       $(window).scroll(function () {
@@ -641,3 +657,4 @@ $(window).scroll(function(){
  
 });
 </script>
+<? include "footer.php" ?>

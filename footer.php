@@ -1,5 +1,5 @@
 <!--Footer -->
-    <Footer >
+    <footer >
       <div style="background:#202020;">
         <div class="container">
           <div class="row margintop40 marginbottom40">
@@ -115,79 +115,5 @@
     </div>  <!-- container ends  here-->
 
     <div style="min-height:50px;background:black"></div>
-  </Footer>
-  <!--script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/bootstrap-slider.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      
-       $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-    });
-        $(".wrapper").vegas({
-            animation: 'kenburnsUp',
-            transitionDuration: 2000,
-            slides: [
-                { src: "images/slide-show-1-low.jpg" },
-                { src: "images/slide-show-3-low.jpg" },
-                { src: "images/slide-show-5-low.jpg" }
-            ]
-            
-        });
-
-       $(".dropdown").hover(            
-          function() {
-              $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
-              $(this).toggleClass('open');        
-          },
-          function() {
-              $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
-              $(this).toggleClass('open');       
-          }
-      );
-        $(".center").slick({
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      autoplay: false,
-      autoplaySpeed: 2000
-      });
-
-        $(document).ready(function(){
-     $(window).scroll(function () {
-            if ($(this).scrollTop() > 50) {
-                $('.back-to-top').fadeIn();
-            } else {
-                $('.back-to-top').fadeOut();
-            }
-        });
-        // scroll body to 0px on click
-        $('.back-to-top').click(function () {
-            $('.back-to-top').tooltip('hide');
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
-        
-        $('#back-to-top').tooltip('show');
-
-});
-
-        // $('#myModal2').appendTo("body");
-
-
-      $('.collapse').on('shown.bs.collapse', function (e) {
-  $('.collapse').not(this).removeClass('in');
-});
-
-$('[data-toggle=collapse]').click(function (e) {
-  $('[data-toggle=collapse]').parent('li').removeClass('active');
-  $(this).parent('li').toggleClass('active');
-});
-
-$('.slider').slider()
-
-});
-</script-->
+  </footer>
+ 

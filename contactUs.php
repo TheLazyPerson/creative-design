@@ -17,8 +17,8 @@
 	<div class="container margintop30 marginbottom30">
 		<div class="row">
 			<div class="col-sm-6 paddingright20">
-				<div class="col-sm-12 card noPadding">
-	        		<div class="padding30">
+				<div class="col-sm-12 card ">
+	        		<div class="">
 	        			<h4>Your Name*</h4>
 	        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
 	        			<h4>Your Email*</h4>
@@ -28,16 +28,17 @@
 	        				
 	        			<h4>Your Message</h4>
 	        				<textarea class="form-control" rows="5" id="comment"></textarea>
-	        			<a href="#">
-							<button type="button" class="btn btn-info text-center ">Submit</button>
-						</a>					
+	        			<div class="paddingtop20 paddingbottom10">
+                  <a href="#">
+  							    <button type="button" class="btn btn-info text-center ">Submit</button>
+  					     	</a>
+                </div>					
 	        		</div>		
 	        	</div>
 			</div>
 			<div class="col-sm-6 ">
-				<div class="card ">
-					<div class="row    aboutContent" >
-						<div class="col-sm-12 padding30" >
+					<div class="aboutContent" >
+						<div class="col-sm-12  card" >
 			             <h3>Corporate Office</h3>
 			             	
 			             	<div class="address"> 
@@ -59,7 +60,8 @@
 			          		</div><!-- Address ends  here-->
 
 
-        			<iframe width="100%" height="285" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=Cyberborg%20Bodyart%2C%20Bangka%2C%20Jakarta%2C%20Indonesia&key=AIzaSyCGz8WzqxQw1OwHWey3LCTjqKFG9feCxP4"></iframe>
+        			
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.8434370325504!2d73.85068245009255!3d18.469234087377288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eab06333754b%3A0x134943aa26b59a7e!2sNatraj+Residency%2C+11%2F1A%2C+Building+B%2C+Chhatrapati+Sambhaji+Nagar%2C+Yashwantrao+Chavan+Nagar%2C+Pune%2C+Maharashtra+411043!5e1!3m2!1sen!2sin!4v1486152182289" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
     			
 	         			</div>
 					</div>
@@ -79,6 +81,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    
     <script src="js/vegas.min.js"></script>
+    <script src="js/common.js"></script>
    <script type="text/javascript">
     $(document).ready(function(){
       

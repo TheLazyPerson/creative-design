@@ -1,0 +1,200 @@
+14. Request Design -- 1
+	1. decide parameters
+		1. Name
+		2. Email
+		3. Contact Number
+		4. Your Requirements
+
+	2. create database
+		--done
+	3. Create Mapper Class
+	--done
+	4. Create Entity Class
+		--done
+	1. add new endpoint for requesting design
+	--done
+	2. add new endpoint for showing all the requested designs
+	--done
+	3. add new endpoint for getting specific requested design
+	--done
+	4. create modal for requesting design
+	--done
+	5. using jquery integrate modal with api
+	--done
+	6. create view for requested designs on admin panel
+	--done
+	7. Create details page for details of requested design
+	--done
+	8. Test the functionality
+
+32. add notes section in add new nameplate and product --partially done should do with all the other products	
+	1. add notes in database for both tables
+		--done
+	6. add notes textarea and js for the same in admin panel
+	--done
+	2. update entity and mapper class of nameplate
+	--done
+	3. update entitity and mapper class of product
+	4. update api endpoints
+	-- partially done
+	5. update ajax javascript to support notes
+	7. testing
+
+
+26. how to design nameplate --done
+	1. add tooltips to required sections
+	--done
+	2. add tooltip class to those sections
+	--done
+	
+1. Encorporate Current UI with backend
+	1. Show Quick view for both Product and Nameplate
+	--done
+	2. Remove the placeholder images
+	--done
+	3. Details page
+	--done
+	4. Zoom on Details page to product image
+	and many more.
+	--partially done
+	5. change all the buttons of products to anchor links
+	--done
+
+Priority:
+	1. list catagories on products page
+	--done
+	2. show pages based on category
+	1. create endpoint which can give combined products 
+
+	2. search 
+
+
+3. Login Functionality 
+
+	1. create new endpoint
+	--done
+	2. figure how the login can help for session maintainance
+	3. redirect users to respective pages
+	4. update login page to your taste
+	--can be done afterwards
+
+
+4. Sign Up functionality
+5. add following fields for product:
+	1. length, width, depth, weight
+	2. subcategory
+
+
+6. add following this to add new nameplate:
+	1. add motif
+
+	2. add fonts
+	3. add patterns
+	4. subcategory
+	5. 10-100 point font rate and after 100 points font rate is diffrent
+	6. Add Font Effect 
+
+	common steps:
+		1. change all these changes in the view
+		2. change all these changes in database
+		3. change all these things in api
+		
+
+2. completing adding new nameplate with all the functionality
+	1. verify if all the fields are going into database
+	2. show all the patterns motifs in the list
+	3. add and confirm all the data in database
+
+
+view side
+ 	1. complete products page
+ 		1. after clicking on category
+ 		2. after clicking on subcategory
+ 		3. after slider changes
+
+ 	2. notes is not shown in product detail page
+ 		--fix this
+ 	3. do something to fix products alignment
+ 		-- add rows to it
+
+ 	4. show quick view on products page
+ 	5. show added changes to normal products
+ 		such as height width, categeory , sub category
+ 		on displayProduct page
+ 		quick view on both the pages
+
+ 	6. add different classes to slick divs
+ 	7. reduce the magnifier zoom
+ 	8. show subcategories of nameplates 
+ 		and nameplates under them on customize page
+ 	9. Complete price calculator
+ 		add price after max characters
+ 	10. make mark products related
+
+ 	11. 
+
+
+
+add new 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+add new enpoint to get all the categories and subcategories

@@ -57,25 +57,25 @@
 					</div>
 
 					<div class="col-sm-2 ">
-						<a href="#" id="delete-selected-objects">
+						<a href="#">
 							<img src="images/style2.jpg" class="img-responsive card" style="height:40px;">
 						</a>		
 					</div>
 
 					<div class="col-sm-2 ">
-						<a href="#" class="horizontalCenter">
+						<a href="#" class="verticalCenter">
 							<img src="images/style3.jpg" class="img-responsive card" style="height:40px;">
 						</a>		
 					</div>
 
 					<div class="col-sm-2 ">
-						<a href="#" class="verticalCenter">
+						<a href="#">
 							<img src="images/style4.jpg" class="img-responsive card" style="height:40px;">
 						</a>		
 					</div>
 
 					<div class="col-sm-2 ">
-						<a href="#" >
+						<a href="#">
 							<img src="images/style5.jpg" class="img-responsive card" style="height:40px;">
 						</a>		
 					</div>
@@ -496,7 +496,7 @@
 						</table>
 						<table class="table paddingright20 table-bordered ">	
 							<tr>
-								<td class="col-md-9">Calligraphy Charges /-</td>
+								<td class="col-md-9">Gift Wrap Charges /-</td>
 								<td class="col-md-3 nameplate-gift-wrap"></td>
 							</tr>
 
@@ -515,7 +515,7 @@
 					
 					<h3>Remark</h3>	
 					<textarea class="form-control" rows="5" id="comment"></textarea>		
-					 <h4> <input class="form-check-input " id="gift-wrap-my-item" type="checkbox" value=""> Calligraphy Text @ ₹1000/-</h4>
+					 <h4> <input class="form-check-input " id="gift-wrap-my-item" type="checkbox" value=""> Gift Wrap My Name Plate @ ₹100/-</h4>
 						 
 					<a href="#">
 						<button type="button" class="btn btn-info whiteColor1 text-center "><i class="fa fa-save "></i> &nbsp; Save Name Plate and Continue</button>
@@ -593,14 +593,16 @@
 	</div>
 
 
-<? include "footer.php" ?>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    
 	<script src="js/bootstrap.min.js"></script>
     <script src="js/common.js"></script>
   	<script src="js/jquery.fontselect.min.js"></script>
+  	<script src="js/fabric.min.js"></script>
     <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/fabric.min.js"></script>
     <script src="js/customize.js"></script>
 	
 
+<? include "footer.php" ?>

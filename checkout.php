@@ -20,14 +20,14 @@
         		</div> -->
         			
 
-        		<div class="row margintop40">
+        		<!-- <div class="row margintop40">
         			<div class="cok-sm-12 faintgrey padding10" >
         				<h4>Have a coupon?</h4>
         				<a href="#"><h4> Click here to enter your code</h4></a>
         			</div>
-        		</div>
+        		</div> -->
 
-        		<div class="row">
+        		<div class="row paddingtop30">
 	        		<div class="col-sm-6">
 	        			<h3 class="black">Billing Details</h3>
 		        			<div class="col-sm-6 noPadding">

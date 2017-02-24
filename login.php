@@ -7,9 +7,9 @@
 				<div class="card ">
 					<div class="padding10"> 
 				    <h4>Your Email*</h4>
-            		<input type="text" class="form-control padding20" id="exampleInputEmail1">
+            		<input type="email" class="form-control padding20" id="exampleInputEmail1">
         		<h4>Your Password*</h4>
-            		<input type="text" class="form-control padding20" id="exampleInputEmail1">
+            		<input type="password" class="form-control padding20" id="exampleInputEmail1">
          		<!-- <a  data-toggle="modal" data-dismiss="modal" data-target="#myModal1"><p><h4 class="black">Register Here</h4></p></a> -->
                 <div class="paddingtop20">
                   <input class="form-check-input" type="checkbox" value=""> Remember Me
@@ -19,10 +19,10 @@
                 </div>
               	<!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
               	<button type="button" class="btn btn-primary" data-dismiss="modal">Login</button> -->
-                <div class="paddingbottom10 text-center">
-                  <a href="#">
-                    <button type="button" class="btn btn-info text-center " style="width:60%">Log In</button>
-                  </a>
+                <div class="paddingbottom10 paddingtop10 text-center">
+                
+                    <a href="index.php" type="button" class="btn btn-info text-center " style="width:60%">Log In</a
+                  
                 </div>
 
  					</div>	              	
@@ -46,6 +46,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    
     <script src="js/vegas.min.js"></script>
+    <script src="js/common.js"></script>
    <script type="text/javascript">
     $(document).ready(function(){
       

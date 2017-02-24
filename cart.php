@@ -13,128 +13,34 @@
       </div><!-- Heading Content ends here-->
     </section>
 <!--end of name plate heading with color-->
-  
-<section class="container margintop40 marginbottom20" >
-	<div class="row">
-  		<div class=" col-sm-12 ">
-        <div class="card padding10 ">
-          <div class="row marginrightZero marginleftZero greayBorder cart  ">         
-             <div class="col-sm-1 cartBorderRight ">
-              <img src="images/block1.jpg" class="img-responsive minheight175"   >
-            </div>
 
-            <div class="col-sm-8 black cartBorderRight paddingtop30">
-              <div class="row">
-                  <div class="col-sm-6">
-                    <h4>Wooden Laser Cutting Earring 3</h4>
-                  </div>
-                  <div class="col-sm-6 text-right">  
-                      <i class="fa fa-times " aria-hidden="true"></i> 
-                  </div>
-              </div>   
-                <h4>₹ 175.00</h4>                
-                  <div class="quantity ">
-                    <!-- <input type="number" class="form-control productCount" value="1" id="exampleInputName2" placeholder=" "> -->
-                      <div class="input-group" style="width: 120px;">
-                        <span class="input-group-btn">
-                            <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
-                                <span class="glyphicon glyphicon-minus"></span>
-                            </button>
-                        </span>
-                        <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
-                        <span class="input-group-btn">
-                            <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
-                                <span class="glyphicon glyphicon-plus"></span>
-                            </button>
-                        </span>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-sm-3 faintgrey minheight175 paddingtop30 ">
-              <h4>ToTal :- ₹ 175.00</h4>  
+<section  class="margintop40">
+  <div class="container">
+  <table id="cart" class="table table-hover table-condensed">
+      <thead>
+        <tr>
+          <td><a href="product.php" class="btn btn-warning"><i class="fa fa-angle-left" style="color:white;"></i> Continue Shopping</a></td>
+          <td colspan="2" class="hidden-xs"></td>
 
-            </div>
-          </div>
+        </tr>
+        <tr></tr>
+        <tr>
+          <th style="width:50%">Product</th>
+          <th style="width:10%">Price</th>
+          <th style="width:8%">Quantity</th>
+          <th style="width:22%" class="text-center">Subtotal</th>
+          <th style="width:10%"></th>
+        </tr>
+      </thead>
+      <tbody id="cart-products-go-here">
+        
+      </tbody>
+      
+    </table>
+  </div>
 
-           <div class="row marginrightZero marginleftZero greayBorder cart  ">         
-             <div class="col-sm-1 cartBorderRight ">
-              <img src="images/product1.jpg" class="img-responsive minheight175"   >
-            </div>
-
-            <div class="col-sm-8 black cartBorderRight paddingtop30">
-              <div class="row">
-                  <div class="col-sm-6">
-                    <h4>Wooden Laser Cutting Earring 3</h4>
-                  </div>
-                  <div class="col-sm-6 text-right">  
-                      <i class="fa fa-times " aria-hidden="true"></i> 
-                  </div>
-              </div>   
-                <h4>₹ 175.00</h4>                
-                  <div class="quantity ">
-                    <!-- <input type="number" class="form-control productCount" value="1" id="exampleInputName2" placeholder=" "> -->
-                      <div class="input-group" style="width: 120px;">
-                        <span class="input-group-btn">
-                            <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
-                                <span class="glyphicon glyphicon-minus"></span>
-                            </button>
-                        </span>
-                        <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
-                        <span class="input-group-btn">
-                            <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
-                                <span class="glyphicon glyphicon-plus"></span>
-                            </button>
-                        </span>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-sm-3 faintgrey minheight175 paddingtop30 ">
-              <h4>ToTal :- ₹ 175.00</h4>  
-
-            </div>
-          </div>
-
-           <div class="row marginrightZero marginleftZero greayBorder cart  ">         
-             <div class="col-sm-1 cartBorderRight ">
-              <img src="images/product19.jpg" class="img-responsive minheight175"   >
-            </div>
-
-            <div class="col-sm-8 black cartBorderRight paddingtop30">
-              <div class="row">
-                  <div class="col-sm-6">
-                    <h4>Wooden Laser Cutting Earring 3</h4>
-                  </div>
-                  <div class="col-sm-6 text-right">  
-                      <i class="fa fa-times " aria-hidden="true"></i> 
-                  </div>
-              </div>   
-                <h4>₹ 175.00</h4>                
-                  <div class="quantity ">
-                    <!-- <input type="number" class="form-control productCount" value="1" id="exampleInputName2" placeholder=" "> -->
-                      <div class="input-group" style="width: 120px;">
-                        <span class="input-group-btn">
-                            <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
-                                <span class="glyphicon glyphicon-minus"></span>
-                            </button>
-                        </span>
-                        <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
-                        <span class="input-group-btn">
-                            <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
-                                <span class="glyphicon glyphicon-plus"></span>
-                            </button>
-                        </span>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-sm-3 faintgrey minheight175 paddingtop30 ">
-              <h4>ToTal :- ₹ 175.00</h4>  
-
-            </div>
-          </div>
-        </div>  
-	    </div>
-    </div>  
 </section>
+
 
 <section class="container faintgrey marginbottom40" >
 	<div class="row ">
@@ -145,15 +51,15 @@
 					<thead><h3 class="black">Cart Totals</h3></thead>
 						<tr>
 							<td class="col-md-6 thead-default">Subtotal</td>
-							<td class="col-md-6">₹ 175.00</td>
+							<td class="col-md-6 " >₹ <span id="cart-page-subtotal"></span></td>
 						</tr>
 						<tr>	
 							<td class="col-md-6 black thead-default">Total</td>
-							<td class="col-md-6 black">₹ 175.00</td>
+							<td class="col-md-6 black">₹ <span id="cart-page-total"></span></td>
 
 						</tr>	
 				</table>
-					<div class="paddingbottom20">
+					<div class="paddingbottom20 paddingtop30">
 						<a href="checkout.php">
 							<button type="button" class="btn btn-info text-center ">Proceed to Checkout</button>
 						</a>	
@@ -172,11 +78,15 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    
     <script src="js/bootstrap-spinner.js"></script>
+    <script src="js/common.js"></script>
    <script type="text/javascript">
     $(document).ready(function(){
-        $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-    });
+
+      var rootUrl = 'http://localhost/work/api/public/';
+      var imageUrl = 'http://localhost/work/api/public/';
+      $(".nav-tabs a").click(function(){
+          $(this).tab('show');
+      });
         
         $(".dropdown").hover(            
           function() {
@@ -210,18 +120,57 @@
             return false;
         });
         
+
+
         $('#back-to-top').tooltip('show');
+        loadCart();
+        function loadCart(){
+            $.ajax({
+              url: rootUrl + "cart",
+              dataType: "json",
+              success : function(result) {
+                var data = result['products'];
+                var items = result['items'];
+                var total = result['total'];
+                var html = "";
+                var productId = "";
+                var productName = "";
+                var productDescription = "";
+                var productPrice = "";
+                var productType = "";
+                var productQuanitity = "";
+                $.each(data, function (key, value) {
+                    productId = data[key]['product_id'];
+                    productName = data[key]['product_name'];
+                    productDescription = data[key]['product_description'];
+                    productPrice = data[key]['product_price'];
+                    productType = data[key]['product_type'];
+                    productQuanitity = data[key]['product_quantity'];
+                    productImage = data[key]['product_image'];
+                    productSubtotal = data[key]['subtotal'];
+                    html += '<tr> <td data-th="Product"> <div class="row"> <div class="col-sm-4 hidden-xs"><img height="200px" width="250px" src="'+ imageUrl+productImage+'" alt="'+productName+'" class="img-responsive"/></div><div class="col-sm-8"> <h4 class="nomargin ">'+productName+'</h4> <p>'+productDescription+'</p></div></div></td><td data-th="Price">₹ '+productPrice+'</td><td data-th="Quantity"> <div class="input-group" style="width: 120px;"> <span class="input-group-btn"> <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner"> <span class="glyphicon glyphicon-minus"></span> </button> </span> <input type="text" data-ride="spinner" id="spinner" class="form-control text-center input-number" value="'+productQuanitity+'"> <span class="input-group-btn"> <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner"> <span class="glyphicon glyphicon-plus"></span> </button> </span> </div></td><td data-th="Subtotal" class="text-center">₹ '+productSubtotal+'</td><td class="actions" data-th=""> <button class="btn btn-danger btn-sm remove-cart-product" id="'+productId+'" data-product-type="'+productType+'"><i class="fa fa-trash-o" style="color:white;" ></i></button> </td></tr>';
 
-        // $('#myModal2').appendTo("body");
+                });
+                
 
-
-//       $('.collapse').on('shown.bs.collapse', function (e) {
-//   $('.collapse').not(this).removeClass('in');
-// });
-
-// $('[data-toggle=collapse]').click(function (e) {
-//   $('[data-toggle=collapse]').parent('li').removeClass('active');
-//   $(this).parent('li').toggleClass('active');
-// });
-});
+                $("#cart-page-subtotal").text(total);
+                $("#cart-page-total").text(total);
+                $("#cart-products-go-here").html(html);
+              },
+              error: function(xhr, resp, text) {
+                  console.log(xhr, resp, text);
+              }
+          }).done(function(){
+                $(".remove-cart-product").click(function(e){
+              var button = $(e.relatedTarget);
+              e.preventDefault();
+              var id = this.id;  
+              var type = $(this).data('product-type');
+              removeFromCart(id,type);
+              loadBasicCart();
+              loadCart();
+            }); 
+          });
+        }
+ }); 
 </script>

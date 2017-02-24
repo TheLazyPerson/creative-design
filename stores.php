@@ -149,6 +149,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
    
     <script src="js/vegas.min.js"></script>
+	<script src="js/common.js"></script>
    <script type="text/javascript">
     $(document).ready(function(){
       
