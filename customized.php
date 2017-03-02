@@ -53,10 +53,6 @@
 
 				<div class="row margintop20 nopaddingleft text-center">
 					<div class="col-md-offset-1 col-sm-2 ">
-						<a href="#" id="clear"><img src="images/style1.jpg" class="img-responsive card" style="height:40px;"></a>
-					</div>
-
-					<div class="col-sm-2 ">
 						<a href="#" id="delete-selected-objects">
 							<img src="images/style2.jpg" class="img-responsive card" style="height:40px;">
 						</a>		
@@ -73,10 +69,23 @@
 							<img src="images/style4.jpg" class="img-responsive card" style="height:40px;">
 						</a>		
 					</div>
+					<div class=" col-sm-2 ">
+						<a href="#" data-toggle="modal" data-target="#motifModal">
+							<div class="card" style="height:40px; width:40px;">
+								
+								<i class="fa fa-pencil-square-o" aria-hidden="true" class="card" style="font-size: 30px;  line-height: 40px;"> </i>
+							</div>
+						</a>
+					</div>
+
 
 					<div class="col-sm-2 ">
-						<a href="#" >
-							<img src="images/style5.jpg" class="img-responsive card" style="height:40px;">
+						<a href="#" data-toggle="modal" data-target="#say-cheese">
+							<div class="card" style="height:40px; width:40px;">
+								
+								<i class="fa fa-eye" aria-hidden="true" class="card" style="font-size: 30px; line-height: 40px;"> </i>
+							</div>
+							
 						</a>		
 					</div>
 				</div>	
@@ -398,60 +407,7 @@
 
 					<hr class="hrLine">
 
-					<div class="padding10">
-						<div class="CustomSubHead">
-							<h4>Add Motif</h4>
-
-						</div>
-						<div class="row">
-							<div class="col-sm-6 col-sm-offset-3 " >
-								<br>
-								<button type="button"  data-toggle="modal" data-target="#motifModal" class="btn btn-info whiteColor1"><i class="fa fa-eye" aria-hidden="true"></i> Add Motif</button>
-							</div>
-						</div>
-						<div class="CustomSubHead  marginbottom20 margintop20">
-							<h4 class=" ">Style</h4>
-
-						</div>
-						<div class="row">
-							<div class="col-sm-6 col-sm-offset-3 styleBUI" >
-								
-								<a href="#" class="boldStyle"><span>B</span></a>
-								<a href="#" class="underlineStyle"><span>U</span></a>
-								<a href="#" class="italicStyle"><span>I</span></a>		
-							</div>
-							<!-- <div class="col-sm-6 styleBUI">
-								<h5>Alignment</h5>	
-								<a href="#">
-									<span class="fa fa-align-left" aria-hidden="true"></span>
-									<span class="fa fa-align-center" aria-hidden="true"></span>
-									<span class="fa fa-align-right" aria-hidden="true"></span>
-								</a>		
-							</div> -->
-						</div>
-					</div>
-
-					<hr class="hrLine">
-
-					<div class="padding10 ">
-						
-						<div class="col-sm-12 text-center paddingtop20 marginbottom30">
-							<a href="#">
-								<button type="button" class="btn btn-info btn-lg text-center  custButton" id="say-cheese"><i class="fa fa-eye " aria-hidden="true"></i> Preview</button>
-							</a>
-						</div>	
-
-						<!-- <div class="col-sm-12 text-center paddingtop20 marginbottom30">
-							<a href="#">
-								<button type="button" class="btn btn-info btn-lg text-center custButton"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</button>
-							</a>
-						</div>	 -->	
-					</div>
-
-					<!-- <hr class="hrLine">
-						<div class="padding10">
-
-						</div> -->
+					
 			</div>	
 
 		</div>	
@@ -583,6 +539,23 @@
 		                    
 		                </div>
 
+		            </div>
+		        </div>
+		        <div class="modal-footer">
+		            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        </div>
+		    </div>
+		</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="say-cheese" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+		    <div class="modal-content">
+		        <div class="modal-header">
+		            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>		        </div>
+		        <div class="modal-body">
+		            <div class="container" >
+		                <img src="" class="img-responsive" id="snapshot">
 		            </div>
 		        </div>
 		        <div class="modal-footer">

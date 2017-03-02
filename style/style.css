@@ -2170,6 +2170,16 @@ https://github.com/marcaube/bootstrap-magnify
   -moz-text-fill-color: transparent; /* not yet supported */
   -moz-background-clip: text; /* not yet supported */
 }
+
+#sidebar.affix {
+    position: fixed;
+    top: 30px;
+}
+#sidebar.affix-bottom {
+    position: fixed;
+    top: 30px;
+}
+
 .table>tbody>tr>td, .table>tfoot>tr>td{
     vertical-align: middle;
 }
@@ -2378,3 +2388,5 @@ https://github.com/marcaube/bootstrap-magnify
 .font-select-active > a div b {
   background-position: -18px 1px;
 }
+
+

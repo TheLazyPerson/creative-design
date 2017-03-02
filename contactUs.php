@@ -18,23 +18,24 @@
 		<div class="row">
 			<div class="col-sm-6 paddingright20">
 				<div class="col-sm-12 card ">
-	        		<div class="">
+          <form class="contact-form">
+            
 	        			<h4>Your Name*</h4>
-	        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
+	        				<input type="text" class="form-control padding20" id="contact-name" required>
 	        			<h4>Your Email*</h4>
-	        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
+	        				<input type="email" class="form-control padding20" id="contact-email" required>
 	        			<h4>Subject*</h4>
-	        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
+	        				<input type="text" class="form-control padding20" id="contact-subject" required>
 	        				
 	        			<h4>Your Message</h4>
-	        				<textarea class="form-control" rows="5" id="comment"></textarea>
-	        			<div class="paddingtop20 paddingbottom10">
-                  <a href="#">
-  							    <button type="button" class="btn btn-info text-center ">Submit</button>
-  					     	</a>
-                </div>					
+	        				<textarea class="form-control" rows="5" id="contact-comment" required></textarea>
+  	        			<div class="paddingtop20 paddingbottom10">
+                    <a href="#">
+    							    <button type="submit" class="btn btn-info text-center ">Submit</button>
+    					     	</a>
+                  </div>					
 	        		</div>		
-	        	</div>
+	        	 </form>
 			</div>
 			<div class="col-sm-6 ">
 					<div class="aboutContent" >
@@ -55,13 +56,13 @@
 
 			          		<div class="address paddingbottom10"> 
 			               		 <p><i class="fa fa-envelope iconSize  paddingright10"></i><p> 
-			                		<div  style="ContactText"><h5> design@gharkonacha.com</h5>
+			                		<div  style="ContactText"><h5> rakeshkarli@gmail.com</h5>
 			                		</div>
 			          		</div><!-- Address ends  here-->
 
 
         			
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.8434370325504!2d73.85068245009255!3d18.469234087377288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eab06333754b%3A0x134943aa26b59a7e!2sNatraj+Residency%2C+11%2F1A%2C+Building+B%2C+Chhatrapati+Sambhaji+Nagar%2C+Yashwantrao+Chavan+Nagar%2C+Pune%2C+Maharashtra+411043!5e1!3m2!1sen!2sin!4v1486152182289" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30268.72320933809!2d73.8586369074447!3d18.502203563779847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9308370f466c6a8!2sCreative+Design!5e0!3m2!1sen!2sin!4v1488263064148" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
     			
 	         			</div>
 					</div>
@@ -71,7 +72,7 @@
 	</div>
 
 </section>
-<? include "footer.php" ?>
+
 
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -87,7 +88,36 @@
       
        $(".nav-tabs a").click(function(){
         $(this).tab('show');
-    });
+        });
+       $("form").submit(function(e){
+            e.preventDefault();
+            var contactName = $("#contact-name").val();
+            var contactEmail = $("#contact-email").val();
+            var contactSubject = $("#contact-subject").val();
+            var contactMessage = $("#contact-comment").val();
+            var contactData = new FormData();
+            contactData.append("name",contactName);
+            contactData.append("email",contactEmail);
+            contactData.append("subject",contactSubject);
+            contactData.append("message",contactMessage);
+            $.ajax({
+                type : "POST",
+                url: rootUrl + "contactus/add",
+                /*dataType: "json",*/
+                data: contactData,
+                contentType: false,
+                processData: false,
+                success : function(result) {
+                    if (result["success"]) {
+
+                        $("form")[0].reset();
+                    }
+                },
+                error: function(xhr, resp, text) {
+                    console.log(xhr, resp, text);
+                }
+            });
+        });
         $(".wrapper").vegas({
             animation: 'kenburnsUp',
             transitionDuration: 2000,
@@ -109,11 +139,11 @@
               $(this).toggleClass('open');       
           }
       );
-        $(".center").slick({
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      autoplay: false,
-      autoplaySpeed: 2000
+      $(".center").slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000
       });
 
         $(document).ready(function(){
@@ -150,3 +180,5 @@ $('[data-toggle=collapse]').click(function (e) {
 });
 });
 </script> 
+
+<? include "footer.php" ?>

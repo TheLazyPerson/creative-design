@@ -1,6 +1,6 @@
 
 // create a wrapper around native canvas element (with id="c")
-var canvas = new fabric.Canvas('div1');
+canvas = new fabric.Canvas('div1');
 var text, text2, text3, text4;
 
 
@@ -258,9 +258,14 @@ setup();
 		       	$(".colors").html(color);
 		       	$(".nameplate-base-price").text(productPrice);
 		       	$("#product-dimentions").attr('src',productImage4);
+		       
 
-		       	$("#div1").css('background-image','url('+productImage5+')');
+		       	//$("#div1").css('background-image','url('+productImage5+')');
 
+		       	fabric.Image.fromURL(productImage5, function(img) {
+				   img.set({width: canvas.width, height: canvas.height, originX: 'left', originY: 'top'});
+				   canvas.setBackgroundImage(img, canvas.renderAll.bind(canvas));
+				});
 		       	$("#nameplate-sample").attr('src',productImage);
 				
 
@@ -271,6 +276,8 @@ setup();
 		}).done(function(){
 			calculatePrice();
 			setFontFace();
+			
+			canvas.renderAll();
 		});
 
 
@@ -814,22 +821,15 @@ setup();
 		$(".line-4-font-family").html(html);
 			
     }
+    
+    $('#say-cheese').on('show.bs.modal', function (event) {
 
+		 if(!window.localStorage){alert("This function is not supported by your browser."); return;}
+		    // to PNG
+		   $("#snapshot").attr('src', canvas.toDataURL('png') );
+           
+	});
 
-    $("#say-cheese").click(function(){
-    	html2canvas($("#take-photo-here"), {
-            onrendered: function(canvas) {
-                theCanvas = canvas;
-                document.body.appendChild(canvas);
-
-                // Convert and download as image 
-                Canvas2Image.saveAsPNG(canvas); 
-                $("#nameplate-sample").append(canvas);
-                // Clean up 
-                //document.body.removeChild(canvas);
-            }
-        });
-    });
 	function deleteObjects(){
 		var activeObject = canvas.getActiveObject(),
 	    activeGroup = canvas.getActiveGroup();
@@ -869,6 +869,9 @@ setup();
         if(obj.getBoundingRect().top+obj.getBoundingRect().height  > obj.canvas.height || obj.getBoundingRect().left+obj.getBoundingRect().width  > obj.canvas.width){
             obj.top = Math.min(obj.top, obj.canvas.height-obj.getBoundingRect().height+obj.top-obj.getBoundingRect().top);
             obj.left = Math.min(obj.left, obj.canvas.width-obj.getBoundingRect().width+obj.left-obj.getBoundingRect().left);
-        }
+    }
+
+
+
 });
 
