@@ -9,7 +9,9 @@
 #selectable > div {position: absolute; margin: 0; padding:10px; border:solid 1px #CCC; width: 100px;}*/
 .ui-selectable-helper {position: absolute; z-index: 100; border:1px dotted black;}  
 </style>
-
+<script>
+var s = document.createElement('script'); s.setAttribute('src','http://developer.quillpad.in/static/js/quill.js?lang=Marathi&key=84c5be25b0e8fc00c31850da33a48148'); s.setAttribute('id','qpd_script'); s.setAttribute('quillpad','enable|english'); document.head.appendChild(s);
+</script>
 	<section id="homeContent" class="aboveMargin">
       <div class="container"><!-- Heading Content starts here-->
         <div class="row headingContent">
@@ -104,14 +106,13 @@
 				<div class="col-sm-12 nopaddingleft" >
 					<h3>Dimentions of  Nameplate</h3>
 					<img class="img-responsive " id="product-dimentions" src="images/product1.jpg" style="height: 250px; margin-left: auto; margin-right: auto;  ">
+					<span id="qpd_banner">Marathi Typing On This Site Is Powered By <a href="http://www.quillpad.in/" target="_blank">Quillpad</a>.</span>
 				</div>
 				<div class="col-sm-12 nopaddingleft" style="text-align: justify;"> 
 					<h3>Terms &amp; Conditions:</h3>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					
+					This virtual tool lets you visualize the name plate. On completion of design and payment, you will receive a link with all your chosen options by email which can be referred to for your chosen selection. In case, for whatever reason you feel that you do not like your chosen design OR you are in two minds about the look of the name plate, please convey the same to us within 24 hours of booking the name plate so that we do not start the production. Post 24 hours, we will presume that the design chosen by you is final and we will take it under production. <a href="customizeTermsAndConditions.php">Read More</a>
 				</div>
 				<div class="col-sm-12">
-					
 					<h4> <input class="form-check-input" type="checkbox" value=""> Accept the Terms &amp; Conditions</h4>
 				</div>
 			</div>	
@@ -127,8 +128,7 @@
 					<div class="row">					
 						<div class="col-sm-6 inputWidth1  ">
 							<h5>Line 1	</h5>
-							<input type="text" data-toggle="myToolTip"  data-placement="bottom" data-html="true"  title="<h4> Step 1</h4> <p>To Start With Select the nameplate of your choice<p>
-							<p>You can change the name plate any time you require<p>" class="form-control inputSize line-1-text hastooltip">
+							<input type="text"   class="form-control inputSize line-1-text hastooltip">
 						</div>
 						<div class="col-sm-6  inputWidth paddingright20 noPadding ">
 							<div class="col-sm-6">
@@ -564,6 +564,8 @@
 		    </div>
 		</div>
 	</div>
+
+
 
 
 <? include "footer.php" ?>

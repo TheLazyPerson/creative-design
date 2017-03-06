@@ -86,8 +86,8 @@
         </div>
     </section>
     <hr/>
-    <div class="container" style="min-height:600px;">
-        <div class="col-sm-12">
+    <div class="row" >
+        <div class="col-sm-12" style="min-height:600px;">
             <div class="tab-content">
                 <div >
                     <h3 class="black">Description</h3>
