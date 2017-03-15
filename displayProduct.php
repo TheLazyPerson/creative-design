@@ -18,7 +18,7 @@
                         <li class="productBorder"><a data-target="#pic-2" data-toggle="tab"><img src="" /></a></li>
                         <li class="productBorder"><a data-target="#pic-3" data-toggle="tab"><img src="" /></a></li>
                         <li class="productBorder"><a data-target="#pic-4" data-toggle="tab"><img src="" /></a></li>
-                        <li class="productBorder"><a data-target="#pic-4" data-toggle="tab"><img src="" /></a></li>
+                        <li class="productBorder"><a data-target="#pic-5" data-toggle="tab"><img src="" /></a></li>
                     </ul>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                 <h3 class="product-price"></h3>
                 <div class="clearfix"></div>
                 <a href="#" class="btn btn-info customize change-button shouldBeHidden"><i style="color:#ffffff;" class="fa fa-pencil-square-o" aria-hidden="true"></i> Customize</a>
-                <a href="#" class="btn btn-info add-into-cart change-button shouldBeVisible"><i  style="color:#ffffff;" class="fa fa-shopping-cart" aria-hidden="true"> </i> Add To Cart</a>
+                <a href="#" class="btn btn-info add-into-cart change-button shouldBeVisible add-to-cart-product"><i  style="color:#ffffff;" class="fa fa-shopping-cart" aria-hidden="true"> </i> Add To Cart</a>
                 <a href="#" class="btn btn-info add-to-wishlist" ><i  style="color:#ffffff;" class="fa fa-heart" aria-hidden="true"></i> Add to Wishlist </a>
                 <br />
                 <br />
@@ -86,6 +86,7 @@
         </div>
     </section>
     <hr/>
+
     <div class="row" >
         <div class="col-sm-12" style="min-height:600px;">
             <div class="tab-content">
@@ -106,23 +107,22 @@
                                 <h3 class="black">Add a review </h3>
                                 <h4>Your email address will not be published. Required fields are marked *</h4>
                                 <h4 class="reviewFeilds">Your Rating</h4>
-                                &nbsp;
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
-                                <i class="fa fa-star-o" aria-hidden="true"></i><br/>
-                                <h4 class="reviewFeilds">Your Review *</h4>
-                                <textarea class="form-control" rows="3"></textarea>
-                                <h4 class="reviewFeilds">Name *</h4>
-                                <input type="number" class="form-control " id="exampleInputName2" placeholder=" ">
-                                <h4 class="reviewFeilds">Email *</h4>
-                                <input type="number" class="form-control " id="exampleInputName2" placeholder=" ">
-                                <br>
                                 
-                                <button type="button" class="btn btn-info text-center margintop30; ">Add Review</button>
+                                <input id="review-rating" type="hidden" class="rating"/>
+                                <br>
+                                <h4 class="reviewFeilds">Your Review *</h4>
+                                <textarea  id="review-comment" class="form-control" rows="3" placeholder="Please Enter Your Comment" required></textarea>
+                                <h4 class="reviewFeilds">Name *</h4>
+                                <input type="text" id="review-name" class="form-control"  placeholder="Please Enter Your Name" required>
+                                <h4 class="reviewFeilds">Email *</h4>
+                                <input type="email" class="form-control" id="review-email" placeholder="Plase Enter You Email" required>
+                                <br>
+                                <button id="add-review" type="button" class="btn btn-info text-center margintop10 ">Add Review</button>
                             </div>
                         </div>
+                        <div class="row margintop30" id="reviews-go-here">
+                            
+                        </div>  
                     </section>
                 </div>
             </div>
@@ -135,6 +135,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.zoom.min.js"></script>
 <script src="js/common.js"></script>
+<script src="js/bootstrap-rating.min.js"></script>
 <script>
     $(document).ready(function(){
     	var getUrlParameter = function getUrlParameter(sParam) {
@@ -187,6 +188,8 @@
                     if (productFeatured == 1) { productFeatured = "Yes" }
                         
                     productPrice = "₹ "+ productPrice;
+
+                    $('.add-into-cart').attr("id", productId);
                     $('.product-name').text(productName);
                     $('.product-price').text(productPrice);
                     $('.product-description').text(productDescription);
@@ -218,7 +221,13 @@
     				$('[data-target="#pic-5"]').find('img').attr('src', productImage5);
                   
     				 $("#pic-1 img, #pic-2 img, #pic-3 img, #pic-4 img, #pic-5 img").wrap('<span ></span>').css('display', 'block').parent().zoom({	magnify: 3 });
-       
+                    $(".add-to-cart-product").click(function(e){
+                        
+                        e.preventDefault();
+                        var id = this.id;
+                        addToCart(id, 1);
+                        loadBasicCart();
+                    });
                 },
                 error: function(xhr, resp, text) {
                     console.log(xhr, resp, text);
@@ -226,7 +235,7 @@
             });
     	}else if (type == 2) {
     		$('.customize').attr('href', 'customized.php?id='+id);
-    
+            
     		$.ajax({
                 
     		    url: rootUrl + "product/nameplate/"+id,
@@ -313,7 +322,42 @@
     		});
     
     	}
-    	
+    	function loadReviews(){
+
+            $.ajax({
+            
+                url: rootUrl + "review/"+id+"/"+type,
+                dataType: "json",
+                success : function(result) {
+                    var html = "";
+                    var reviewId = "";
+                    var reviewerComment ="";
+                    var reviewerName = "";
+                    var reviewerEmail = "";
+                    var reviewerStars = "";
+                    //console.log(result);
+                    var data = result['reviews'];
+                    
+                    $.each(data, function (key, value) {
+                    
+                        reviewId = data[key]['review_id'];
+                        reviewerComment = data[key]['comment'];
+                        reviewerStars = data[key]['stars'];
+                        reviewerEmail = data[key]['email'];
+                        reviewerName = data[key]['name'];
+                        
+                        html += '<div class="col-md-12 margintop10"><div><b>'+reviewerName+'</b></div><div>'+reviewerComment+'</div></div>'; 
+                    });
+                    $("#reviews-go-here").html(html);
+                    
+                    
+                },
+                error: function(xhr, resp, text) {
+                    console.log(xhr, resp, text);
+                }
+            });
+             
+        }
     		$(window).scroll(function () {
     		    if ($(this).scrollTop() > 50) {
     		        $('.back-to-top').fadeIn();
@@ -338,7 +382,45 @@
             $(this).tab('show');
         });
     
-    
-      
+        $("#add-review").click(function(){
+            var rating = $("input.rating").val();
+            var comment = $("#review-comment").val();
+            var name = $("#review-name").val();
+            var email = $("#review-email").val();
+           
+
+            var reviewData = new FormData();
+
+            reviewData.append("product_id",id);
+            reviewData.append("product_type",type);
+            reviewData.append("comment",comment);
+            reviewData.append("stars",rating);
+            reviewData.append("email",email);
+            reviewData.append("name",name);
+            $.ajax({
+                type : "POST",
+                url: rootUrl + "review/add",
+                /*dataType: "json",*/
+                data: reviewData,
+                contentType: false,
+                processData: false,
+                success : function(result) {
+                    if (result["success"]) {
+
+                        $("#review-comment,#review-name,#review-email").val('');
+                    }
+                },
+                error: function(xhr, resp, text) {
+                    console.log(xhr, resp, text);
+                }
+            });
+
+            loadReviews();
+        });
+        
+        
+
+        loadReviews();
+
     });
 </script>

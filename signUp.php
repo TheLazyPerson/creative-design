@@ -2,39 +2,43 @@
 		
 	<section class="container margintop40 marginbottom40">
 		<div class="row  ">
+      <form class="form-signin" method="post" id="register-form">
+      <div id="error">
+        <!-- error will be showen here ! -->
+        </div>
 			<div class=" col-md-offset-3 col-sm-6  col-md-offset-4" >
 				<div class="card ">
 					<div class="padding10"> 
 				    <div class="col-sm-12 ">
             <h4>First Name</h4>
-            <input type="text" class="form-control padding20" id="exampleInputEmail1">
+            <input type="text" placeholder="First Name" class="form-control padding20" id="customer-first-name" name="first_name" required>
           </div>
           <div class="col-sm-12">
             <h4>Last Name</h4>
-            <input type="text" class="form-control padding20" id="exampleInputEmail1">
+            <input type="text" placeholder="Last Name" name="last_name" class="form-control padding20" id="customer-last-name"  required>
           </div>
           <div class="col-sm-12">
             <h4>Email Address</h4>
-            <input type="text" class="form-control padding20" id="exampleInputEmail1">
+            <input type="text" placeholder="Email Address" name="email" class="form-control padding20" id="customer-email-address" required>
           </div>
           <div class="col-sm-12">
             <h4>Phone</h4>
-            <input type="text" class="form-control padding20" id="exampleInputEmail1">
+            <input type="text" placeholder="Phone" name="phone" class="form-control padding20" id="customer-phone" required>
           </div>
 
           <div class="col-sm-12  paddingbottom20">
             <h4>Town/City</h4>
-            <input type="text" class="form-control padding20" id="exampleInputEmail1">
+            <input type="text" placeholder="Address" name="address" class="form-control padding20" id="customer-city" required>
           </div>
        	  <div class="col-sm-12  paddingbottom20">
             <h4>Password</h4>
-            <input type="password" class="form-control padding20" id="exampleInputEmail1">
+            <input type="password" placeholder="Password" name="address" class="form-control padding20" id="customer-password" required>
           </div>	
-                <div class="paddingbottom10  text-center">
-                  <a href="#">
-                    <button type="button" class="btn btn-info text-center " style="width:40%">Sign Up</button>
-                  </a>
-                </div>
+          <div class="paddingbottom10  text-center">
+            
+              <button type="submit" class="btn btn-info text-center " style="width:40%" id="btn-submit"><span class="glyphicon glyphicon-log-in"></span> Sign Up</button>
+            <p>By proceeding to next step you accept the <a href="termsCondition.php">Terms &amp; Conditions.</a></p>
+          </div>
 
  					</div>	              	
         </div>
@@ -44,7 +48,7 @@
           </div>
       </div>
 		   
-    	
+    	</form>
     </div>		    
 	</section>
 
@@ -60,6 +64,7 @@
    
     <script src="js/vegas.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/signup.js"></script>
    <script type="text/javascript">
     $(document).ready(function(){
       

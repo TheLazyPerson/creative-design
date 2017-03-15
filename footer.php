@@ -1,33 +1,14 @@
 <!--Footer -->
-    <footer >
-      <div style="background:#202020;">
+    
+<footer >
+    <div style="background:#202020;">
         <div class="container">
           <div class="row margintop40 marginbottom40">
             <div class="col-sm-3 footerTextColor"><!-- Testimonial start  here-->
               <h3>Testimonial</h3>
               <div id="menCollection" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="item active carouselElement">
-                      <a href="#">
-                        <h5>"1Good Going ! Amazing Serveice & Prompt Delivers"</h5>
-                        <span>Tarun Narula <br/>
-                        Luknow, 20-01-2016</span>
-                      </a>   
-                  </div><!-- End Item -->
-                  <div class="item carouselElement">
-                       <a href="#">
-                        <h5>"2Good Going ! Amazing Serveice & Prompt Delivers"</h5>
-                        <span>Tarun Narula <br/>
-                        Luknow, 20-01-2016</span>
-                      </a>  
-                  </div><!-- End Item -->
-                  <div class="item carouselElement">
-                      <a href="#">
-                        <h5>"3Good Going ! Amazing Serveice & Prompt Delivers"</h5>
-                        <span>Tarun Narula <br/>
-                        Luknow, 20-01-2016</span>
-                      </a>   
-                   </div><!-- End Item -->                                
+                <div class="carousel-inner" id="footer-testimonials">
+                                                
                 </div><!-- End Carousel Inner -->
                 <!-- Controls -->
                 <a class="left carousel-control" href="#menCollection" role="button" data-slide="prev">
@@ -87,13 +68,8 @@
             <div class="col-sm-3 footerTextColor FootSiteMap">
               <div class="col-md-offset-2">
               <h3>Products</h3>
-                <ul >
-                  <li><a href="">Nameplates</a></li>
-                  <li><a href="">Lampshades</a></li>
-                  <li><a href="">Wall Clocks</a></li>
-                  <li><a href="">Tea Coasters</a></li> 
-                  <li><a href="">Key chains</a></li>
-                  <li><a href="">Ear rings</a></li>   
+                <ul id="footer-categories">
+                  
                 </ul>
               </div>
             </div><!-- Products ends  here-->
@@ -116,4 +92,84 @@
 
     <div style="min-height:50px;background:black"></div>
   </footer>
- 
+
+  <script type="text/javascript">
+     
+     
+    function loadFooterCategories(){
+      $.ajax({
+            url: rootUrl + "categories",
+            dataType: "json",
+            success: function(result) {
+                var html = "";
+                var categoryId = "";
+                var categoryName = "";
+
+                //console.log(result);
+                var data = result['categories'];
+
+                $.each(data, function(key, value) {
+
+                    categoryId = data[key]['id'];
+                    categoryName = data[key]['name'];
+                    categoryDescription = data[key]['description'];
+
+                    productCategoryFiler = categoryName.replace(/\s+/g, '-').toLowerCase();
+
+                    html += '<li><a href="product.php?category='+productCategoryFiler+'" class="filters category-filter" data-filter="' + productCategoryFiler + '" >  ' + categoryName + '</a><ul>';
+                   
+                    html += '</li>';
+                });
+               
+                $("#footer-categories").html(html);
+
+
+        },
+        error: function(xhr, resp, text) {
+            console.log(xhr, resp, text);
+        }
+    });
+
+    }
+    function loadFooterTestimonials(){
+      $.ajax({
+      
+          url: rootUrl + "testimonials/footer",
+          dataType: "json",
+          success : function(result) {
+              var html = "";
+              var testimonialId = "";
+              var testimonialMessage ="";
+              var testimonialAuthor = "";
+              var testimonialPlace = "";
+              var testimonialDate = "";
+              //console.log(result);
+              var data = result['testimonials'];
+              
+              $.each(data, function (key, value) {
+              
+                  testimonialId = data[key]['id'];
+                  testimonialMessage = data[key]['message'];
+                  testimonialAuthor = data[key]['author'];
+                  testimonialPlace = data[key]['place'];
+                  testimonialDate = data[key]['date'];
+                  
+                  html += ' <div class="item carouselElement"><a href="#"><h5>'+testimonialMessage+'</h5><span>'+testimonialAuthor+' <br/> '+testimonialPlace+', '+testimonialDate+'</span></a></div><!-- End Item -->'; 
+              });
+              $("#footer-testimonials").html(html);
+              $("#footer-testimonials div").first().addClass("active");
+              
+          },
+          error: function(xhr, resp, text) {
+              console.log(xhr, resp, text);
+          }
+      })
+    }
+    $(document).ready(function (e) {
+
+        loadFooterCategories();
+        loadFooterTestimonials();
+    });
+
+
+  </script>

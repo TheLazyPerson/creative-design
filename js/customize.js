@@ -459,7 +459,7 @@ setup();
 		      canvas.renderAll();
 		    }
 		 	
-		 });
+		});
 		$(".horizontalCenter").click(function(e){
 			e.preventDefault();
 			if(canvas.getActiveGroup()){
@@ -481,15 +481,13 @@ setup();
 				canvas.renderAll();
 				$(this).css('background-color',color);
 		 	}else{
-		 		
-		 		fabric.util.loadImage(color, function(img) {
+		 		fabric.Image.fromURL(color, function(oimg) {
 			      text.fill = new fabric.Pattern({
-			        source: img,
+			        source: oimg,
 			        repeat: 'repeat'
 			      });
 			      canvas.renderAll();
 			    });
-
 
 		 	}
 		 });
@@ -717,7 +715,7 @@ setup();
                 motifImagePath = data['motif_path'];
 	              
                 fabric.Image.fromURL(imageUrl+motifImagePath, function(oImg) {
-                	oImg.scale(0.1).setFlipX(true);
+                	oImg.scale(0.1);
 				  	canvas.add(oImg);
 				});
             },
@@ -828,7 +826,14 @@ setup();
 		    // to PNG
 		   $("#snapshot").attr('src', canvas.toDataURL('png') );
            
+	});	
+
+	$(".save-name-plate").click(function(e){
+		e.preventDefault();
+		$.sessionStorage('chosenImg', canvas.toDataURL('png') );
+		window.location.href = "uploadhouseimage.php";
 	});
+
 
 	function deleteObjects(){
 		var activeObject = canvas.getActiveObject(),

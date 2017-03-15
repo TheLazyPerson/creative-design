@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
      
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-rating.css">
     <!--font Awosom-->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     

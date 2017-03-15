@@ -157,10 +157,16 @@
                     productImage4 = imageUrl+data[key]['images']["4"];
                     productImage5 = imageUrl+data[key]['images']["5"];
 
-                    html += '<div class="col-sm-3 product"><div class="col-sm-12 onlyPaddingRight"><div class="card1 marginbottom10"><a href="#" class="hoverImage block product" data-toggle="modal" data-target="#myModal2" data-title="'+productName+'" data-price="'+productPrice+'" data-description="'+productDescription+'" data-material="'+productMaterial+'"  data-length="'+productLength+'"  data-width="'+productWidth+'"  data-weight="'+productWeight+'"  data-image1="'+productImage+'" data-image2="'+productImage2+'" data-image3="'+productImage3+'" data-image4="'+productImage4+'" data-image5="'+productImage5+'" data-notes="'+productNotes+'" ><img src="'+ productImage +'" class="img-responsive padding10 "><div class="block-caption  "><i class="fa fa-eye" aria-hidden="true"></i> &nbsp; Quick View</div></a> <div class="padding10 paddingtop2 0"><h4>'+ productName +'</h4><div class="starIcon"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><h5> ₹'+ productPrice +'</h5><p>'+ productDescription +'</p></div><div><div class="row text-center"><a href="#" class="btn btn-primary"><i class="fa fa-heart" aria-hidden="true"></i></a> <a class="btn btn-primary" href="displayProduct.php?id='+productId+'&&type=1"><i class="fa fa-plus" aria-hidden="true"> Details</i></a> <button class="btn btn-primary add-to-cart-product" id="'+productId+'"  ><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></button> </div></div></div></div></div></div>'; 
+                    html += '<div class="col-sm-3 product"><div class="col-sm-12 onlyPaddingRight"><div class="card1 marginbottom10"><a href="#" class="hoverImage block product" data-toggle="modal" data-target="#myModal2"  data-id='+productId+' data-title="'+productName+'" data-price="'+productPrice+'" data-description="'+productDescription+'" data-material="'+productMaterial+'"  data-length="'+productLength+'"  data-width="'+productWidth+'"  data-weight="'+productWeight+'"  data-image1="'+productImage+'" data-image2="'+productImage2+'" data-image3="'+productImage3+'" data-image4="'+productImage4+'" data-image5="'+productImage5+'" data-notes="'+productNotes+'" ><img src="'+ productImage +'" class="img-responsive padding10 "><div class="block-caption  "><i class="fa fa-eye" aria-hidden="true"></i> &nbsp; Quick View</div></a> <div class="padding10 paddingtop2 0"><h4>'+ productName +'</h4><div class="starIcon"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><h5> ₹'+ productPrice +'</h5><p>'+ productDescription +'</p></div><div><div class="row text-center"><a href="#" class="btn btn-primary"><i class="fa fa-heart" aria-hidden="true"></i></a> <a class="btn btn-primary" href="displayProduct.php?id='+productId+'&&type=1"><i class="fa fa-plus" aria-hidden="true"> Details</i></a> <button class="btn btn-primary add-to-cart-product" id="'+productId+'"  ><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></button> </div></div></div></div></div></div>'; 
                 });
                 $('#featured').html(html);
-                
+                $(".add-to-cart-product").click(function(e){
+                    
+                    e.preventDefault();
+                    var id = this.id;
+                    addToCart(id, 1);
+                    loadBasicCart();
+                });
                  $('#featured').slick({
                   infinite: true,
                   autoplayspeed: 300,
@@ -195,13 +201,7 @@
                     // instead of a settings object
                   ]
                 });
-                $(".add-to-cart-product").click(function(e){
-                    
-                    e.preventDefault();
-                    var id = this.id;
-                    addToCart(id, 1);
-                    loadBasicCart();
-                });
+                
   
             },
             error: function(xhr, resp, text) {
@@ -267,7 +267,7 @@
                     productImage5 = imageUrl+data[key]['images']["5"];
 
 
-                    html += '<div class="col-sm-3 product " ><div class="col-sm-12 onlyPaddingRight"> <div class="card1 marginbottom10">   <a href="#" class="hoverImage block nameplate " data-toggle="modal" data-target="#myModal2"  data-title="'+productName+'" data-price="'+productPrice+'"  data-description="'+productDescription+'"  data-material="'+productMaterial+'" data-fitting-place="'+productFittingPlace+'" data-letter-type="'+productLetterType+'" data-length="'+productLength+'" data-height="'+productHeight+'" data-weight="'+productWeight+'" data-notes="'+productNotes+'" data-use="'+productUse+'" data-image1="'+productImage+'" data-image2="'+productImage2+'" data-image3="'+productImage3+'" data-image4="'+productImage4+'" data-image5="'+productImage5+'"> <img src="'+productImage+'" class="img-responsive padding10 "> <div class="block-caption "> <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View </div></a> <div class="padding10"> <h4>'+productName+'</h4> <div class="starIcon"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> <h5>₹ '+productPrice+'</h5> <p>'+productDescription+'</p></div><div> <div class="row text-center"> <a href="#" class="btn btn-primary"> <i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="displayProduct.php?id='+productId+'&&type=2" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"> Details</i> </a>  <a class="btn btn-primary" href="customized.php?id='+productId+'"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Customized </a> </div></div></div></div></div></div>'; 
+                    html += '<div class="col-sm-3 product " ><div class="col-sm-12 onlyPaddingRight"> <div class="card1 marginbottom10">   <a href="#" class="hoverImage block nameplate " data-id="'+productId+'" data-toggle="modal" data-target="#myModal2"  data-title="'+productName+'" data-price="'+productPrice+'"  data-description="'+productDescription+'"  data-material="'+productMaterial+'" data-fitting-place="'+productFittingPlace+'" data-letter-type="'+productLetterType+'" data-length="'+productLength+'" data-height="'+productHeight+'" data-weight="'+productWeight+'" data-notes="'+productNotes+'" data-use="'+productUse+'" data-image1="'+productImage+'" data-image2="'+productImage2+'" data-image3="'+productImage3+'" data-image4="'+productImage4+'" data-image5="'+productImage5+'"> <img src="'+productImage+'" class="img-responsive padding10 "> <div class="block-caption "> <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View </div></a> <div class="padding10"> <h4>'+productName+'</h4> <div class="starIcon"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> <h5>₹ '+productPrice+'</h5> <p>'+productDescription+'</p></div><div> <div class="row text-center"> <a href="#" class="btn btn-primary"> <i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="displayProduct.php?id='+productId+'&&type=2" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"> Details</i> </a>  <a class="btn btn-primary" href="customized.php?id='+productId+'"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Customized </a> </div></div></div></div></div></div>'; 
                 });
                 $('#trending').html(html);
                 $('#trending').slick({
@@ -363,7 +363,7 @@
                     productImage5 = imageUrl+data[key]['images']["5"];
 
 
-                    html += '<div class="col-sm-3 product " ><div class="col-sm-12 onlyPaddingRight"> <div class="card1 marginbottom10"> <a href="#" class="hoverImage block nameplate " data-toggle="modal" data-target="#myModal2" data-title="'+productName+'" data-price="'+productPrice+'" data-description="'+productDescription+'" data-material="'+productMaterial+'" data-fitting-place="'+productFittingPlace+'" data-letter-type="'+productLetterType+'" data-length="'+productLength+'" data-height="'+productHeight+'" data-weight="'+productWeight+'" data-notes="'+productNotes+'"  data-use="'+productUse+'" data-image1="'+productImage+'" data-image2="'+productImage2+'" data-image3="'+productImage3+'" data-image4="'+productImage4+'" data-image5="'+productImage5+'"> <img src="'+productImage+'" class="img-responsive padding10 "> <div class="block-caption "> <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View </div></a> <div class="padding10"> <h4>'+productName+'</h4> <div class="starIcon"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> <h5>₹ '+productPrice+'</h5> <p>'+productDescription+'</p></div><div> <div class="row text-center"> <a href="#" class="btn btn-primary"> <i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="displayProduct.php?id='+productId+'&&type=2" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"> Details</i> </a>  <a class="btn btn-primary" href="customized.php?id='+productId+'"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Customized </a> </div></div></div></div></div></div>'; 
+                    html += '<div class="col-sm-3 product " ><div class="col-sm-12 onlyPaddingRight"> <div class="card1 marginbottom10"> <a href="#" class="hoverImage block nameplate " data-toggle="modal" data-target="#myModal2" data-id='+productId+' data-title="'+productName+'" data-price="'+productPrice+'" data-description="'+productDescription+'" data-material="'+productMaterial+'" data-fitting-place="'+productFittingPlace+'" data-letter-type="'+productLetterType+'" data-length="'+productLength+'" data-height="'+productHeight+'" data-weight="'+productWeight+'" data-notes="'+productNotes+'"  data-use="'+productUse+'" data-image1="'+productImage+'" data-image2="'+productImage2+'" data-image3="'+productImage3+'" data-image4="'+productImage4+'" data-image5="'+productImage5+'"> <img src="'+productImage+'" class="img-responsive padding10 "> <div class="block-caption "> <i class="fa fa-eye" aria-hidden="true"></i> &nbsp Quick View </div></a> <div class="padding10"> <h4>'+productName+'</h4> <div class="starIcon"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> <h5>₹ '+productPrice+'</h5> <p>'+productDescription+'</p></div><div> <div class="row text-center"> <a href="#" class="btn btn-primary"> <i class="fa fa-heart" aria-hidden="true"></i> </a> <a href="displayProduct.php?id='+productId+'&&type=2" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"> Details</i> </a>  <a class="btn btn-primary" href="customized.php?id='+productId+'"> <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Customized </a> </div></div></div></div></div></div>'; 
                 });
                 $('#customized').html(html);
                  $('#customized').slick({
@@ -414,6 +414,7 @@ $('#myModal2').on('show.bs.modal', function (event) {
   if (button.hasClass("nameplate")) {
     $(".should-visible").addClass("hidden");
     $(".should-hidden").removeClass("hidden");
+    var id = button.data('id');
     var name = button.data('title');
     var description = button.data('description');
     var material = button.data('material');
@@ -427,7 +428,6 @@ $('#myModal2').on('show.bs.modal', function (event) {
     var price = "₹"+button.data('price');
 
 
-   
     var image1 = button.data('image1');
     var image2 = button.data('image2');
     var image3 = button.data('image3');
@@ -445,6 +445,7 @@ $('#myModal2').on('show.bs.modal', function (event) {
     modal.find('.product-use').text( use);
     modal.find('.product-notes').text( notes);
     modal.find('.product-price').text( price);
+    modal.find('.customize').attr('href', 'customized.php?id='+id);
     modal.find('#pic-1 img').attr('src', image1);
     modal.find('#pic-2 img').attr('src', image2);
     modal.find('#pic-3 img').attr('src', image3);
@@ -460,6 +461,7 @@ $('#myModal2').on('show.bs.modal', function (event) {
   }else if(button.hasClass("product")){
     $(".should-hidden").addClass("hidden");
     $(".should-visible").removeClass("hidden");
+    var id = button.data('id');
     var name = button.data('title');
     var description = button.data('description');
     var material = button.data('material');
@@ -476,7 +478,7 @@ $('#myModal2').on('show.bs.modal', function (event) {
     var image4 = button.data('image4');
     var image5 = button.data('image5');
     var modal = $(this);
-
+    modal.find('.add-product').attr("id", id);
     modal.find('.product-name').text( name);
     modal.find('.product-description').text( description);
     modal.find('.product-material').text( material);
@@ -496,7 +498,13 @@ $('#myModal2').on('show.bs.modal', function (event) {
     modal.find('[data-target="#pic-3"]').find('img').attr('src', image3);
     modal.find('[data-target="#pic-4"]').find('img').attr('src', image4);
     modal.find('[data-target="#pic-5"]').find('img').attr('src', image5);
-
+    $(".add-to-cart-product").click(function(e){
+                    
+        e.preventDefault();
+        var id = this.id;
+        addToCart(id, 1);
+        loadBasicCart();
+    });
   }
   
   

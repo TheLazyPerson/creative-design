@@ -8,7 +8,7 @@
             <!--starting of heading -->
             <div id="sidebar" >
                 <div class="card marginbottom40" >
-                    <div class=" priceRangeCheckbox  ">
+                    <div>
                         <div class="headingContent padding10 ">
                             <h4>Explore </h4>
                         </div>
@@ -62,6 +62,7 @@
                                 <ul class="dropdown-menu" aria-labelledby="place-dropdown">
                                     <li><a href="#">Door</a></li>
                                     <li><a href="#">Wall</a></li>
+                                    <li><a href="#">Door/Wall</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -132,7 +133,8 @@
                         <h3 class="product-price"> </h3>
                         <br>
                         <div class="clearfix"></div>
-                        <a type="button" class="btn btn-info text-center should-change-text">Add to Cart</a>
+                        <a href="#" class="btn btn-info customize change-button should-hidden"><i style="color:#ffffff;" class="fa fa-pencil-square-o" aria-hidden="true"></i> Customize</a>
+                        <a type="button" class="btn btn-info text-center should-change-text should-visible">Add to Cart</a>
                         <a href="#" class="btn btn-primary" ><i class="fa fa-heart" aria-hidden="true"></i></a>
                         <br />
                         <br />
@@ -148,7 +150,7 @@
                                 <tr>
                                     <td class="col-sm-2 black">COD</td>
                                     <td class="col-sm-2 ">No</td>
-                                    <td class="col-sm-2 black should-hidden">Letters</td>
+                                    <td class="col-sm-2 black cc">Letters</td>
                                     <td class="col-sm-2 product-letter-type should-hidden"></td>
                                 </tr>
                                 <tr>

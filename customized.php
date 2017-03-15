@@ -473,9 +473,9 @@ var s = document.createElement('script'); s.setAttribute('src','http://developer
 					<textarea class="form-control" rows="5" id="comment"></textarea>		
 					 <h4> <input class="form-check-input " id="gift-wrap-my-item" type="checkbox" value=""> Calligraphy Text @ ₹1000/-</h4>
 						 
-					<a href="#">
-						<button type="button" class="btn btn-info whiteColor1 text-center "><i class="fa fa-save "></i> &nbsp; Save Name Plate and Continue</button>
-					</a>	
+					
+					<button type="button" class="btn btn-info whiteColor1 save-name-plate text-center "><i class="fa fa-save "></i> &nbsp; Save Name Plate and Continue</button>
+						
 					
 					
 			</div>
@@ -576,6 +576,7 @@ var s = document.createElement('script'); s.setAttribute('src','http://developer
   	<script src="js/jquery.fontselect.min.js"></script>
     <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/fabric.min.js"></script>
+	<script src="js/jquery.storage.js"></script> 
     <script src="js/customize.js"></script>
 	
 

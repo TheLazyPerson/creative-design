@@ -290,7 +290,8 @@
                         <h3 class="product-price"> </h3>
                         <br>
                         <div class="clearfix"></div>
-                        <a type="button" class="btn btn-info text-center should-change-text">Add to Cart</a>
+                        <a href="#" class="btn btn-info customize change-button should-hidden"><i style="color:#ffffff;" class="fa fa-pencil-square-o" aria-hidden="true"></i> Customize</a>
+                        <a type="button" class="btn btn-info text-center should-visible should-change-text add-to-cart-product add-product">Add to Cart</a>
                         <a href="#" class="btn btn-primary" ><i class="fa fa-heart" aria-hidden="true"></i></a>
                         <br />
                         <br />
