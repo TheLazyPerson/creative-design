@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="style/blog.css"><!-- 
     <link rel="stylesheet" href="style/slider.css"> -->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="css/bootstrap-formhelpers.min.css">
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,7 +61,9 @@
                 <a href="contactUs.php" class="whiteColor">
                   <img src="images/Location.png" style="height:18px" > Locate Us &nbsp;</a>
                     <!-- Button trigger modal data-toggle="modal" data-target="#myModal" -->
-                  <a href="login.php" class="whiteColor" ><img src="images/Key.png" style="height:18px" > Login/Register &nbsp;</a>
+                  <a href="login.php" id="user-not-logged-in" class="whiteColor" ><img src="images/Key.png" style="height:18px" > Login/Register &nbsp;</a>
+                  <a href="dashboard.php" class="whiteColor hidden" id="user-logged-in" class="whiteColor" ><span class="glyphicon glyphicon-user"></span> <span id="username-goes-here"> Username</span> &nbsp;</a>
+                  
               </div>      
           </div>
         </div><!-- container end here-->  

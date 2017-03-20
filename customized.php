@@ -9,9 +9,7 @@
 #selectable > div {position: absolute; margin: 0; padding:10px; border:solid 1px #CCC; width: 100px;}*/
 .ui-selectable-helper {position: absolute; z-index: 100; border:1px dotted black;}  
 </style>
-<script>
-var s = document.createElement('script'); s.setAttribute('src','http://developer.quillpad.in/static/js/quill.js?lang=Marathi&key=84c5be25b0e8fc00c31850da33a48148'); s.setAttribute('id','qpd_script'); s.setAttribute('quillpad','enable|english'); document.head.appendChild(s);
-</script>
+
 	<section id="homeContent" class="aboveMargin">
       <div class="container"><!-- Heading Content starts here-->
         <div class="row headingContent">
@@ -121,6 +119,9 @@ var s = document.createElement('script'); s.setAttribute('src','http://developer
 
 		<div class="col-sm-3  ">
 			<div class="row card" style="min-height: 1250px;">
+				<script>
+					var s = document.createElement('script'); s.setAttribute('src','http://developer.quillpad.in/static/js/quill.js?lang=Marathi&key=84c5be25b0e8fc00c31850da33a48148'); s.setAttribute('id','qpd_script'); s.setAttribute('enabled','false');  document.head.appendChild(s);
+					</script>
 				<div class="padding10" >
 					<div class="CustomSubHead">
 						<h4 >Your Name as on Name Plate</h4>
@@ -128,7 +129,7 @@ var s = document.createElement('script'); s.setAttribute('src','http://developer
 					<div class="row">					
 						<div class="col-sm-6 inputWidth1  ">
 							<h5>Line 1	</h5>
-							<input type="text"   class="form-control inputSize line-1-text hastooltip">
+							<input type="text"  class="form-control inputSize line-1-text hastooltip">
 						</div>
 						<div class="col-sm-6  inputWidth paddingright20 noPadding ">
 							<div class="col-sm-6">
@@ -170,17 +171,14 @@ var s = document.createElement('script'); s.setAttribute('src','http://developer
 								
 							<div class="col-sm-6">	
 								<h5>Color</h5>
+								
 								<!-- <input type="text"> -->
 								<div class="bs-docs-example custSize" >
 						              <select class="selectpicker line-1-font-color colors" data-style="btn-primary" id="line1FontColor">
 						                  	
-	  										<option value="00ff2e" style="background-color:#00ff2e"></option>
-	  										<option value="25247c" style="background-color: #25247c"></option>
-	  										<option value="000000" style="background-color:black"></option>
-     										<option value="ff0000" style="background-color:#ff0000"></option>
 								            
 								        </select>
-								    </div>     
+								</div>     
 							</div>
 						</div>
 					</div>
@@ -470,8 +468,8 @@ var s = document.createElement('script'); s.setAttribute('src','http://developer
 						</table>	
 					
 					<h3>Remark</h3>	
-					<textarea class="form-control" rows="5" id="comment"></textarea>		
-					 <h4> <input class="form-check-input " id="gift-wrap-my-item" type="checkbox" value=""> Calligraphy Text @ ₹1000/-</h4>
+					<textarea class="form-control" quillpad="disable|marathi" rows="5" id="comment"></textarea>		
+					 <h4> <input class="form-check-input "   id="gift-wrap-my-item" type="checkbox" value=""> Calligraphy Text @ ₹1000/-</h4>
 						 
 					
 					<button type="button" class="btn btn-info whiteColor1 save-name-plate text-center "><i class="fa fa-save "></i> &nbsp; Save Name Plate and Continue</button>
@@ -497,7 +495,7 @@ var s = document.createElement('script'); s.setAttribute('src','http://developer
 				<div class="form-group">
 					<div class="form-group">
 					<label for="name">Name</label>
-					<input type="text" class="form-control" id="request-name" placeholder="Enter Name">
+					<input type="text" quillpad="disable|marathi"  class="form-control" id="request-name" placeholder="Enter Name">
 				</div>
 				<div class="form-group">
 					<label for="request-email">Email address</label>
@@ -509,7 +507,7 @@ var s = document.createElement('script'); s.setAttribute('src','http://developer
 				</div>
 				<div class="form-group">
 					<label for="request-requirements">Requirements</label>
-					<textarea type="text" class="form-control" rows="3" placeholder="Give a Brief Description of what you want" name="requirements" id="request-requirements" required></textarea>
+					<textarea type="text" quillpad="disable|marathi" class="form-control" rows="3" placeholder="Give a Brief Description of what you want" name="requirements" id="request-requirements" required></textarea>
 				</div>
 				
 			    
@@ -521,7 +519,7 @@ var s = document.createElement('script'); s.setAttribute('src','http://developer
 		</form>
     </div>
   </div>
-</div>.
+</div>
 
 
 </div>

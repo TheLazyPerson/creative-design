@@ -151,7 +151,7 @@
     	            return sParameterName[1] === undefined ? true : sParameterName[1];
     	        }
     	    }
-    	};
+    	}
     	var id = getUrlParameter('id');
     	var type = getUrlParameter('type');
     	var rootUrl = 'http://localhost/work/api/public/';

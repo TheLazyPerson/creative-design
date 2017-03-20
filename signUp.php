@@ -3,11 +3,13 @@
 	<section class="container margintop40 marginbottom40">
 		<div class="row  ">
       <form class="form-signin" method="post" id="register-form">
-      <div id="error">
-        <!-- error will be showen here ! -->
-        </div>
+     
 			<div class=" col-md-offset-3 col-sm-6  col-md-offset-4" >
+
 				<div class="card ">
+           <div id="error">
+            <!-- error will be showen here ! -->
+          </div>
 					<div class="padding10"> 
 				    <div class="col-sm-12 ">
             <h4>First Name</h4>

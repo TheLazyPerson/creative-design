@@ -161,7 +161,7 @@
                   console.log(xhr, resp, text);
               }
           }).done(function(){
-                $(".remove-cart-product").click(function(e){
+            $(".remove-cart-product").click(function(e){
               var button = $(e.relatedTarget);
               e.preventDefault();
               var id = this.id;  

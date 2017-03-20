@@ -481,14 +481,11 @@ setup();
 				canvas.renderAll();
 				$(this).css('background-color',color);
 		 	}else{
-		 		fabric.Image.fromURL(color, function(oimg) {
 			      text.fill = new fabric.Pattern({
-			        source: oimg,
+			        source: color,
 			        repeat: 'repeat'
 			      });
 			      canvas.renderAll();
-			    });
-
 		 	}
 		 });
 
@@ -502,13 +499,11 @@ setup();
 				$(this).css('background-color',color);
 		 	}else{
 		 		
-		 		fabric.util.loadImage(color, function(img) {
 			      text2.fill = new fabric.Pattern({
-			        source: img,
+			        source: color,
 			        repeat: 'repeat'
 			      });
 			      canvas.renderAll();
-			    });
 
 
 		 	}
@@ -524,15 +519,13 @@ setup();
 				canvas.renderAll();
 				$(this).css('background-color',color);
 		 	}else{
-		 		
-		 		fabric.util.loadImage(color, function(img) {
+		 		fabric.Image.fromURL('http://fabricjs.com/assets/pug.jpg', function(img) {
 			      text3.fill = new fabric.Pattern({
-			        source: img,
+			        source: color,
 			        repeat: 'repeat'
 			      });
 			      canvas.renderAll();
-			    });
-
+			  });
 
 		 	}
 		 });
@@ -547,15 +540,11 @@ setup();
 				$(this).css('background-color',color);
 		 	}else{
 		 		
-		 		fabric.util.loadImage(color, function(img) {
-			      text4.fill = new fabric.Pattern({
-			        source: img,
-			        repeat: 'repeat'
-			      });
-			      canvas.renderAll();
-			    });
-
-
+				text4.fill = new fabric.Pattern({
+					source: color,
+					repeat: 'repeat'
+				});
+				canvas.renderAll();
 		 	}
 		 });
 

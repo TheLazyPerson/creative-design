@@ -1,233 +1,264 @@
+
 <?php include "header.php" ?>
 
 	<div class="container margintop50">	<!--starting of product grid -->
+
+		<form role="form" action="processOrder.php" method="POST">
 		<div class="row marginbottom50" ><!--starting of product main row -->
 			
 
 			<div class="col-sm-12" >  
+
         		<div class="row headingContent" id="homeContent">
           			<div class="col-sm-12">
             			<h1>Checkout</h1>
           			</div>
         		</div>
 
-<!-- 
-        		<div class="row margintop40">
-        			<div class="cok-sm-12 faintgrey padding10">
-        				<h4>Have a coupon?</h4>
-        				<a href="#"><h4> Click here to enter your code</h4></a>
-        			</div>
-        		</div> -->
-        			
 
-        		<!-- <div class="row margintop40">
-        			<div class="cok-sm-12 faintgrey padding10" >
-        				<h4>Have a coupon?</h4>
-        				<a href="#"><h4> Click here to enter your code</h4></a>
-        			</div>
-        		</div> -->
 
         		<div class="row paddingtop30">
 	        		<div class="col-sm-6">
-	        			<h3 class="black">Billing Details</h3>
+	        				<h3 class="black">Billing Details</h3>
 		        			<div class="col-sm-6 noPadding">
-		        				<h4>First Name</h4>
-		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
+		        				<h4>First Name*</h4>
+		        				<input type="text" placeholder="First Name" class="form-control padding20" id="checkout-first-name" name="firstname" required>
 		        			</div>
 		        			<div class="col-sm-6 noPadding">
-		        				<h4>Last Name</h4>
-		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
+		        				<h4>Last Name*</h4>
+		        				<input type="text" placeholder="Last Name" class="form-control padding20" id="checkout-last-name" name="lastname" required>
+		        			</div>
+		        			<div class="col-sm-6 noPadding">
+		        				<h4>Email Address*</h4>
+		        				<input type="text" placeholder="Email Address" class="form-control padding20" id="checkout-email" name="email" required>
+		        			</div>
+		        			<div class="col-sm-6 noPadding">
+		        				<h4>Phone*</h4>
+		        				<input type="text" placeholder="Phone Number" name="phone" class="form-control padding20" id="checkout-phone" required>
 		        			</div>
 
 		        			<div class="col-sm-12 noPadding">
-		        				<h4>Company Name</h4>
-		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
-		        			</div>
-
-		        			<div class="col-sm-6 noPadding">
-		        				<h4>Email Address</h4>
-		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
-		        			</div>
-		        			<div class="col-sm-6 noPadding">
-		        				<h4>Phone</h4>
-		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
+		        				<h4>Address*</h4>
+		        				<input type="text" name="address1" class="form-control padding20  marginbottom10" id="checkout-appartment" placeholder="Appartment" required>
+		        				<input type="text" name="address2" class="form-control padding20" id="checkout-street-address" placeholder="Street Address " required>
+		        				
 		        			</div>
 
 		        			<div class="col-sm-12 noPadding">
-		        				<h4>country</h4>
-		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
+		        				<h4>Town/City*</h4>
+		        				<input type="text" name="city" placeholder="Town/City" class="form-control padding20" id="checkout-city">
 		        			</div>
 
 		        			<div class="col-sm-12 noPadding">
-		        				<h4>Address</h4>
-		        				<input type="text" class="form-control padding20 marginbottom10" id="exampleInputEmail1" placeholder="Street Address ">
-		        				<input type="text" class="form-control padding20" id="exampleInputEmail1" placeholder="Appartment">
-		        			</div>
-
-		        			<div class="col-sm-12 noPadding">
-		        				<h4>Town/City</h4>
-		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
+		        				<h4>Country*</h4>
+		        				
+		        				<div class="bfh-selectbox bfh-countries" id="checkout-country" data-country="IN" data-flags="true">
+								  <input type="hidden" name="country" value="">
+								  <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+								    <span class="bfh-selectbox-option input-medium" data-option=""></span>
+								    <b class="caret"></b>
+								  </a>
+								  <div class="bfh-selectbox-options">
+								    <input type="text" class="bfh-selectbox-filter">
+								    <div role="listbox">
+									    <ul role="option">
+									    </ul>
+								    </div>
+								  </div>
+								</div>
 		        			</div>
 
 		        			<div class="col-sm-6 noPadding">
-		        				<h4>State / country</h4>
-		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
+		        				<h4>State*</h4>
+		        				<div class="bfh-selectbox bfh-states" data-country="checkout-country" data-state="MA">
+								  <input type="hidden" name="state" value="">
+								  <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+								    <span class="bfh-selectbox-option input-medium" data-option=""></span>
+								    <b class="caret"></b>
+								  </a>
+								  <div class="bfh-selectbox-options">
+								  <div role="listbox">
+								    <ul role="option">
+								    </ul>
+								    </div>
+								  </div>
+								</div>
 		        			</div>
+
 		        			<div class="col-sm-6 noPadding">
-		        				<h4>Post Code / ZIP</h4>
-		        				<input type="text" class="form-control padding20" id="exampleInputEmail1">
+		        				<h4>Post Code / ZIP*</h4>
+		        				<input type="text" name="zipcode" placeholder="Pin/Zip Code" class="form-control " id="checkout-zip-code">
+		        				<input type="hidden" name="amount" value="3000">
+		        				<input type="hidden" name="productinfo" value="Nameplate/Customized Product">
 		        			</div>
 
-		        			<div class="col-sm-12 noPadding">
-		        				<a href="#"><h4> <input class="form-check-input" type="checkbox" value=""> Create an account ?</h4></a>
-		        			</div>
-
-
+	        				
 	        		</div>
 
 	        		<div class="col-sm-6">
-	        			<h3 class="black">Additional Information</h3>
-	        			<div class="col-sm-12 noPadding">
-		        				<h4>Post Code / ZIP</h4>
-		        				<input type="textarea" class="form-control padding20" id="exampleInputEmail1">
-		        		</div>
+			    		<div class="panel panel-default">
+			    			<div class="panel-heading">
+			    				<h3 class="panel-title"><strong>Order Summary</strong></h3>
+			    			</div>
+			    			<div class="panel-body">
+			    				<div class="table-responsive">
+			    					<table class="table table-condensed">
+			    						<thead>
+			                                <tr>
+			        							<td><strong>Product</strong></td>
+			        							<td class="text-center"><strong>Price</strong></td>
+			        							<td class="text-center"><strong>Quantity</strong></td>
+			                                </tr>
+			    						</thead>
+			    						<tbody id="cart-summary-go-here">
+			    							
+			                                
+			    						</tbody>
+			    					</table>
+			    				</div>
+			    			</div>
+			    		</div>
+			    	</div>
 	        		</div>
 	        	</div>	
+	        	<div class="row ">
+					<div class="col-sm-7"></div>
+					<div class="col-sm-5 margintop40 " >
+						<div class="col-sm-12 marginbottom30 greayBorder">
+							<table class="table paddingright20">
+								<thead><h3 class="black">Cart Totals</h3></thead>
+									<tr>
+										<td class="col-md-6 thead-default">Subtotal</td>
+										<td class="col-md-6 " >₹ <span id="cart-page-subtotal"></span></td>
+									</tr>
+									<tr>	
+										<td class="col-md-6 black thead-default">Total</td>
+										<td class="col-md-6 black">₹ <span id="cart-page-total"></span></td>
 
-	        	<div class="row">
-	        		<div class="col-sm-12">
-	        			<h3 class="black">Your Order</h3>
-  						<table class="table table-bordered">
-  							<thead class="thead-default">
-							      <td class="col-md-3 black thead-default">Product</td>
-							      <td class="col-md-2 black">Totoal</td>
-							      
-					  		</thead>
-							<tbody>
-							    <tr>
-							      	<td class="col-md-1 black">
-							      		<h4 class="black">Appartment Name plates 	× 1</h4>
-										<h4 class="black">Type:</h4>
-										<h4>Wooden Name Plate</h4>
-										<h4>Dimensions:</h4>
-										<h4>20 X 15</h4>
-									</td>
-									<td>₹ 3,000.00</td>	
-							    </tr>
-							    <tr>
-									<td class="col-md-6 thead-default">Subtotal</td>
-									<td class="col-md-6">₹ 175.00</td>
-								</tr>
-								<tr>	
-									<td class="col-md-6 black thead-default">Total</td>
-									<td class="col-md-6 black">₹ 175.00</td>
-								</tr>				   
-							</tbody>
-						</table>	
-	        		</div>
-	        	</div>		
-
-	        	<div class="row margintop40">
-	        		<!-- <div class="col-sm-12 thead-default boderRadius5">
-	        			<h3 class="black">Online Payments [TEST MODE]</h3>
-	        				<div class="col-sm-12 placeOrderText  margintop20 boderRadius5"><br/>
-	        					<p>Pay securely by Credit or Debit card or internet banking through PayUindia.</p>
-	        					<p><u>Test Mode is <span>ACTIVE</span>, use following Credit Card details:-</u><br/>
-								Test Card Name: <span>Any name</span><br/>
-								Test Card Number: <span>5123 4567 8901 2346</span><br/>
-								Test Card CVV: <span>123</span><br/>
-								Test Card Expiry:<span> May 2017</span><br/>
-
-	        					</p>
-
-
-	        				</div> -->
-	        		<div class="paddingbottom20 pull-right">
-						<a href="#">
-							<button type="button" class="btn btn-info text-center ">Place Order</button>
-						</a>	
-					</div>	
-	        		</div>
-	        	</div>		
+									</tr>	
+							</table>
+							<div class="paddingbottom20 paddingtop30">
+								<a href="checkout.php">
+									<button type="submit" class="btn btn-info text-center ">Place Order</button>
+								</a>	
+							</div>	
+						</div>
+					</div>
+				</div>	
+    	
+ 
+	        			
 
 			</div>
-
+			</form>
 		</div>
+
+		
 	</div>			
 
 
-<?php include "footer.php" ?>
-   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-   <script src="./js/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<?php include "footer.php" ?>
+   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   	<script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
     <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-   
-    <script src="js/vegas.min.js"></script>
-   <script type="text/javascript">
-    $(document).ready(function(){
-      
-       $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-    });
-        $(".wrapper").vegas({
-            animation: 'kenburnsUp',
-            transitionDuration: 2000,
-            slides: [
-                { src: "images/slide-show-1-low.jpg" },
-                { src: "images/slide-show-3-low.jpg" },
-                { src: "images/slide-show-5-low.jpg" }
-            ]
-            
-        });
+   	
+    <script src="js/common.js"></script>
+    <script src="js/bootstrap-formhelpers.min.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function() {
 
-       $(".dropdown").hover(            
-          function() {
-              $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
-              $(this).toggleClass('open');        
-          },
-          function() {
-              $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
-              $(this).toggleClass('open');       
-          }
-      );
-        $(".center").slick({
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      autoplay: false,
-      autoplaySpeed: 2000
-      });
+	    $(".nav-tabs a").click(function() {
+	        $(this).tab('show');
+	    });
 
-        
-     $(window).scroll(function () {
-            if ($(this).scrollTop() > 50) {
-                $('.back-to-top').fadeIn();
-            } else {
-                $('.back-to-top').fadeOut();
-            }
-        });
-        // scroll body to 0px on click
-        $('.back-to-top').click(function () {
-            $('.back-to-top').tooltip('hide');
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
-        
-        $('#back-to-top').tooltip('show');
-
-        // $('#myModal2').appendTo("body");
+	     $(".dropdown").hover(
+	         function() {
+	             $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
+	             $(this).toggleClass('open');
+	         },
+	         function() {
+	             $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideUp("400");
+	             $(this).toggleClass('open');
+	         }
+	     );
+	     $(".center").slick({
+	         slidesToShow: 5,
+	         slidesToScroll: 1,
+	         autoplay: false,
+	         autoplaySpeed: 2000
+	     });
 
 
-      $('.collapse').on('shown.bs.collapse', function (e) {
-  $('.collapse').not(this).removeClass('in');
-});
+	     $(window).scroll(function() {
+	         if ($(this).scrollTop() > 50) {
+	             $('.back-to-top').fadeIn();
+	         } else {
+	             $('.back-to-top').fadeOut();
+	         }
+	     });
+	     // scroll body to 0px on click
+	     $('.back-to-top').click(function() {
+	         $('.back-to-top').tooltip('hide');
+	         $('body,html').animate({
+	             scrollTop: 0
+	         }, 800);
+	         return false;
+	     });
 
-$('[data-toggle=collapse]').click(function (e) {
-  $('[data-toggle=collapse]').parent('li').removeClass('active');
-  $(this).parent('li').toggleClass('active');
-});
-});
+	     $('#back-to-top').tooltip('show');
+
+	     // $('#myModal2').appendTo("body");
+
+
+	     $('.collapse').on('shown.bs.collapse', function(e) {
+	         $('.collapse').not(this).removeClass('in');
+	     });
+
+	     $('[data-toggle=collapse]').click(function(e) {
+	         $('[data-toggle=collapse]').parent('li').removeClass('active');
+	         $(this).parent('li').toggleClass('active');
+	     });
+	     loadSummary();
+	     function loadSummary(){
+	     	 $.ajax({
+              url: rootUrl + "cart",
+              dataType: "json",
+              success : function(result) {
+                var data = result['products'];
+                var items = result['items'];
+                var total = result['total'];
+                var html = "";
+                var productId = "";
+                var productName = "";
+                var productDescription = "";
+                var productPrice = "";
+                var productType = "";
+                var productQuanitity = "";
+                $.each(data, function (key, value) {
+                    productId = data[key]['product_id'];
+                    productName = data[key]['product_name'];
+                    productDescription = data[key]['product_description'];
+                    productPrice = data[key]['product_price'];
+                    productType = data[key]['product_type'];
+                    productQuanitity = data[key]['product_quantity'];
+                    productImage = data[key]['product_image'];
+                    productSubtotal = data[key]['subtotal'];
+                    html += '<tr><td class="col-md-3"><div class="media"><a class="thumbnail pull-left" href="#"> <img class="media-object" src="'+imageUrl+productImage+'" style="width: 72px; height: 72px;"> </a><div class="media-body"><h4 class="media-heading">'+productName+'</h4></div></div></td><td class="text-center">₹'+productPrice+'</td><td class="text-center">'+productQuanitity+'</td></tr>';
+
+                });
+                
+
+                $("#cart-page-subtotal").text(total);
+                $("#cart-page-total").text(total);
+                $("#cart-summary-go-here").html(html);
+              },
+              error: function(xhr, resp, text) {
+                  console.log(xhr, resp, text);
+              }
+          	});
+	    }
+	 });
 </script>

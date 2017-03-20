@@ -2390,7 +2390,6 @@ https://github.com/marcaube/bootstrap-magnify
 }
 
 
-
 #terms-and-conditions .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
     font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
@@ -2406,4 +2405,9 @@ https://github.com/marcaube/bootstrap-magnify
 #terms-and-conditions ul li{
   list-style: disc;
   margin-left: 15px; 
+}
+
+
+.colors{
+  min-width: 50px !important;
 }

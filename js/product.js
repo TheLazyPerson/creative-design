@@ -123,8 +123,15 @@ $(document).ready(function() {
                         maxPrice = priceInInt;
                     }
                     addMaterial(productMaterial);
-                    productCategoryFiler = productCategory.replace(/\s+/g, '-').toLowerCase();
-                    productSubCategoryFiler = productSubCategory.replace(/\s+/g, '-').toLowerCase();
+
+                    productSubCategoryFiler ="";
+                    if (productCategory) {
+                        productCategoryFiler = productCategory.replace(/\s+/g, '-').toLowerCase();    
+                    }
+                    if (productSubCategory) {
+                        productSubCategoryFiler = productSubCategory.replace(/\s+/g, '-').toLowerCase();
+                    }
+                    
 
                     productImage = imageUrl + data[key]['images']["1"];
                     productImage2 = imageUrl + data[key]['images']["2"];
@@ -194,8 +201,9 @@ $(document).ready(function() {
                     addMaterial(productMaterial);
 
                     productCategoryFiler = productCategory.replace(/\s+/g, '-').toLowerCase();
-                    productSubCategoryFiler = productSubCategory.replace(/\s+/g, '-').toLowerCase();
-
+                    if (productSubCategory) {
+                        productSubCategoryFiler = productSubCategory.replace(/\s+/g, '-').toLowerCase();
+                    }
                     product += '<div class=" mix col-sm-4 product ' + productCategoryFiler + ' ' + productSubCategoryFiler + ' marginbottom40" data-price="' + productPrice + '" data-category="' + productCategory + '" data-subcategory="' + productSubCategory + '"><div class="col-sm-12 onlyPaddingRight"><div class="card1 "><a href="#" class="hoverImage block product" data-toggle="modal" data-target="#myModal2" data-title="' + productName + '" data-price="' + productPrice + '" data-description="' + productDescription + '" data-material="' + productMaterial + '"  data-length="' + productLength + '"  data-width="' + productWidth + '"  data-weight="' + productWeight + '"  data-image1="' + productImage + '" data-image2="' + productImage2 + '" data-image3="' + productImage3 + '" data-image4="' + productImage4 + '" data-image5="' + productImage5 + '" data-notes="' + productNotes + '" ><img src="' + productImage + '" class="img-responsive padding10 "><div class="block-caption  "><i class="fa fa-eye" aria-hidden="true"></i> &nbsp; Quick View</div></a> <div class="padding10 paddingtop2 0"><h4>' + productName + '</h4><div class="starIcon"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><h5> ₹' + productPrice + '</h5><p>' + productDescription + '</p></div><div><div class="row text-center"><a href="#" class="btn btn-primary"><i class="fa fa-heart" aria-hidden="true"></i></a> <a class="btn btn-primary" href="displayProduct.php?id=' + productId + '&&type=1"><i class="fa fa-plus" aria-hidden="true"> Details</i></a> <a class="btn btn-primary add-to-cart-product" id="'+productId+'" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"> Add to Cart</i></a> </div></div></div></div></div></div>';
 
                 });

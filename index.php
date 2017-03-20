@@ -63,11 +63,7 @@
             <div class="col-sm-6">
                 <h1>Featured Product</h1>
             </div>
-            <div class="col-sm-6 text-right noPaddingLeftRight">
-                <a href="product.php" class="whiteColor">
-                    <h1>View All</h1>
-                </a>
-            </div>
+            
         </div>
     </div>
     <!-- Heading Content ends here-->
@@ -88,11 +84,7 @@
             <div class="col-sm-6">
                 <h1>Top Rated</h1>
             </div>
-            <div class="col-sm-6 text-right noPaddingLeftRight">
-                <a href="product.php" class="whiteColor">
-                    <h1>View All</h1>
-                </a>
-            </div>
+            
         </div>
     </div>
     <!-- Heading Content ends here-->

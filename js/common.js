@@ -2,10 +2,30 @@
   var rootUrl = 'http://localhost/work/api/public/';
   var imageUrl = 'http://localhost/work/api/public/';
 
+  	isLoggedIn();
+   	function isLoggedIn(){
+   		$.ajax({
+	        url: rootUrl + "isloggedin",
+	        dataType: "json",
+	        success : function(result) {
+	            if (result["success"]) {
+	            	$("#user-not-logged-in").addClass("hidden");
 
+	            	$("#user-logged-in").removeClass("hidden");
+	            	$("#username-goes-here").text(result["name"]);
+	           	}else{
+	           		$("#user-logged-in").addClass("hidden");
 
+	            	$("#user-not-logged-in").removeClass("hidden");
+	            }
+	        },
+	        error: function(xhr, resp, text) {
+	            console.log(xhr, resp, text);
+	        }
+	    });
+   	}
   
-  function loadBasicCart(){
+  	function loadBasicCart(){
 		$.ajax({
         url: rootUrl + "cart",
         dataType: "json",
@@ -37,6 +57,7 @@
 	            var items = result['items'];
 	            $(".cart-total").text(total);
 	            $(".cart-item-count").text(items);
+	            window.location.href="cart.php";
 	        },
 	        error: function(xhr, resp, text) {
 	            console.log(xhr, resp, text);

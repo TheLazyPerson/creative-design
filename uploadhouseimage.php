@@ -31,8 +31,10 @@
 			  </div>
 			  
 			  <button type="submit" class="btn btn-default">Upload</button>
+			  <button type="submit" class="btn btn-default">Add to Cart</button>
 			</form>
 		</section>
+		
 	</div>
 
 

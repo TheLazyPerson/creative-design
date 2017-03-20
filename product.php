@@ -4,7 +4,7 @@
     <!--starting of product grid -->
     <div class="row marginbottom40" >
         <!--starting of product main row -->
-        <div class="col-sm-3 sidemenu" >
+        <div class="col-sm-3  sidemenu" >
             <!--starting of heading -->
             <div id="sidebar" >
                 <div class="card marginbottom40" >
