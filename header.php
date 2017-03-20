@@ -76,7 +76,7 @@
           <div class="row "><!--nav header starts here-->
               <div  class="col-sm-4 paddingtop5  logo">
                 <a href="index.php">
-                  <!-- <h1>Ghar Konacha</h1> -->
+                  !<-- <h1>Ghar Konacha</h1> -->
                   <img src="images/logo1.png" class="img-responsive" style="height:110px">
                 </a>  
               </div><!--logo ends here here-->
