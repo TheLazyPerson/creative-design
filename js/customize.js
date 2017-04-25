@@ -1,8 +1,7 @@
 
 // create a wrapper around native canvas element (with id="c")
-canvas = new fabric.Canvas('div1');
+canvas = this.__canvas = new fabric.Canvas('div1');
 var text, text2, text3, text4;
-
 
 function setup(){
 	text = new fabric.Text('', { 
@@ -481,11 +480,8 @@ setup();
 				canvas.renderAll();
 				$(this).css('background-color',color);
 		 	}else{
-			      text.fill = new fabric.Pattern({
-			        source: color,
-			        repeat: 'repeat'
-			      });
-			      canvas.renderAll();
+		      	loadPattern(color, text);
+		      	$(this).css('background-image','url(\''+color+'\')');
 		 	}
 		 });
 
@@ -499,13 +495,7 @@ setup();
 				$(this).css('background-color',color);
 		 	}else{
 		 		
-			      text2.fill = new fabric.Pattern({
-			        source: color,
-			        repeat: 'repeat'
-			      });
-			      canvas.renderAll();
-
-
+			    loadPattern(color, text2);
 		 	}
 		 	
 		 });
@@ -519,14 +509,7 @@ setup();
 				canvas.renderAll();
 				$(this).css('background-color',color);
 		 	}else{
-		 		fabric.Image.fromURL('http://fabricjs.com/assets/pug.jpg', function(img) {
-			      text3.fill = new fabric.Pattern({
-			        source: color,
-			        repeat: 'repeat'
-			      });
-			      canvas.renderAll();
-			  });
-
+		 		loadPattern(color, text3);
 		 	}
 		 });
 
@@ -540,15 +523,19 @@ setup();
 				$(this).css('background-color',color);
 		 	}else{
 		 		
-				text4.fill = new fabric.Pattern({
-					source: color,
-					repeat: 'repeat'
-				});
-				canvas.renderAll();
+				loadPattern(color, text4);
 		 	}
 		 });
 
-
+		function loadPattern(url, text) {
+		    fabric.util.loadImage(url, function(img) {
+		      text.setPatternFill({
+		        source: img,
+		        repeat: "no-repeat"
+		      });
+		      canvas.renderAll();
+		    });
+		  }    
 		//for applying font family on canvas text
 		
 		$(".line-1-font-family").change(function() {

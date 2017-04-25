@@ -217,6 +217,14 @@ $(document).ready(function() {
     ).then(function() {
 
         $('.products-go-here').html(product);
+
+
+        var parent = $(".products-go-here");
+        var divs = parent.children();
+        while (divs.length) {
+            parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+        }
+
         $(".add-to-cart-product").click(function(e){
             
             e.preventDefault();
